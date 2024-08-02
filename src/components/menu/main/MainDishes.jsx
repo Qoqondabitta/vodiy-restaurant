@@ -20,12 +20,13 @@ import line from "../../../assets/images/objects/line.webp";
 import kazankebab from "../../../assets/images/foods/kazan-kebab.jpg";
 import { dishes } from "../../../constants/componentconstants/mainDishes";
 import { soups } from "../../../constants/componentconstants/soups";
+import { grill } from "../../../constants/componentconstants/grill";
 // import signature from "../../../assets/images/objects/signature.svg"
 
 const MainDishes = () => {
   return (
     <Main className="column-center">
-      {soups.map((v, i) => (
+      {grill.map((v, i) => (
         <Wrapper className="center" key={i}>
           <Container className={v.place}>
             <Scissors
