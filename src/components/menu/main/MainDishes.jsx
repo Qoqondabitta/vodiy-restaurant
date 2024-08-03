@@ -21,12 +21,13 @@ import kazankebab from "../../../assets/images/foods/kazan-kebab.jpg";
 import { dishes } from "../../../constants/componentconstants/mainDishes";
 import { soups } from "../../../constants/componentconstants/soups";
 import { grill } from "../../../constants/componentconstants/grill";
+import { bakery } from "../../../constants/componentconstants/bakery";
 // import signature from "../../../assets/images/objects/signature.svg"
 
 const MainDishes = () => {
   return (
     <Main className="column-center">
-      {grill.map((v, i) => (
+      {bakery.map((v, i) => (
         <Wrapper className="center" key={i}>
           <Container className={v.place}>
             <Scissors
