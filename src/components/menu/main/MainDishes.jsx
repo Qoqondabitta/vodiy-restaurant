@@ -23,12 +23,16 @@ import { soups } from "../../../constants/componentconstants/soups";
 import { grill } from "../../../constants/componentconstants/grill";
 import { bakery } from "../../../constants/componentconstants/bakery";
 import { salad } from "../../../constants/componentconstants/salad";
+import { drinks } from "../../../constants/componentconstants/drinks";
+import { veganMeals } from "../../../constants/componentconstants/vegan";
+import { additives } from "../../../constants/componentconstants/garnir";
+import { breakfast } from "../../../constants/componentconstants/breakfast";
 // import signature from "../../../assets/images/objects/signature.svg"
 
 const MainDishes = () => {
   return (
     <Main className="column-center">
-      {salad.map((v, i) => (
+      {breakfast.map((v, i) => (
         <Wrapper className="center" key={i}>
           <Container className={v.place}>
             <Scissors

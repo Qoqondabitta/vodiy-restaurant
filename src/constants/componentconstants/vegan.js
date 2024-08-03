@@ -1,9 +1,9 @@
+import lagmanFried from "../../assets/images/foods/lagmanFriedMenu.avif";
 import achichuk from "../../assets/images/foods/achichuk.jpg";
 import narezkas from "../../assets/images/foods/narezka.avif";
 import cabbage from "../../assets/images/foods/karam.jpg";
-import saladvodiy from "../../assets/images/foods/saladvodiy.jpg";
 
-export const salad = [
+export const veganMeals = [
   {
     id: 1,
     place: "center",
@@ -40,26 +40,28 @@ export const salad = [
     leftPlacement: {
       classTitle: "col-end-start",
       note: [
-        "Salad Vodiy (220gr)",
-        "Sałatka Vodiy (220gr)",
-        "Салат Водий (220 гр)",
+        "Lagman Fried (500gr)",
+        "Lagman Smażony (500gr)",
+        "Лагман Жареный (500 гр)",
       ],
       ingredients: [
-        `Ingridients: Bell pepper, beef, tomatoes, cucumbers, garlic, cilantro, sesame, soy
-sauce, oil, vegetable, apple cider vinegar, sweet and sour sauce`,
-        `Składniki: Papryka, wołowina, pomidory, ogórki, czosnek, kolendra, sezam, soja
-sos, olej, warzywa, ocet jabłkowy, sos słodko-kwaśny`,
-        `Ингредиенты: Болгарский перец, говядина, помидоры, огурцы, чеснок, кинза, кунжут, соевый 
-соус, масло, растительное, яблочное уксус, кисло-сладкий соус 
-`,
+        `Ingridients: Chinese Cabbage, Daikon, Celery, Beans,
+        Tomate Souce, Ginger, Bell Pepper, Star Anise, Egg,
+        Soy Sauce, Pasta, Onion, Pepper, Garlic, Spicy Sauce, Dill, Cilantro.`,
+        `Składniki: Kapusta pekińska, daikon, seler, fasola, pasta pomidorowa, 
+         papryka, imbir, anyż, czosnek, sos sojowy, makaron, cebula, kolendra, 
+         koperek, ostry sos, jajko.`,
+        `Ингредиенты: пекинская капуста, дайкон, сельдерей, фасоль, томатная паста, 
+        болгарский, перец, имбирь, бадьян, чеснок, соевый соус, лапша, лук, кинза, 
+        укроп, острый соус, яйцо.`,
       ],
       size: "right",
-      price: "24.99zl",
+      price: "32.99zl",
     },
     rightPlacement: {
       classTitle: "align-end",
       dir: { dir: "bottom" },
-      imgurl: saladvodiy,
+      imgurl: lagmanFried,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },
@@ -75,7 +77,7 @@ sos, olej, warzywa, ocet jabłkowy, sos słodko-kwaśny`,
     leftPlacement: {
       classTitle: "col-start",
       note: [
-        "Cutted Vegetables (300gr)",
+        "Cutting Vegetables (300gr)",
         "Krojenie Warzyw (300gr)",
         "Hарезка Oвощей (300гp)",
       ],
