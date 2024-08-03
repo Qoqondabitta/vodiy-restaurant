@@ -15,7 +15,7 @@ export const bakery = [
       ingredients: [
         `Ingridients: Flour, yeast, milk, sugar, butter, salt, vegetable oil, egg.`,
         `Składniki: Mąka, drożdże, mleko, cukier, masło, sól, olej roślinny, jajko.`,
-        `Мука, дрожжи, молоко, сахар, масло сливочное, соль, масло растительное яйцо.`,
+        `Ингредиенты: Мука, дрожжи, молоко, сахар, масло сливочное, соль, масло растительное яйцо.`,
       ],
       size: "left",
       price: "5.99zl",
@@ -42,7 +42,7 @@ export const bakery = [
       ingredients: [
         `Ingridients: Flour, yeast, milk, sugar, butter, salt, vegetable oil, egg.`,
         `Składniki: Mąka, drożdże, mleko, cukier, masło, sól, olej roślinny, jajko.`,
-        `Мука, дрожжи, молоко, сахар, масло сливочное, соль, масло растительное яйцо.`,
+        `Ингредиенты: Мука, дрожжи, молоко, сахар, масло сливочное, соль, масло растительное яйцо.`,
       ],
       size: "right",
       price: "14.99zl",
@@ -71,7 +71,7 @@ export const bakery = [
 puff pastry, black pepper, tomato sauce.`,
         `Składniki: Wołowina, siekana cebula, masło, Zira, kolendra, sezam, ciasto,
 ciasto francuskie, pieprz czarny, sos pomidorowy.`,
-        `Говядина, рубленая лук, масло сливочное, Зира, кориандр, кунжут, тесто, 
+        `Ингредиенты: Говядина, рубленая лук, масло сливочное, Зира, кориандр, кунжут, тесто, 
 слоёное, чёрный перец, соус томатный.  
 `,
       ],
