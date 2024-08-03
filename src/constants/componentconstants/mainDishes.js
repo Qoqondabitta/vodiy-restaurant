@@ -9,19 +9,19 @@ import gulash from "../../assets/images/foods/gulash.jpg";
 import meatballs from "../../assets/images/foods/meatballs.webp";
 import grapeleefrolls from "../../assets/images/foods/grapeleefrolls.jpg";
 
-export const dishes = [
+export const main = [
   {
     id: 1,
     place: "center",
     certificate: { top: "10%", left: "4%" },
     sign: { top: "15%", left: "24%" },
-    vector: { deg: "15deg", bot: "30%", left: "35%" },
+    vector: { deg: "15deg", bot: "30%", left: "40%" },
     leftPlacement: {
       classTitle: "col-start-end",
       note: [
         "Uzbek Pilaf (450gr)",
         "Uzbecki Pilaw (450gr)",
-        "Узбекский Плов (450 гр",
+        "Узбекский Плов (450 гр)",
       ],
       ingredients: [
         `Ingridients: Rice, Beef/Lamb, Lamb Tail Fat, Red/Yellow Carrot, Sunflower

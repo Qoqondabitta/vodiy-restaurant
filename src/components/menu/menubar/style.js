@@ -4,39 +4,46 @@ import bg from "../../../assets/images/backgrounds/BG.jpg";
 export const Main = styled.div`
   width: 100%;
   margin: 0 auto;
-  background-image: url(${bg});
+  /* background-image: url(${bg});
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 `;
 
 export const Container = styled.div`
   max-width: 1350px;
   width: 100%;
   color: white;
+  /* background-color: white; */
 `;
 
 export const Vodiy = styled.img`
   width: 120px;
   height: 120px;
+  cursor: pointer;
   object-fit: cover;
   object-position: center;
 `;
 
 export const List = styled.div`
   gap: 20px;
+  position: relative;
+  left: 30px;
 `;
 
 export const Item = styled.p`
   font-size: 18px;
   color: white;
   font-weight: 600;
+  cursor: pointer;
   font-family: "Castoro Titling", serif;
+  text-transform: capitalize;
 `;
 
 export const Links = styled.a`
   text-decoration: none;
   color: white;
+  cursor: pointer;
 `;
 
 export const Box = styled.div`
@@ -57,6 +64,7 @@ export const Button = styled.button`
   border: none;
   font-size: 14px;
   height: 30px;
+  cursor: pointer;
   cursor: pointer;
   transition: all 0.7s;
   &:hover {

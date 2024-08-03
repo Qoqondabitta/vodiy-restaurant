@@ -16,7 +16,7 @@ export const breakfast = [
       ingredients: [
         `Satisfy your hunger with our mouth-watering and hearty Breakfast. Enjoy life crumble by crumble, not bite by bite.`,
         `Zaspokój swój głód naszym przepysznym i pożywnym śniadaniem. Ciesz się życiem kruszonka po kruszonce, a nie gryzienie po kęsie`,
-        `Утолите голод нашим аппетитным и сытным завтраком.. Наслаждайтесь жизнью постепенно, а не постепенно.`,
+        `Утолите голод нашим аппетитным и сытным завтраком.. Наслаждайтесь жизнью постепенно, и постепенно.`,
       ],
       size: "left",
       price: "19.99zl",
@@ -43,7 +43,7 @@ export const breakfast = [
       ingredients: [
         `Satisfy your hunger with our mouth-watering and hearty Breakfast. Enjoy life crumble by crumble, not bite by bite.`,
         `Zaspokój swój głód naszym przepysznym i pożywnym śniadaniem. Ciesz się życiem kruszonka po kruszonce, a nie gryzienie po kęsie`,
-        `Утолите голод нашим аппетитным и сытным завтраком.. Наслаждайтесь жизнью постепенно, а не постепенно.`,
+        `Утолите голод нашим аппетитным и сытным завтраком.. Наслаждайтесь жизнью постепенно, и постепенно.`,
       ],
       size: "right",
       price: "15.99zl ",
@@ -74,7 +74,7 @@ export const breakfast = [
       ingredients: [
         `Satisfy your hunger with our mouth-watering and hearty Breakfast. Enjoy life crumble by crumble, not bite by bite.`,
         `Zaspokój swój głód naszym przepysznym i pożywnym śniadaniem. Ciesz się życiem kruszonka po kruszonce, a nie gryzienie po kęsie`,
-        `Утолите голод нашим аппетитным и сытным завтраком.. Наслаждайтесь жизнью постепенно, а не постепенно.`,
+        `Утолите голод нашим аппетитным и сытным завтраком.. Наслаждайтесь жизнью постепенно, и постепенно.`,
       ],
       size: "left",
       price: "14.99zl",
@@ -105,7 +105,7 @@ export const breakfast = [
       ingredients: [
         `Satisfy your hunger with our mouth-watering and hearty Breakfast. Enjoy life crumble by crumble, not bite by bite.`,
         `Zaspokój swój głód naszym przepysznym i pożywnym śniadaniem. Ciesz się życiem kruszonka po kruszonce, a nie gryzienie po kęsie`,
-        `Утолите голод нашим аппетитным и сытным завтраком.. Наслаждайтесь жизнью постепенно, а не постепенно.`,
+        `Утолите голод нашим аппетитным и сытным завтраком.. Наслаждайтесь жизнью постепенно, и постепенно.`,
       ],
       size: "right",
       price: "21.99zl",

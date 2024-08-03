@@ -15,24 +15,21 @@ import {
 } from "./style";
 import Halal from "../../../assets/images/objects/Halal.webp";
 import { Scissors } from "../../history/style";
-import plov from "../../../assets/images/foods/plov.jpg";
 import line from "../../../assets/images/objects/line.webp";
-import kazankebab from "../../../assets/images/foods/kazan-kebab.jpg";
-import { dishes } from "../../../constants/componentconstants/mainDishes";
-import { soups } from "../../../constants/componentconstants/soups";
-import { grill } from "../../../constants/componentconstants/grill";
-import { bakery } from "../../../constants/componentconstants/bakery";
-import { salad } from "../../../constants/componentconstants/salad";
-import { drinks } from "../../../constants/componentconstants/drinks";
-import { veganMeals } from "../../../constants/componentconstants/vegan";
-import { additives } from "../../../constants/componentconstants/garnir";
 import { breakfast } from "../../../constants/componentconstants/breakfast";
-// import signature from "../../../assets/images/objects/signature.svg"
+import { useDispatch, useSelector } from "react-redux";
+import { store } from "../../../redux/store";
+import { minlist } from "../../../constants/componentconstants/menuNavbar";
+import { main } from "../../../constants/componentconstants/mainDishes";
 
 const MainDishes = () => {
+  const dispatch = useDispatch()
+  const language = useSelector(store => store.language.value)
+  const title = useSelector(store => store.title.value)
+  const res = minlist.filter(v=>v.tag==title)[0]?.data
   return (
     <Main className="column-center">
-      {breakfast.map((v, i) => (
+      {(res||main).map((v, i) => (
         <Wrapper className="center" key={i}>
           <Container className={v.place}>
             <Scissors
@@ -47,10 +44,6 @@ const MainDishes = () => {
             >
               Vodiy lik
             </Signature>
-            {/* <Scissors
-              top={v.certificate.top}
-              left={v.certificate.left}
-            /> */}
             <Vector
               src={line}
               deg={v.vector.deg}
@@ -58,9 +51,19 @@ const MainDishes = () => {
               left={v.vector.left}
             />
             <Left className={v.leftPlacement.classTitle}>
-              <Note>{v.leftPlacement.note[0]}</Note>
+              <Note>
+                {language == "eng"
+                  ? v.leftPlacement.note[0]
+                  : language == "pol"
+                  ? v.leftPlacement.note[1]
+                  : v.leftPlacement.note[2]}
+              </Note>
               <Ingridients side={v.leftPlacement.size}>
-                {v.leftPlacement.ingredients[0]}
+                {language == "eng"
+                  ? v.leftPlacement.ingredients[0]
+                  : language == "pol"
+                  ? v.leftPlacement.ingredients[1]
+                  : v.leftPlacement.ingredients[2]}
               </Ingridients>
               <Price>{v.leftPlacement.price}</Price>
             </Left>

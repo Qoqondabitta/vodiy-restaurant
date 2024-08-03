@@ -13,13 +13,13 @@ export const grill = [
     place: "center",
     certificate: { top: "10%", left: "4%" },
     sign: { top: "15%", left: "24%" },
-    vector: { deg: "15deg", bot: "30%", left: "40%" },
+    vector: { deg: "15deg", bot: "35%", left: "40%" },
     leftPlacement: {
       classTitle: "col-start-end",
       note: [
         "Beef Grill Kebab (160gr)",
         "Szaszłyk Wołowy (160gr)",
-        "Говядина Kусковой шашлык (160 гр)",
+        "Говядина Kусковой (160 гр)",
       ],
       ingredients: [
         `Savour from mouth-watering and delicious Beef Grill Kebab. Feels like Home, Tastes like Paradise, better with some tomato sauce and onion`,

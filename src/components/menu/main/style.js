@@ -86,6 +86,7 @@ export const Note = styled.h1`
 export const Ingridients = styled.p`
   font-size: 20px;
   color: white;
+  text-transform: capitalize;
 
   text-align: ${({ side }) => side};
   width: 60%;

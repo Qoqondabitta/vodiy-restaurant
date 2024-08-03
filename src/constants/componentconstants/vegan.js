@@ -3,7 +3,7 @@ import achichuk from "../../assets/images/foods/achichuk.jpg";
 import narezkas from "../../assets/images/foods/narezka.avif";
 import cabbage from "../../assets/images/foods/karam.jpg";
 
-export const veganMeals = [
+export const vegan = [
   {
     id: 1,
     place: "center",
