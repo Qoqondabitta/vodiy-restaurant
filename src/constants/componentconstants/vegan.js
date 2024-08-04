@@ -131,3 +131,16 @@ export const vegan = [
     },
   },
 ];
+
+export const y = ["We Offer You", "Oferujemy Ci", "Мы предлагаем Вам"];
+export const d = [
+  "Delicious & Vegan Friendly Taste",
+  "Pyszny i Przyjazny Dla Wegan Smak",
+  "Вкусный и Bеганский Bкус",
+];
+
+export const v = [
+  `Meet Our Vegan-Friendly meal Lagman Fried without any meat, eggs and anti-vegan ingridients. We provide appropirate meals according your special diet.`,
+  `Poznaj nasz wegański posiłek Lagman Fried bez mięsa, jajek i składników antywegańskich. Zapewniamy odpowiednie posiłki zgodne ze specjalną dietą.`,
+  "Встречайте наше веганское блюдо Лагман Жареный без мяса, яиц и антивеганских ингредиентов. Мы обеспечиваем соответствующее питание в соответствии с вашей специальной диетой.",
+];

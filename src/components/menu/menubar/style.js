@@ -4,10 +4,24 @@ import bg from "../../../assets/images/backgrounds/BG.jpg";
 export const Main = styled.div`
   width: 100%;
   margin: 0 auto;
-  /* background-image: url(${bg});
-  background-position: center;
+  position: relative;
+  background-image: url(${bg});
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: cover; */
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.2),
+      rgba(124, 123, 123, 0)
+    );
+  }
 `;
 
 export const Container = styled.div`
@@ -23,6 +37,7 @@ export const Vodiy = styled.img`
   cursor: pointer;
   object-fit: cover;
   object-position: center;
+  z-index: 10;
 `;
 
 export const List = styled.div`
@@ -57,7 +72,7 @@ export const Stick = styled.div`
 `;
 
 export const Button = styled.button`
-  width: 120px;
+  width: ${({ width }) => (width ? width : "120px")};
   font-family: "Cormorant Upright";
   font-weight: 600;
   background-color: #dcca87;

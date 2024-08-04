@@ -3,20 +3,35 @@ import bg from "../../assets/images/backgrounds/BG.jpg";
 
 export const Main = styled.div`
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0 auto;
+  padding-block: 100px;
+  z-index: 2;
+  position: relative;
   background-image: url(${bg});
   background-size: cover;
   background-repeat: no-repeat;
-  padding-block: 50px;
-  z-index: 2;
-  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.45),
+      rgba(124, 123, 123, 0)
+    );
+  }
 `;
 
 export const Container = styled.div`
   gap: 70px;
   height: 100%;
   position: relative;
+  padding-block: 50px;
 `;
 
 export const Knife = styled.img`
@@ -60,21 +75,18 @@ export const V = styled.img`
 `;
 
 export const BgV = styled.h1`
-  font-size: 800px;
+  font-size: 550px;
   line-height: 400px;
   font-weight: 400;
   color: rgba(159, 156, 156, 0.268);
   z-index: 1;
   height: 600px;
   position: absolute;
-  top: 5%;
+  top: -5%;
   left: 35%;
   margin: 0;
   padding: 0;
   font-style: normal;
-  font-family: "Roboto", sans-serif;
-  /* bottom: 10px; */
-  /* background-color: red; */
 `;
 
 export const Blur = styled.div`
@@ -99,4 +111,19 @@ export const Scissors = styled.img`
   width: 120px;
   height: 120px;
   z-index: 2;
+`;
+
+export const SpoonWrapper = styled.div`
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: ${({ left }) => (left ? "flex-end" : "flex-start")};
+  gap: 10px;
+`;
+
+export const Spoon = styled.img`
+  width: 40px;
+  height: 9px;
+  transform: rotateY(${({rot})=>rot&&"180deg"});
 `;

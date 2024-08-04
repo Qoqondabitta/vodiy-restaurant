@@ -1,8 +1,14 @@
 export const navbarItems = [
-  { title: ["Menu", "Menu", "Меню"], path: "/menu" },
-  { title: ["About Us", "O nas", "О нас"], path: "/" },
-  { title: ["Address", "Adres", "Адрес"], path: "/" },
-  { title: ["Contact", "Kontakt", "Контакт"], path: "/" },
-  // { title: ["Reservation", "Rezerwacja", "Бронирование"], path: "/" },
-  { title: ["Delivery", "Dostawa", "Доставка"], path: "/" },
+  { title: ["About Us", "O nas", "О нас"], path: "#about" },
+  {
+    title: ["Address", "Adres", "Адрес"],
+    path: "#address",
+    url: "https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa",
+  },
+  { title: ["Vegan", "Vegan", "Веган"], path: "#vegan" },
+  { title: ["Discounts", "Zniżki", "Скидки"], path: "#discount" },
+  { title: ["Delivery", "Dostawa", "Доставка"], path: "#delivery" },
+  { title: ["Language", "Język", "Язык"], path: "#footer" },
 ];
+
+export const pageLinker = [{ title: ["Menu", "Menu", "Меню"], path: "/menu" }];

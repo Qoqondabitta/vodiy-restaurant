@@ -18,6 +18,7 @@ import "../../../display.css";
 import vodiy from "../../../assets/images/logo/vodiy.jpg";
 import { changeTitle, title } from "../../../redux/title";
 import "./menuBar.css";
+import { btn } from "../../../constants/componentconstants/reservation";
 
 const MenuNavbar = () => {
   const dispatch = useDispatch();
@@ -52,7 +53,11 @@ const MenuNavbar = () => {
             <Links href="tel:+48502400608">+48 502-400-608</Links>
           </Box>
           <Stick></Stick>
-          <Button>Book Table</Button>
+          <Links href="http://t.me/Restauracja_Vodiy">
+            <Button>
+              {language == "eng" ? btn[0] : language == "pol" ? btn[1] : btn[2]}
+            </Button>
+          </Links>
         </List>
       </Container>
     </Main>

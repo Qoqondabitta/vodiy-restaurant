@@ -1,25 +1,38 @@
 import React from "react";
-import { Container, Deliver, Left, Links, Main, Navigates } from "./style";
-import { Button, Title } from "../about/style";
+import {
+  Container,
+  Deliver,
+  Left,
+  Links,
+  Main,
+  Navigates,
+  Right,
+  Title
+} from "./style";
+import { Button } from "../about/style";
 import courier from "../../assets/images/backgrounds/courier.webp";
-import { Right, GoldBoxes, Title as Note } from "../about/style";
+import { GoldBoxes } from "../about/style";
+import { e, f, n, o, w } from "../../constants/componentconstants/delivery";
+import { useSelector } from "react-redux";
 
 const Delivery = () => {
+  const l = useSelector((store) => store.language.value);
   return (
-    <Main className="center">
-      <Container className="just-evenly">
+    <Main id="delivery" className="center">
+      <Container className="center">
         <Left className="col-align-start">
           <Title style={{ color: "white", width: "fit-content" }} large="true">
-            Enjoy Your{" "}
-            <Links href="https://food.bolt.eu/pl-PL/landing">Food </Links>
-            Without Leaving The House
+            {l == "eng" ? e[0] : l == "pol" ? e[1] : e[2]}
+            <Links href="https://food.bolt.eu/pl-PL/landing">
+              {l == "eng" ? f[0] : l == "pol" ? f[1] : f[2]}
+            </Links>
+            {l == "eng" ? w[0] : l == "pol" ? w[1] : w[2]}
           </Title>
-          <Note minis="true">
-            Even though we do not deliver on ourselfs, you can easily order and
-            enjoy from our traditional Uzbek Halal Meals via Bolt Application
-          </Note>
+          <Title minis="true">
+            {l == "eng" ? n[0] : l == "pol" ? n[1] : n[2]}
+          </Title>
           <Navigates href="https://food.bolt.eu/pl-PL/landing">
-            <Button>Order Now</Button>
+            <Button>{l == "eng" ? o[0] : l == "pol" ? o[1] : o[2]}</Button>
           </Navigates>
         </Left>
 

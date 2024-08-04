@@ -10,6 +10,7 @@ import Delivery from "../components/delivery/Delivery";
 // import Vegan from "../components/vegan/Vegan.jsx";
 import Vegan from "../components/vegan/Vegan";
 import Zestav from "../components/zestav/Zestav";
+import Address from "../components/map/Address";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Vegan />
       <Zestav />
       <Delivery />
+      <Address />
       <History />
       <Video />
       <Reservation />

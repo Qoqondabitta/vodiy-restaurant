@@ -1,18 +1,40 @@
-.reservation-input{
-    width: 250px;
-    height: 35px;
-    background-color: black;
-    font-family: 'Cormorant Upright';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    padding-left: 5px;
-    text-align: left;
-    letter-spacing: 0.04em;
-    text-transform: capitalize;
-    border: 1px solid white;
-    /* font-feature-settings: 'tnum' on, 'lnum' on; */
-    color: #AAAAAA;
-    outline: none;
-    
+.reservation-input {
+  width: 250px;
+  height: 35px;
+  background-color: black;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 5px;
+  text-align: left;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  border: 1px solid white;
+  /* font-feature-settings: 'tnum' on, 'lnum' on; */
+  color: #aaaaaa;
+  outline: none;
+  z-index: 0;
+}
+
+.reservation-input::placeholder {
+  color: transparent;
+}
+
+.reservation-label {
+  position: absolute;
+  left: 9px;
+  top: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  padding: 5px 7px;
+  transition: all 0.25s;
+}
+
+.reservation-input:focus + .reservation-label, .reservation-input:not(:placeholder-shown) + .reservation-label{
+    transform: translateY(-30px);
+    font-size: 16px;
+    background-color: #0c0c0c;
+    z-index: 10;
 }

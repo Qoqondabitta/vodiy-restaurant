@@ -10,7 +10,6 @@ export const Main = styled.div`
   padding-block: 50px;
   padding-bottom: 50px;
   position: relative;
-  z-index: -1;
 
   &:before {
     content: "";
@@ -20,9 +19,9 @@ export const Main = styled.div`
     width: 100%;
     height: 100%;
     background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.7),
-      rgba(10, 10, 10, -10)
+      to top,
+      rgba(0, 0, 0, 0.45),
+      rgba(124, 123, 123, 0)
     );
   }
 `;
@@ -30,6 +29,7 @@ export const Main = styled.div`
 export const Container = styled.div`
   max-width: 1300px;
   width: 100%;
+  z-index: 19;
 `;
 
 export const Left = styled.div`
@@ -59,4 +59,23 @@ export const Note = styled.h1`
   font-weight: 400;
   color: #dcca87;
   font-family: "Cormorant Upright";
+`;
+
+export const Linker = styled.a`
+  text-decoration: none;
+`;
+
+export const Button = styled.button`
+  width: ${({ width }) => (width ? width : "150px")};
+  font-family: "Cormorant Upright";
+  font-weight: 600;
+  background-color: #dcca87;
+  border: none;
+  font-size: 14px;
+  height: 35px;
+  cursor: pointer;
+  transition: all 0.7s;
+  &:hover {
+    scale: 0.8;
+  }
 `;

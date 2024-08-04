@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const Main = styled.div`
   margin: 0 auto;
-  height: 80vh;
+  height: 500px;
 `;
+
+
 
 export const Container = styled.div`
   width: 75%;
@@ -16,6 +18,11 @@ export const Container = styled.div`
   top: 200px;
 `;
 
+export const InputBox = styled.div`
+  height: 40px;
+  position: relative;
+`;
+
 export const InputWrappers = styled.div`
   gap: 5px;
   margin-block: 30px;
@@ -25,5 +32,3 @@ export const Spoon = styled.img`
   width: 40px;
   height: 9px;
 `;
-
-

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import bg from "../../../assets/images/backgrounds/BG.jpg";
+import elite from "../../../assets/images/backgrounds/elitebg.jpg";
 
 export const Main = styled.div`
   margin: 0 auto;
@@ -21,33 +22,45 @@ export const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding-bottom: 10px;
+  position: relative;
+  padding-bottom: 50px;
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.45),
+      rgba(124, 123, 123, 0)
+    );
+  }
 `;
 
 export const Container = styled.div`
   max-width: 1300px;
   width: 100%;
-  /* height: 100vh; */
-  /* margin-top: 50px; */
   position: relative;
   gap: 50px;
   padding-bottom: 50px;
   padding-top: 50px;
   height: 610px;
-  /* border: 1px solid #dcca87; */
 `;
 
 export const Left = styled.div`
   gap: 20px;
   width: 50%;
   height: 100%;
+  z-index: 10;
 `;
 
 export const Right = styled.div`
   position: relative;
   height: 100%;
-  /* top: ${({ top }) => top}; */
-  /* bottom: ${({ bot }) => bot}; */
+  z-index: 10;
   ${({ dir }) => dir}: -30px;
 `;
 

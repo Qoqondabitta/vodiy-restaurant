@@ -29,6 +29,8 @@
   justify-content: flex-start;
 }
 
+
+
 .col-align-start {
   display: flex;
   flex-direction: column;

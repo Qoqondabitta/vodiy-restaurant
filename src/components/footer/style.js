@@ -3,7 +3,7 @@ import bg from "../../assets/images/backgrounds/BG.jpg";
 
 export const Main = styled.div`
   width: 100%;
-  height: 90vh;
+  height: 600px;
   margin: 0 auto;
   background-image: url(${bg});
   background-size: cover;

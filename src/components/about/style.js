@@ -1,11 +1,29 @@
 import styled from "styled-components";
+import bg from "../../assets/images/backgrounds/BG.jpg";
 
 export const Main = styled.div`
   margin: 0 auto;
   width: 100%;
   background-color: black;
-  margin-block: 50px;
+  padding-top: 50px;
   position: relative;
+  background-image: url(${bg});
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.45),
+      rgba(124, 123, 123, 0)
+    );
+  }
 `;
 
 export const Container = styled.div`
@@ -51,14 +69,14 @@ export const Title = styled.h1`
   font-size: ${({ large, minis }) => large ? "80px" : minis ? "16px" : "20px"};
   color: ${({ large, minis }) =>
     large ? "#DCCA87" : minis ? "#AAAAAA" : "white"};
-  font-weight: ${({ minis }) => (minis ? "400" : "400")};
+  font-weight: ${({ minis }) => (minis ? "600" : "400")};
   line-height: ${({ large, minis }) => large ? "90px" : minis ? "175%" : null};
   width: 400px;
   margin: 0;
 `;
 
 export const Button = styled.button`
-  width: 150px;
+  width: ${({ width }) => (width ? width : "150px")};
   font-family: "Cormorant Upright";
   font-weight: 600;
   background-color: #dcca87;
