@@ -23,13 +23,23 @@
   align-items: center;
 }
 
+.just-around{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .just-start{
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-
+.just-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 .col-align-start {
   display: flex;

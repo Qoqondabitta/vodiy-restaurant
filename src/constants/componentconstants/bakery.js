@@ -38,7 +38,7 @@ export const bakery = [
     vector: { deg: "195deg", bot: "42%", left: "45%" },
     leftPlacement: {
       classTitle: "col-end-start",
-      note: ["Fatir (200gr)", "Fatir Jagnięcina (200gr)", "Фатир (200 гр)"],
+      note: ["Fatir (200gr)", "Fatir (200gr)", "Фатир (200 гр)"],
       ingredients: [
         `Ingridients: Flour, yeast, milk, sugar, butter, salt, vegetable oil, egg.`,
         `Składniki: Mąka, drożdże, mleko, cukier, masło, sól, olej roślinny, jajko.`,
@@ -69,7 +69,7 @@ export const bakery = [
       ingredients: [
         `Beef, chopped onion, butter, Zira, coriander, sesame, dough,
 puff pastry, black pepper, tomato sauce.`,
-        `Składniki: Wołowina, siekana cebula, masło, Zira, kolendra, sezam, ciasto,
+        `Składniki: Wołowina, siekana cebula, masło, kminek, kolendra, sezam, ciasto,
 ciasto francuskie, pieprz czarny, sos pomidorowy.`,
         `Ингредиенты: Говядина, рубленая лук, масло сливочное, Зира, кориандр, кунжут, тесто, 
 слоёное, чёрный перец, соус томатный.  

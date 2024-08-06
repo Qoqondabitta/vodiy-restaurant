@@ -11,7 +11,10 @@ import {
   Button,
 } from "./style";
 import { useDispatch, useSelector } from "react-redux";
-import { menuNavbar } from "../../../constants/componentconstants/menuNavbar";
+import {
+  m,
+  menuNavbar,
+} from "../../../constants/componentconstants/menuNavbar";
 import { NavLink } from "react-router-dom";
 import { FaPhone } from "react-icons/fa6";
 import "../../../display.css";
@@ -19,6 +22,7 @@ import vodiy from "../../../assets/images/logo/vodiy.jpg";
 import { changeTitle, title } from "../../../redux/title";
 import "./menuBar.css";
 import { btn } from "../../../constants/componentconstants/reservation";
+import { navbarItems } from "../../../constants/componentconstants/navbar";
 
 const MenuNavbar = () => {
   const dispatch = useDispatch();
@@ -27,25 +31,33 @@ const MenuNavbar = () => {
   const changeTag = (tag) => {
     dispatch(changeTitle(tag));
   };
-  console.log(text, "tex");
+  const l = navbarItems[4].title;
   return (
-    <Main className="center">
+    <Main id="main" className="center">
       <Container className="just-evenly">
         <Vodiy src={vodiy} />
         <List className="center">
+          <NavLink style={{ textDecoration: "none" }} to="/">
+            <Item sizefont="true">
+              {language == "eng" ? m[0] : language == "pol" ? m[1] : m[2]}
+            </Item>
+          </NavLink>
           {menuNavbar.map((v, i) => (
-            <NavLink style={{ textDecoration: "none" }} key={i} to={v?.path}>
-              <Links onClick={() => changeTag(v?.tag)}>
-                <Item id={`${text == v?.tag && "Product"}`}>
-                  {language === "eng"
-                    ? v.title[0]
-                    : language === "pol"
-                    ? v.title[1]
-                    : v.title[2]}
-                </Item>
-              </Links>
-            </NavLink>
+            <Links key={i} onClick={() => changeTag(v?.tag)}>
+              <Item sizefont="true" id={`${text == v?.tag && "Product"}`}>
+                {language === "eng"
+                  ? v.title[0]
+                  : language === "pol"
+                  ? v.title[1]
+                  : v.title[2]}
+              </Item>
+            </Links>
           ))}
+          <Links href="#footer">
+            <Item sizefont="true">
+              {language == "eng" ? l[0] : language == "pol" ? l[1] : l[2]}
+            </Item>
+          </Links>
         </List>
         <List className="center">
           <Box className="center">

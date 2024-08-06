@@ -25,10 +25,10 @@ const Navbar = () => {
   const dispatch = useDispatch();
   const p = pageLinker[0].path;
   const t = pageLinker[0].title;
-  const language = useSelector((store) => store.language);
+  const language = useSelector((store) => store.language.value);
   return (
     <Main className="center">
-      <Container className="just-evenly">
+      <Container className="just-around">
         <Vodiy src={vodiy} />
         <List className="center">
           <NavLink style={{ textDecoration: "none" }} to={p}>

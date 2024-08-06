@@ -95,7 +95,7 @@ export const additives = [
     leftPlacement: {
       classTitle: "col-end-start",
       note: [
-        "Grilled Potatos (150gr)",
+        "Grilled Potatoes (150gr)",
         "Grillowany Ziemniak (150gr)",
         "Картофель по Деревeнский  (150гр)",
       ],

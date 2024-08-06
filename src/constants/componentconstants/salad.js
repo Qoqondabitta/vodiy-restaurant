@@ -14,8 +14,8 @@ export const salad = [
       classTitle: "col-start-end",
       note: ["Achichuk (200gr)", "Achichuk (200gr)", "Ачичук (200 гр)"],
       ingredients: [
-        `Ingridients: Tomato, cucumbers, onion, salt, pepper, cilantro, basil, greenery, bell.`,
-        `Składniki: Pomidor, ogórki, cebula, sól, pieprz, kolendra, bazylia, zieleń, dzwonek.`,
+        `Ingridients: Tomato, cucumbers, onion, salt, pepper, cilantro, basil, greenery, bell pepper.`,
+        `Składniki: Pomidor, ogórki, cebula, sól, pieprz, kolendra, bazylia, zieleń, bulgarski pieperz.`,
         `Ингредиенты: Помидоры, огурцы, лук, соль, перец, кинза, базилик, зелень, болгарский перец.`,
       ],
       size: "left",
@@ -46,9 +46,9 @@ export const salad = [
       ],
       ingredients: [
         `Ingridients: Bell pepper, beef, tomatoes, cucumbers, garlic, cilantro, sesame, soy
-sauce, oil, vegetable, apple cider vinegar, sweet and sour sauce`,
+sauce, oil, vegetable, apple cider vinegar, sweet and sour sauce.`,
         `Składniki: Papryka, wołowina, pomidory, ogórki, czosnek, kolendra, sezam, soja
-sos, olej, warzywa, ocet jabłkowy, sos słodko-kwaśny`,
+sos, olej, warzywa, ocet jabłkowy, sos słodko-kwaśny.`,
         `Ингредиенты: Болгарский перец, говядина, помидоры, огурцы, чеснок, кинза, кунжут, соевый 
 соус, масло, растительное, яблочное уксус, кисло-сладкий соус 
 `,
@@ -75,13 +75,13 @@ sos, olej, warzywa, ocet jabłkowy, sos słodko-kwaśny`,
     leftPlacement: {
       classTitle: "col-start",
       note: [
-        "Cutted Vegetables (300gr)",
+        "Chopped Vegetables (300gr)",
         "Krojenie Warzyw (300gr)",
         "Hарезка Oвощей (300гp)",
       ],
       ingredients: [
         `Ingridients: Tomato, cucumbers, onion, salt, pepper, cilantro, basil, greenery, bell.`,
-        `Składniki: Pomidor, ogórki, cebula, sól, pieprz, kolendra, bazylia, zieleń, dzwonek.`,
+        `Składniki: Pomidor, ogórki, cebula, sól, pieprz, kolendra, bazylia, zieleń, bulgarski pieperz.`,
         `Ингредиенты: Помидоры, огурцы, лук, соль, перец, кинза, базилик, зелень, болгарский перец.`,
       ],
       size: "left",

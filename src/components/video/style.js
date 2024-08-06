@@ -30,6 +30,7 @@ export const Container = styled.div`
   max-width: 1300px;
   height: 100%;
   gap: 30px;
+  z-index: 10;
 `;
 
 export const Wrapper = styled.div`

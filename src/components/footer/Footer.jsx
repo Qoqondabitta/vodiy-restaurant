@@ -7,6 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { c, h, m, q, s } from "../../constants/componentconstants/footer";
+import Language from "../mini/language/Language";
 
 const Footer = () => {
   const l = useSelector((store) => store.language.value);
@@ -51,6 +52,9 @@ const Footer = () => {
             <Texts>09:00 am - 02:00 am</Texts>
           </Tel>
         </Columns>
+      </Container>
+      <Container className="center">
+        <Language />
       </Container>
     </Main>
   );

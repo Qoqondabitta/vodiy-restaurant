@@ -71,7 +71,8 @@ export const Title = styled.h1`
     large ? "#DCCA87" : minis ? "#AAAAAA" : "white"};
   font-weight: ${({ minis }) => (minis ? "600" : "400")};
   line-height: ${({ large, minis }) => large ? "90px" : minis ? "175%" : null};
-  width: 400px;
+  width: 450px;
+  gap: 20px;
   margin: 0;
 `;
 

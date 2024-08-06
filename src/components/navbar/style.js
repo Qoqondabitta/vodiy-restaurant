@@ -25,10 +25,12 @@ scroll-behavior: smooth;
 `;
 
 export const Container = styled.div`
-  max-width: 1350px;
+  max-width: 1300px;
   width: 100%;
+  gap: 80px;
   color: white;
   z-index: 10;
+  padding: 0px 45px 0px 55px;
 `;
 
 export const Vodiy = styled.img`
@@ -43,8 +45,9 @@ export const List = styled.div`
 `;
 
 export const Item = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   color: white;
+  text-transform: uppercase;
   font-weight: 600;
   font-family: "Castoro Titling", serif;
 `;
@@ -52,6 +55,11 @@ export const Item = styled.p`
 export const Links = styled.a`
   text-decoration: none;
   color: white;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Castoro Titling", serif;
 `;
 
 export const Box = styled.div`

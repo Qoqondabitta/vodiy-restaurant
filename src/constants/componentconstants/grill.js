@@ -17,7 +17,7 @@ export const grill = [
     leftPlacement: {
       classTitle: "col-start-end",
       note: [
-        "Beef Grill Kebab (160gr)",
+        "Beef Shashlik (160gr)",
         "Szaszłyk Wołowy (160gr)",
         "Говядина Kусковой (160 гр)",
       ],
@@ -49,7 +49,7 @@ export const grill = [
       classTitle: "col-end-start",
       note: [
         "Lamb Grill Kebab (160gr)",
-        "Szaszłyk Jagnięcina (160gr)",
+        "Szaszłyk Baranina (160gr)",
         "Баранина Kусковой шашлык (160 гр)",
       ],
       ingredients: [
@@ -142,7 +142,7 @@ export const grill = [
       classTitle: "col-start",
       note: [
         "Lamb Loin (160gr)",
-        "Polędwica Jagnięca (160gr)",
+        "Polędwica Baranina (160gr)",
         "Корейка Баранина (160 гр)",
       ],
       ingredients: [
@@ -184,6 +184,64 @@ export const grill = [
       classTitle: "align-end",
       dir: { dir: "bottom" },
       imgurl: lulaKebab,
+      box: [
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
+      ],
+    },
+  },
+  {
+    id: 7,
+    place: "center",
+    certificate: { top: "70%", left: "6%" },
+    sign: { top: "75%", left: "26%" },
+    vector: { deg: "75deg", bot: "42%", left: "35%" },
+    leftPlacement: {
+      classTitle: "col-start",
+      note: [
+        "Grilled Vegetables (150gr)",
+        "Grilowane warzywa (150gr)",
+        "Овощи на гриле (150гр)",
+      ],
+      ingredients: [
+        `Ingridients: Black Eggplant, Zucchini, Greens, Bell Pepper (red, yellow, green), Red Onion, Tomato Sauce, Pepper.`,
+        `Składniki: Czarny bakłażan, cukinia, warzywa, papryka (czerwona, żółta, zielona), czerwona cebula, sos pomidorowy, bulgarski pieperz.`,
+        `Ингредиенты: Баклажаны чёрные, кабачки, зелень, болгарский (красный, жёлтый, зелёный), лук красный, соус томатный, перец.`,
+      ],
+      size: "left",
+      price: "31.99zl",
+    },
+    rightPlacement: {
+      dir: { dir: "bottom" },
+      classTitle: "align-end",
+      imgurl: grilledvegetables,
+      box: [
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
+      ],
+    },
+  },
+  {
+    id: 8,
+    place: "row-reverse",
+    certificate: { top: "70%", left: "86%" },
+    sign: { top: "75%", left: "56%" },
+    vector: { deg: "195deg", bot: "42%", left: "45%" },
+    leftPlacement: {
+      classTitle: "col-end-start",
+      note: ["Vodiy Mix (1200gr)", "Vodiy Mix (1200gr)", "Водий Микс (1200гр)"],
+      ingredients: [
+        `Ingridients: Lamb, Beef, Chicken Wings, Chicken Fillet, Minced Meat, Loin, Tomato, Cucumber, Onion, Greenery.`,
+        `Składniki: Baranina, wołowina, skrzydełka z kurczaka, filet z kurczaka, mięso mielone, schab, pomidor, ogórek, cebula, warzywa.`,
+        `Ингредиенты: Баранина, Говядина, Куриный Крылышки, Куриный Филе, Фарш, Корейка, Помидор, Огурец, Лук, Зелень.`,
+      ],
+      size: "right",
+      price: "170.99zl",
+    },
+    rightPlacement: {
+      classTitle: "align-end",
+      dir: { dir: "bottom" },
+      imgurl: mix,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },

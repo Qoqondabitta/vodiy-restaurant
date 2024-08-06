@@ -24,8 +24,7 @@ export const main = [
         "Узбекский Плов (450 гр)",
       ],
       ingredients: [
-        `Ingridients: Rice, Beef/Lamb, Lamb Tail Fat, Red/Yellow Carrot, Sunflower
-            Oil, Egg, Onion, Pepper, Cumin, Garlik, Sultanas.`,
+        `Ingridients: Rice, Beef/Lamb, Lamb Tail Fat, Red/Yellow Carrot, Sunflower Oil, Egg, Onion, Pepper, Cumin, Garlik, Sultanas.`,
         `Składniki: Ryż, wołowina/jagnięcina, gruby ogon, czerwona/żółta marchew, słonecznik
             Olej, jajko, cebula, pieprz, kminek, czosnek.`,
         `Ингредиенты: Pис, говядина/баранина, курдюк, красная/желтая морковь, подсолнечнoe
@@ -59,7 +58,7 @@ export const main = [
       ],
       ingredients: [
         `Ingridients: Beef/Lamb, Potato, Coriander, Egg, Onion, Black Pepper, Cumin, Cucumber, Tomato, Dill, Cilantro.`,
-        `Składniki: Wołowina/Jagnięcina, Ziemniak, Kolendra, Kminek, jajko, cebula, czarny pieprz pieprz, Koperek, Sułtanki.`,
+        `Składniki: Wołowina/Jagnięcina, Ziemniak, Kolendra, Kminek, jajko, cebula, czarny pieprz, pomidor, ogurek, Koperek, Sułtanki.`,
         `Ингредиенты: говядина/баранина, картофель, кориандр, яйцо, лук, черный перец, соль, тмин, огурец, помидор, укроп, кинза.`,
       ],
       size: "right",
@@ -148,13 +147,13 @@ export const main = [
     leftPlacement: {
       classTitle: "col-start",
       note: [
-        "Grilled Chicken (450gr)",
-        "Grillowany Kurczak (450gr)",
+        "Fried Chicken (450gr)",
+        "Smażony Kurczak (450gr)",
         "Цыплёнок табака  (450 гр)",
       ],
       ingredients: [
         `Ingridients: Chicken Meat, Garlic, Coriander, Chopped Onion, Black Pepper, Greenery, Cumin, Tomato Sauce, French Fries, Paprika.`,
-        `Składniki: Mięso z Kurczaka, Czosnek, Kolendra, Siekana Cebula, Pieprz Czarny, Zieleń, Kminek, Sos Pomidorowy, Frytki, Papryka`,
+        `Składniki: Mięso z Kurczaka, Czosnek, Kolendra, Siekana Cebula, Pieprz Czarny, Zieleń, Kminek, Sos Pomidorowy, Frytki, Papryka.`,
         `Ингредиенты: Цыплёнок, чеснок, Паприка, перец чёрный, кориандр, зира, соус томатный, картофель фри, зелень.`,
       ],
       size: "left",
@@ -185,7 +184,7 @@ export const main = [
       ],
       ingredients: [
         `Ingridients: Beef Meat, Tomato Gravy, French Fries, Ketchup/Tomato Sauce, Black Pepper, Greenery.`,
-        `Składniki: Mięso wołowe, Sos pomidorowy, Frytki, Ketchup/sos pomidorowy, Czarny pieprz, Zieleń`,
+        `Składniki: Mięso wołowe, Frytki, Ketchup/sos pomidorowy, Czarny pieprz, Zieleń.`,
         `Ингредиенты: Говядина, томатная подлива, томатная coyc, зелень, картошка фри, перец чёрный.`,
       ],
       size: "right",
@@ -216,7 +215,7 @@ export const main = [
         `Ингредиенты: Котлета говяжья, рис, гречка, пюре подлива томатная, яйцо куриное, зелень, кориандр, перец чёрный.`,
       ],
       size: "left",
-      price: "32.99",
+      price: "32.99zl",
     },
     rightPlacement: {
       dir: { dir: "bottom" },
@@ -270,8 +269,8 @@ export const main = [
         "Тифтель С Рисом (500гр)",
       ],
       ingredients: [
-        `Ingridients: Beef Meatballs (3 pieces), Boiled rice, tomato Gravy, ketchup/tomato sauce, greens, coriander, Black pepper.`,
-        `Składniki: Pulpety Wołowy (3 sztuki), Ryż gotowany, sos pomidorowy, ketchup/sos pomidorowy, warzywa, kolendra, pieprz czarny.`,
+        `Ingridients: Beef Meatballs (3 pieces), Boiled rice, tomato Gravy, ketchup/tomato sauce, greenery, coriander, Black pepper.`,
+        `Składniki: Pulpety Wołowy (3 sztuki), Ryż gotowany, sos pomidorowy, ketchup, zielen, kolendra, pieprz czarny.`,
         `Ингредиенты: Тифтельки (3 шт.), отварной рис, томатный соус, кетчуп/томатный соус, овощи, кориандр, черный перец.`,
       ],
       size: "left",
@@ -296,13 +295,13 @@ export const main = [
     leftPlacement: {
       classTitle: "col-end-start",
       note: [
-        "Grape Leef Rolls (500gr)",
-        "Roladki z liści winogron (500gr)",
+        "Grape Leaf Rolls (500gr)",
+        "Roladki z liści winogron (12 sztuk)",
         "Рулетики из виноградных листьев (500гр)",
       ],
       ingredients: [
-        `Ingridients: Chopped Beef, Grape Leef, Rice, fried potatoes, tomato sauce/ketchup, greens, tomato, cucumber, pepper.`,
-        `Składniki: Siekana wołowina, liście winogron, ryż, smażone ziemniaki, sos pomidorowy/ketchup, warzywa, pomidor, ogórek, papryka.`,
+        `Ingridients: Chopped Beef, Grape Leaf, Rice, fried potatoes, tomato sauce/ketchup, greenery, tomato, cucumber, pepper.`,
+        `Składniki: Siekana wołowina, liście winogron, ryż, smażone ziemniaki, sos pomidorowy/ketchup, zielen, pomidor, ogórek, papryka.`,
         `Ингредиенты: Рубленая Говядина, Виноградный Лист, Рис, жареный картофель, томатный соус/кетчуп, зелень, помидор, огурец, перец.`,
       ],
       size: "right",

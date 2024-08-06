@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Blur,
+  // Blur,
   Container,
   Main,
   VideoBox,
@@ -10,10 +10,9 @@ import {
   ZesTitle,
 } from "./style";
 import { Title } from "../history/style";
-// import { Title as ZesTitle } from "../zestav/style";
-import video from "../../assets/images/video/video.mp4";
-import service from "../../assets/images/video/service.mp4";
-import uzbekmeal from "../../assets/images/video/uzbekmeal.mp4";
+// import video from "../../assets/images/video/video.mp4";
+// import service from "../../assets/images/video/service.mp4";
+// import uzbekmeal from "../../assets/images/video/uzbekmeal.mp4";
 import spoon from "../../assets/images/objects/spoon.png";
 import { Spoon } from "../reservation/style";
 import { Title as Text } from "../about/style";

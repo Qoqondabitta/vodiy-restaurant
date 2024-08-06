@@ -8,8 +8,9 @@ import { bakery } from "./bakery";
 import { salad } from "./salad";
 import { additives } from "./garnir";
 
+export const m = ["Main Page", "Strona Główna", "Главная страница"];
+
 export const menuNavbar = [
-  { title: ["Main Page", "Strona Główna", "Главная страница"], path: "/" },
   {
     title: ["Dishes", "Dania", "блюда"],
     tag: "main",

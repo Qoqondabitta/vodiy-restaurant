@@ -25,9 +25,10 @@ export const Main = styled.div`
 `;
 
 export const Container = styled.div`
-  max-width: 1350px;
+  max-width: 1300px;
   width: 100%;
   color: white;
+  padding-right: 20px;
   /* background-color: white; */
 `;
 
@@ -47,12 +48,12 @@ export const List = styled.div`
 `;
 
 export const Item = styled.p`
-  font-size: 18px;
+  font-size: ${({sizefont})=>sizefont?"16px":"14px"};
   color: white;
   font-weight: 600;
   cursor: pointer;
   font-family: "Castoro Titling", serif;
-  text-transform: capitalize;
+  text-transform: uppercase;
 `;
 
 export const Links = styled.a`

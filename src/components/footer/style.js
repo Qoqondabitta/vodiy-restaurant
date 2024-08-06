@@ -8,16 +8,17 @@ export const Main = styled.div`
   background-image: url(${bg});
   background-size: cover;
   background-repeat: no-repeat;
-  padding-block: 50px;
-  z-index: -1;
+  padding-top: 50px;
+  z-index: 0;
   position: relative;
-  /* top: -200px; */
+  gap: 50px;
 `;
 
 export const Container = styled.div`
   max-width: 1300px;
   width: 100%;
   gap: 150px;
+  z-index: 10;
 `;
 
 export const Columns = styled.div`
@@ -35,6 +36,7 @@ export const Headline = styled.div`
   color: ${({ big }) => (big ? "#DCCA87" : "#F5EFDB")};
   text-align: center;
   font-family: "Cormorant Upright";
+  cursor: pointer;
 `;
 
 export const Texts = styled.p`

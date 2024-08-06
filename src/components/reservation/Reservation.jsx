@@ -25,7 +25,7 @@ const Reservation = () => {
         <MainTitle> {l == "eng" ? b[0] : l == "pol" ? b[1] : b[2]}</MainTitle>
         <InputWrappers className="center">
           {inputConstants.map((v, i) => (
-            <InputBox className="center input-group">
+            <InputBox key={i} className="center input-group">
               <input
                 className="reservation-input"
                 type={v.sort}
