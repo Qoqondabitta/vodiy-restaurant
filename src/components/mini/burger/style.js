@@ -11,21 +11,30 @@ export const Container = styled.div`
   height: 100vh;
 
   position: absolute;
-  top: 0;
+  top: 60px;
   left: 0;
   z-index: 10;
 `;
 
 export const Rows = styled.div`
-  gap: ${({ gap }) => gap};
+  gap: 15px;
+  width: 100%;
+  display: none;
+  padding-block: 20px;
+
+  @media only screen and (max-width: 600px) {
+    display: flex;
+  }
 `;
 
 export const NavTab = styled.a`
   text-decoration: none;
   width: 100%;
+  width: fit-content;
   font-size: 16px;
-  color: gold;
+  font-weight: bold;
+  cursor: pointer;
+  color: #dcca87;
 `;
 
-export const Icon = styled.div`
-`
+export const Icon = styled.div``;

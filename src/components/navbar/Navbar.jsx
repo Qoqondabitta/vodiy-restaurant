@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Container,
@@ -9,6 +9,7 @@ import {
   Stick,
   Vodiy,
   Button,
+  IconBurger,
 } from "./style";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -20,14 +21,18 @@ import { FaPhone } from "react-icons/fa6";
 import "../../display.css";
 import vodiy from "../../assets/images/logo/vodiy.jpg";
 import { changeTitle } from "../../redux/title";
+import Burger from "../mini/burger/Burger";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { GiHotMeal } from "react-icons/gi";
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
   const dispatch = useDispatch();
   const p = pageLinker[0].path;
   const t = pageLinker[0].title;
   const language = useSelector((store) => store.language.value);
   return (
-    <Main className="center">
+    <Main className="coplumn-center">
       <Container className="just-around">
         <Vodiy src={vodiy} />
         <List className="center">
@@ -51,7 +56,7 @@ const Navbar = () => {
         <List className="center">
           <Box className="center">
             <FaPhone />
-            <Links href="tel:+48502400608">+48 502-400-608</Links>
+            <Links href="tel:+48502400608">+48 795-999-991</Links>
           </Box>
           <Stick></Stick>
           <Links href="http://t.me/Restauracja_Vodiy">
@@ -64,7 +69,21 @@ const Navbar = () => {
             </Button>
           </Links>
         </List>
+        <NavLink style={{ textDecoration: "none" }} to="/menu">
+          <GiHotMeal size="3rem" color="#dcca87" />
+        </NavLink>
+        <Button top="85%" left="83%" round="true">
+          <Links href="tel:+48502400608">
+            <FaPhone />
+          </Links>
+        </Button>
+        <Button top="85%" left="7%" round="true">
+          <Links href="https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa">
+            <FaMapMarkerAlt size="1.2rem" />
+          </Links>
+        </Button>
       </Container>
+      <Burger />
     </Main>
   );
 };

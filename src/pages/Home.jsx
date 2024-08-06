@@ -16,15 +16,15 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <About />
-      <Vegan />
-      <Zestav />
-      <Delivery />
-      <Address />
-      <History />
-      <Video />
-      <Reservation />
-      <Footer />
+      {/* <About /> */}
+      {/* <Vegan /> */}
+      {/* <Zestav /> */}
+      {/* <Delivery /> */}
+      {/* <Address /> */}
+      {/* <History /> */}
+      {/* <Video /> */}
+      {/* <Reservation /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

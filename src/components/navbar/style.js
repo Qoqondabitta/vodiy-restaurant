@@ -8,7 +8,7 @@ export const Main = styled.div`
   background-image: url(${bg});
   background-size: cover;
   background-repeat: no-repeat;
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
   &:before {
     content: "";
     position: absolute;
@@ -18,7 +18,7 @@ scroll-behavior: smooth;
     height: 100%;
     background: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.20),
+      rgba(0, 0, 0, 0.2),
       rgba(124, 123, 123, 0)
     );
   }
@@ -31,6 +31,22 @@ export const Container = styled.div`
   color: white;
   z-index: 10;
   padding: 0px 45px 0px 55px;
+  position: relative;
+
+  @media only screen and (max-width: 600px) {
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    justify-content: space-between;
+    padding: 0px 30px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
 `;
 
 export const Vodiy = styled.img`
@@ -38,10 +54,19 @@ export const Vodiy = styled.img`
   height: 120px;
   object-fit: cover;
   object-position: center;
+
+  @media only screen and (max-width: 600px) {
+    width: 60px;
+    height: 60px;
+  }
 `;
 
 export const List = styled.div`
   gap: 20px;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const Item = styled.p`
@@ -72,7 +97,6 @@ export const Stick = styled.div`
   background-color: #dcca87;
 `;
 
-
 export const Button = styled.button`
   width: 120px;
   font-family: "Cormorant Upright";
@@ -82,8 +106,32 @@ export const Button = styled.button`
   font-size: 14px;
   height: 30px;
   cursor: pointer;
+  display: ${({ round }) => (round ? "none" : "flex")};
+  align-items: center;
+  justify-content: center;
   transition: all 0.7s;
   &:hover {
     scale: 0.8;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: ${({ round }) => (round ? "flex" : "none")};
+    /* position: ${({ round }) => (round ? "flex" : "none")}; */
+    position: fixed;
+    top: ${({ top }) => top};
+    /* top: 85%; */
+    left: ${({left})=>left};
+    /* left: 85%; */
+  }
+`;
+
+export const IconBurger = styled.div`
+  display: none;
+
+  @media only screen and (max-width: 600px) {
+    display: flex;
   }
 `;
