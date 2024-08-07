@@ -25,6 +25,7 @@ import Burger from "../mini/burger/Burger";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GiHotMeal } from "react-icons/gi";
 import "./media.css";
+import Logo from "../mini/logo/Logo";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -33,9 +34,9 @@ const Navbar = () => {
   const t = pageLinker[0].title;
   const language = useSelector((store) => store.language.value);
   return (
-    <Main className="coplumn-center">
+    <Main className="column-center">
       <Container className="just-around">
-        <Vodiy src={vodiy} />
+        <Logo className="logoSize" />
         <List className="center">
           <NavLink style={{ textDecoration: "none" }} to={p}>
             <Item onClick={() => dispatch(changeTitle("main"))}>
@@ -71,11 +72,12 @@ const Navbar = () => {
           </Links>
         </List>
         <NavLink
+          id="hotmeal"
           className="hotmeal"
           style={{ textDecoration: "none" }}
           to="/menu"
         >
-          <GiHotMeal size="3rem" color="#dcca87" />
+          <GiHotMeal size="3.5rem" color="#dcca87" />
         </NavLink>
         <Button top="85%" left="83%" round="true">
           <Links className="hotmeal" href="tel:+48502400608">

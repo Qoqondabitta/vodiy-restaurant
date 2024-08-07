@@ -1,20 +1,10 @@
 import styled from "styled-components";
 import bg from "../../../assets/images/backgrounds/BG.jpg";
-import elite from "../../../assets/images/backgrounds/elitebg.jpg";
 
 export const Main = styled.div`
   margin: 0 auto;
   width: 100%;
-  /* background-image: url(${bg}); */
-  /* background-position: center; */
-  /* background-size: cover;  */
-
-  /* background-repeat: no-repeat; */
-  /* gap: 50px;
-  /* padding-bottom: 50px; */
 `;
-
-// Allura, great Vibes, Parisienne, Mrs Saint Delafield
 
 export const Wrapper = styled.div`
   background-image: url(${bg});

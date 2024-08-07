@@ -1,0 +1,47 @@
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-right: 22px solid black;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  transform: rotate(-40deg);
+  left: 24px;
+  top: 16px;
+}
+
+.second {
+  transform: rotate(-40deg);
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-right: 15px solid black;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  left: 18px;
+  top: 10px;
+}
+
+.third {
+  transform: rotate(-40deg);
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-right: 28px solid black;
+  border-bottom: 12px solid transparent;
+  position: absolute;
+  left: 0px;
+  top: -3px;
+}
+
+.fourth {
+  transform: rotate(-40deg);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 20px solid black;
+  border-bottom: 35px solid transparent;
+  position: absolute;
+  left: 22px;
+  top: -15px;
+}

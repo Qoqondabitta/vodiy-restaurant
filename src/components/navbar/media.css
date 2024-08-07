@@ -6,9 +6,16 @@
   #number {
     gap: 10px;
   }
+  .logoSize {
+    transform: scale(0.5);
+  }
 }
 @media only screen and (max-width: 600px) {
   .hotmeal {
     display: flex;
   }
+}
+#hotmeal {
+  position: relative;
+  top: 0px;
 }

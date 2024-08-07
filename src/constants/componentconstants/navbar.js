@@ -5,7 +5,7 @@ export const navbarItems = [
     url: "https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa",
   },
   { title: ["Vegan", "Vegan", "Веган"], path: "#vegan" },
-  { title: ["Discounts", "Zniżki", "Скидки"], path: "#discount" },
+  { title: ["Combo", "Zniżki", "Скидки"], path: "#discount" },
   { title: ["Bolt", "Bolt", "Доставка"], path: "#delivery" },
   { title: ["Language", "Język", "Язык"], path: "#footer" },
 ];

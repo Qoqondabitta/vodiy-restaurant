@@ -32,16 +32,19 @@ export const Container = styled.div`
   z-index: 10;
   padding: 0px 45px 0px 55px;
   position: relative;
+  padding-block: 10px;
+  padding-top: 20px;
 
-@media only screen and (max-width: 1200px) {
-  gap: 20px;
-  padding: 0px 10px;
-}
+  @media only screen and (max-width: 1200px) {
+    gap: 20px;
+    padding: 0px 10px;
+  }
 
   @media only screen and (max-width: 600px) {
     width: 100%;
     justify-content: space-between;
     padding: 0px 20px;
+    height: 80px;
   }
 
   @media only screen and (max-width: 450px) {
@@ -129,7 +132,7 @@ export const Stick = styled.div`
   height: 30px;
   background-color: #dcca87;
 
-  @media only screen and (max-width: 900px){
+  @media only screen and (max-width: 900px) {
     height: 25px;
   }
 `;
