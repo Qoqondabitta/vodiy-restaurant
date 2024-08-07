@@ -33,7 +33,13 @@ export const Container = styled.div`
   padding: 0px 45px 0px 55px;
   position: relative;
 
+@media only screen and (max-width: 1200px) {
+  gap: 20px;
+  padding: 0px 10px;
+}
+
   @media only screen and (max-width: 600px) {
+    width: 100%;
     justify-content: space-between;
     padding: 0px 20px;
   }
@@ -55,6 +61,14 @@ export const Vodiy = styled.img`
   object-fit: cover;
   object-position: center;
 
+  /* @media only screen and (max-width: 1200px) {
+    width: 100px;
+    height: 100px;
+  } */
+  @media only screen and (max-width: 1200px) {
+    width: 80px;
+    height: 80px;
+  }
   @media only screen and (max-width: 600px) {
     width: 60px;
     height: 60px;
@@ -66,6 +80,7 @@ export const List = styled.div`
 
   @media only screen and (max-width: 600px) {
     display: none;
+    gap: 10px;
   }
 `;
 
@@ -75,6 +90,15 @@ export const Item = styled.p`
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Castoro Titling", serif;
+
+  @media only screen and (max-width: 1200px) {
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: 12px;
+    text-transform: capitalize;
+  }
 `;
 
 export const Links = styled.a`
@@ -85,16 +109,29 @@ export const Links = styled.a`
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Castoro Titling", serif;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 12px;
+    text-transform: capitalize;
+  }
 `;
 
 export const Box = styled.div`
   gap: 5px;
+
+  @media only screen and (max-width: 1200px) {
+    gap: 0px;
+  }
 `;
 
 export const Stick = styled.div`
   width: 1px;
   height: 30px;
   background-color: #dcca87;
+
+  @media only screen and (max-width: 900px){
+    height: 25px;
+  }
 `;
 
 export const Button = styled.button`
@@ -114,6 +151,12 @@ export const Button = styled.button`
     scale: 0.8;
   }
 
+  @media only screen and (max-width: 900px) {
+    font-size: 12px;
+    width: 100px;
+    height: 25px;
+  }
+
   @media only screen and (max-width: 600px) {
     width: 40px;
     height: 40px;
@@ -123,7 +166,7 @@ export const Button = styled.button`
     position: fixed;
     top: ${({ top }) => top};
     /* top: 85%; */
-    left: ${({left})=>left};
+    left: ${({ left }) => left};
     /* left: 85%; */
   }
 `;

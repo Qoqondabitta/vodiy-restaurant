@@ -24,6 +24,7 @@ import { changeTitle } from "../../redux/title";
 import Burger from "../mini/burger/Burger";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GiHotMeal } from "react-icons/gi";
+import "./media.css";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -53,9 +54,9 @@ const Navbar = () => {
             </Links>
           ))}
         </List>
-        <List className="center">
+        <List className="center" id="number">
           <Box className="center">
-            <FaPhone />
+            {/* <FaPhone /> */}
             <Links href="tel:+48502400608">+48 795-999-991</Links>
           </Box>
           <Stick></Stick>
@@ -69,17 +70,24 @@ const Navbar = () => {
             </Button>
           </Links>
         </List>
-        <NavLink style={{ textDecoration: "none" }} to="/menu">
+        <NavLink
+          className="hotmeal"
+          style={{ textDecoration: "none" }}
+          to="/menu"
+        >
           <GiHotMeal size="3rem" color="#dcca87" />
         </NavLink>
         <Button top="85%" left="83%" round="true">
-          <Links href="tel:+48502400608">
-            <FaPhone />
+          <Links className="hotmeal" href="tel:+48502400608">
+            <FaPhone color="black" />
           </Links>
         </Button>
-        <Button top="85%" left="7%" round="true">
-          <Links href="https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa">
-            <FaMapMarkerAlt size="1.2rem" />
+        <Button className="center" top="85%" left="7%" round="true">
+          <Links
+            className="hotmeal"
+            href="https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa"
+          >
+            <FaMapMarkerAlt color="black" size="1.2rem" />
           </Links>
         </Button>
       </Container>

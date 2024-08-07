@@ -35,6 +35,10 @@ export const NavTab = styled.a`
   font-weight: bold;
   cursor: pointer;
   color: #dcca87;
+
+  @media only screen and (max-width: 350px) {
+    font-size: 14px;
+  }
 `;
 
 export const Icon = styled.div``;
