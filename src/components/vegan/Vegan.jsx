@@ -1,13 +1,11 @@
 import React from "react";
 import { Container, Left, Linker, Main, Note, Right, VeganFood, Button, Title } from "./style";
-// import { Title } from "../about/style";
 import fried from "../../assets/images/foods/lagmanFried.png";
 import { useSelector } from "react-redux";
 import { d, v, y } from "../../constants/componentconstants/vegan";
 import { o } from "../../constants/componentconstants/delivery";
 import spoon from "../../assets/images/objects/spoon.png";
 import { Spoon, SpoonWrapper } from "../history/style";
-// import { Navigates } from "../delivery/style";
 
 const Vegan = () => {
   const l = useSelector((store) => store.language.value);

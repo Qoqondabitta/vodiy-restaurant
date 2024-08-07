@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Container, Left, Main, Plov, Right, Title } from "./style";
-import { Links } from "../delivery/style";
+import { Button, Container, Left, Main, Plov, Right, Title, Links } from "./style";
+// import { Links } from "../delivery/style";
 import { a, m, z, zestavurls } from "../../constants/componentconstants/zestav";
 import { useDispatch, useSelector } from "react-redux";
 import { Spoon, SpoonWrapper } from "../history/style";
@@ -38,6 +38,9 @@ const Zestav = () => {
               height={v.height}
               top={v.top}
               left={v.left}
+              plov={v?.polv}
+              tea={v?.tea}
+              salad={v?.salad}
             />
           ))}
         </Right>

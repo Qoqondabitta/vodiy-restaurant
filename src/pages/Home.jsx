@@ -9,7 +9,7 @@ import About from "../components/about/About";
 // import Vegan from "../components/vegan/vegan";
 // import Vegan from "../components/vegan/Vegan.jsx";
 import Vegan from "../components/vegan/Vegan";
-// import Zestav from "../components/zestav/Zestav";
+import Zestav from "../components/zestav/Zestav";
 // import Address from "../components/map/Address";
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
       <Navbar />
       <About />
       <Vegan />
-      {/* <Zestav /> */}
+      <Zestav />
       {/* <Delivery /> */}
       {/* <Address /> */}
       {/* <History /> */}
