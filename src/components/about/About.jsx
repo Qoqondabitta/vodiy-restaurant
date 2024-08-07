@@ -25,6 +25,7 @@ import spoon from "../../assets/images/objects/spoon.png";
 import { Spoon, SpoonWrapper } from "../history/style";
 import TextSlider from "../mini/textSlider/TextSlider";
 import MealSlider from "../mini/mealSlider/MealSlider";
+import "./about.css"
 
 const About = () => {
   const dispatch = useDispatch();
@@ -32,7 +33,7 @@ const About = () => {
   return (
     <Main id="main" className="center">
       <Container className="just-evenly">
-        <Scissors src={Halal} bot="5%" left="43%" />
+        <Scissors id="halal" src={Halal} bot="5%" left="43%" />
         <Left className="col-align-start">
           <SpoonWrapper className="column-center">
             <Title>
@@ -60,8 +61,8 @@ const About = () => {
         <Right className="center">
           <MealSlider />
           {/* <FoodIamge src={plov} /> */}
-          <GoldBoxes top="true"></GoldBoxes>
-          <GoldBoxes left="true"></GoldBoxes>
+          <GoldBoxes id="goldnbox1" top="true"></GoldBoxes>
+          <GoldBoxes id="goldnbox2" left="true"></GoldBoxes>
         </Right>
       </Container>
     </Main>

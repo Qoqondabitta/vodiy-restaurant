@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1200px) {
+  #halal {
+    bottom: 10%;
+    left: 30%;
+  };
+}@media only screen and (max-width: 900px) {
+  #halal {
+    bottom: 57%;
+    transform: scale(0.8);
+    left: 65%;
+  };
+}
+@media only screen and (max-width: 600px) {
+  #halal {
+    bottom: 90%;
+    transform: scale(0.6);
+    left: 70%;
+  };
+}
+
+@media only screen and (max-width: 350px) {
+  #halal {
+    bottom: 90%;
+    transform: scale(0.6);
+    left: 65%;
+  };
+}
+
+@media only screen and (max-width: 600px){
+    #goldnbox1 {
+    top: -43px;
+    left: 38.5%;
+  }
+  #goldnbox2{
+    bottom: -43px;
+    left: 7.5%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+    #goldnbox1 {
+    top: -25px;
+    left: 31%;
+  }
+  #goldnbox2{
+    bottom: -25px;
+    left: 7%;
+  }
+}
+
+@media only screen and (max-width: 350px){
+    #goldnbox1 {
+    top: -10px;
+    left: 27%;
+  }
+  #goldnbox2{
+    bottom: -10px;
+    left: 5%;
+  }
+}
