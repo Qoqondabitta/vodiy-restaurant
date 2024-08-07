@@ -1,0 +1,44 @@
+@media only screen and (max-width: 900px) {
+  #goldenbox1 {
+    width: 250px;
+    height: 300px;
+    top: -15px;
+    left: 95px;
+  }
+  #goldenbox2 {
+    width: 250px;
+    bottom: -15px;
+    height: 300px;
+    left: -5%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #goldenbox1 {
+    width: 250px;
+    height: 300px;
+    top: -15px;
+    left: 65px;
+  }
+  #goldenbox2 {
+    width: 250px;
+    bottom: -15px;
+    height: 300px;
+    left: -5%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #goldenbox1 {
+    width: 250px;
+    height: 300px;
+    top: -15px;
+    left: 25px;
+  }
+  #goldenbox2 {
+    width: 250px;
+    bottom: -15px;
+    height: 300px;
+    left: -5%;
+  }
+}

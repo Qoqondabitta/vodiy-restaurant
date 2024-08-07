@@ -23,21 +23,57 @@ export const Main = styled.div`
       rgba(124, 123, 123, 0)
     );
   }
+
+  @media only screen and (max-width: 1200px) {
+    height: 500px;
+  }
+  @media only screen and (max-width: 600px) {
+    height: 900px;
+  }
 `;
 
 export const Container = styled.div`
   max-width: 1300px;
   width: 100%;
   z-index: 10;
+
+  @media only screen and (max-width: 1200px) {
+    gap: 30px;
+  }
+  @media only screen and (max-width: 900px) {
+    gap: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    padding-bottom: 50px;
+    height: 100%;
+    justify-content: space-between;
+  }
 `;
 
 export const Left = styled.div`
   gap: 20px;
   width: 50%;
+
+  /* @media only screen and (max-width: 1200px) {
+    width: 60%;
+    padding: 0px 20px;
+  } */
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    padding: 0px 20px;
+  }
 `;
 export const Right = styled.div`
   position: relative;
   z-index: 0;
+
+  @media only screen and (max-width: 900px) {
+    padding-right: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    padding-right: 0px;
+  }
 `;
 
 export const Deliver = styled.img`
@@ -47,6 +83,28 @@ export const Deliver = styled.img`
   cursor: pointer;
   z-index: 2;
   object-position: center;
+
+  @media only screen and (max-width: 1200px) {
+    width: 400px;
+    height: 470px;
+  }
+  @media only screen and (max-width: 900px) {
+    width: 457px;
+    height: 526px;
+  }
+  @media only screen and (max-width: 900px) {
+    width: 330px;
+    height: 400px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    width: 300px;
+    height: 370px;
+  }
+  @media only screen and (max-width: 350px) {
+    width: 260px;
+    height: 340px;
+  }
 `;
 
 export const Links = styled.a`
@@ -60,6 +118,25 @@ export const Links = styled.a`
   border-bottom: 3px solid gold;
   margin: 0;
   padding-bottom: 5px;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: 70px;
+    line-height: 70px;
+    padding-bottom: 0px;
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: 60px;
+    line-height: 50px;
+    margin-bottom: 5px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
 `;
 
 export const Navigates = styled.a`
@@ -77,4 +154,31 @@ export const Title = styled.h1`
     large ? "90px" : minis ? "175%" : null};
   width: 500px;
   margin: 0;
+  @media only screen and (max-width: 1200px) {
+    width: 90%;
+    font-size: ${({ large, minis }) =>
+      large ? "70px" : minis ? "16px" : "20px"};
+    line-height: ${({ large, minis }) =>
+      large ? "70px" : minis ? "18px" : null};
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: ${({ large, minis }) =>
+      large ? "80px" : minis ? "16px" : "20px"};
+    line-height: ${({ large, minis }) =>
+      large ? "90px" : minis ? "175%" : null};
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: ${({ large, minis }) =>
+      large ? "60px" : minis ? "16px" : "20px"};
+    width: 90%;
+    line-height: ${({ large, minis }) =>
+      large ? "60px" : minis ? "18px" : "18px"};
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: ${({ large, minis }) =>
+      large ? "50px" : minis ? "16px" : "20px"};
+    /* width: 300px; */
+    line-height: ${({ large, minis }) =>
+      large ? "50px" : minis ? "18px" : "18px"};
+  }
 `;

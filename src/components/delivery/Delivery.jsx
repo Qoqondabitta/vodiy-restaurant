@@ -14,6 +14,7 @@ import courier from "../../assets/images/backgrounds/courier.webp";
 import { GoldBoxes } from "../about/style";
 import { e, f, n, o, w } from "../../constants/componentconstants/delivery";
 import { useSelector } from "react-redux";
+import "./delivery.css"
 
 const Delivery = () => {
   const l = useSelector((store) => store.language.value);
@@ -38,8 +39,8 @@ const Delivery = () => {
 
         <Right className="col-align-start">
           <Deliver src={courier} />
-          <GoldBoxes top="true"></GoldBoxes>
-          <GoldBoxes left="true"></GoldBoxes>
+          <GoldBoxes id="goldenbox1" top="true"></GoldBoxes>
+          <GoldBoxes id="goldenbox2" left="true"></GoldBoxes>
         </Right>
       </Container>
     </Main>
