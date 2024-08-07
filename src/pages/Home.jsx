@@ -8,7 +8,7 @@ import About from "../components/about/About";
 // import Delivery from "../components/delivery/Delivery";
 // import Vegan from "../components/vegan/vegan";
 // import Vegan from "../components/vegan/Vegan.jsx";
-// import Vegan from "../components/vegan/Vegan";
+import Vegan from "../components/vegan/Vegan";
 // import Zestav from "../components/zestav/Zestav";
 // import Address from "../components/map/Address";
 
@@ -17,7 +17,7 @@ const Home = () => {
     <div>
       <Navbar />
       <About />
-      {/* <Vegan /> */}
+      <Vegan />
       {/* <Zestav /> */}
       {/* <Delivery /> */}
       {/* <Address /> */}

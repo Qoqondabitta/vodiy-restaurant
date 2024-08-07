@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Left, Linker, Main, Note, Right, VeganFood, Button } from "./style";
-import { Title } from "../about/style";
+import { Container, Left, Linker, Main, Note, Right, VeganFood, Button, Title } from "./style";
+// import { Title } from "../about/style";
 import fried from "../../assets/images/foods/lagmanFried.png";
 import { useSelector } from "react-redux";
 import { d, v, y } from "../../constants/componentconstants/vegan";
