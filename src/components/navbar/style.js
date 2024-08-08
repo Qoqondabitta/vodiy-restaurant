@@ -63,11 +63,6 @@ export const Vodiy = styled.img`
   height: 120px;
   object-fit: cover;
   object-position: center;
-
-  /* @media only screen and (max-width: 1200px) {
-    width: 100px;
-    height: 100px;
-  } */
   @media only screen and (max-width: 1200px) {
     width: 80px;
     height: 80px;
@@ -109,9 +104,11 @@ export const Links = styled.a`
   color: white;
   font-size: 16px;
   color: white;
+  z-index: 50;
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Castoro Titling", serif;
+  cursor: pointer;
 
   @media only screen and (max-width: 1200px) {
     font-size: 12px;
@@ -167,6 +164,7 @@ export const Button = styled.button`
     display: ${({ round }) => (round ? "flex" : "none")};
     /* position: ${({ round }) => (round ? "flex" : "none")}; */
     position: fixed;
+    z-index: 200;
     top: ${({ top }) => top};
     /* top: 85%; */
     left: ${({ left }) => left};

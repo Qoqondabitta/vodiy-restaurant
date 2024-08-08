@@ -4,7 +4,7 @@ import About from "../components/about/About";
 import History from "../components/history/History";
 import Video from "../components/video/Video";
 import Reservation from "../components/reservation/Reservation";
-// import Footer from "../components/footer/Footer";
+import Footer from "../components/footer/Footer";
 import Delivery from "../components/delivery/Delivery";
 // import Vegan from "../components/vegan/vegan";
 // import Vegan from "../components/vegan/Vegan.jsx";
@@ -24,7 +24,7 @@ const Home = () => {
       <History />
       <Video />
       <Reservation />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

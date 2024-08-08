@@ -12,7 +12,7 @@ export const additives = [
     sign: { top: "15%", left: "24%" },
     vector: { deg: "15deg", bot: "30%", left: "40%" },
     leftPlacement: {
-      classTitle: "col-start-end",
+      classTitle: "col-start",
       note: ["Rice (150gr)", "Ryż (150gr)", "Рис (150 гр)"],
       ingredients: [
         `Satisfy your hunger with our Additives, and enjoy your meal. Enjoy life crumble by crumble, not bite by bite.`,
@@ -24,11 +24,11 @@ export const additives = [
     },
     rightPlacement: {
       dir: { dir: "top" },
-      classTitle: "align-start",
+      classTitle: "align-end",
       imgurl: rice,
       box: [
-        { top: "-20px", right: "-20px" },
-        { left: "-20px", bot: "-10px" },
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
       ],
     },
   },

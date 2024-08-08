@@ -11,7 +11,7 @@ export const salad = [
     sign: { top: "15%", left: "24%" },
     vector: { deg: "15deg", bot: "30%", left: "40%" },
     leftPlacement: {
-      classTitle: "col-start-end",
+      classTitle: "col-start",
       note: ["Achichuk (200gr)", "Achichuk (200gr)", "Ачичук (200 гр)"],
       ingredients: [
         `Ingridients: Tomato, cucumbers, onion, salt, pepper, cilantro, basil, greenery, bell pepper.`,
@@ -23,11 +23,11 @@ export const salad = [
     },
     rightPlacement: {
       dir: { dir: "top" },
-      classTitle: "align-start",
+      classTitle: "align-end",
       imgurl: achichuk,
       box: [
-        { top: "-20px", right: "-20px" },
-        { left: "-20px", bot: "-10px" },
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
       ],
     },
   },

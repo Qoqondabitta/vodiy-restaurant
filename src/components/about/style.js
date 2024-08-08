@@ -56,7 +56,9 @@ export const Container = styled.div`
 
 export const Left = styled.div`
   gap: 20px;
-
+  /* @media only screen and (max-width: 1200px) {
+    padding-left: 15px;
+  } */
   @media only screen and (max-width: 600px) {
     padding-left: 30px;
     height: 400px;
@@ -111,7 +113,7 @@ export const GoldBoxes = styled.div`
   right: ${({ top }) => top && "-20px"};
   bottom: ${({ left }) => left && "-20px"};
   left: ${({ left }) => left && "-20px"};
-  z-index: 1;
+  z-index: -1;
   color: transparent;
   background-color: #dcca87;
 
@@ -143,7 +145,8 @@ export const Title = styled.h1`
     font-size: ${({ large, minis }) =>
       large ? "70px" : minis ? "16px" : "20px"};
     line-height: ${({ large, minis }) =>
-      large ? "70px" : minis ? "18px" : null};
+  large ? "70px" : minis ? "18px" : null};
+      width: 410px;
   }
   @media only screen and (max-width: 900px) {
     font-size: ${({ large, minis }) =>
@@ -160,7 +163,7 @@ export const Title = styled.h1`
   }
   @media only screen and (max-width: 350px) {
     font-size: ${({ large, minis }) =>
-      large ? "50px" : minis ? "16px" : "20px"};
+      large ? "60px" : minis ? "16px" : "20px"};
     width: 300px;
     line-height: ${({ large, minis }) =>
       large ? "50px" : minis ? "18px" : "18px"};

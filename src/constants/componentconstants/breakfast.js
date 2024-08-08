@@ -11,7 +11,7 @@ export const breakfast = [
     sign: { top: "15%", left: "24%" },
     vector: { deg: "15deg", bot: "30%", left: "40%" },
     leftPlacement: {
-      classTitle: "col-start-end",
+      classTitle: "col-start",
       note: ["Sausages with Eggs", "Kiełbaski Z Jajkami", "Сосиски с яйцами"],
       ingredients: [
         `Satisfy your hunger with our mouth-watering and hearty Breakfast. Enjoy life crumble by crumble, not bite by bite.`,
@@ -23,11 +23,11 @@ export const breakfast = [
     },
     rightPlacement: {
       dir: { dir: "top" },
-      classTitle: "align-start",
+      classTitle: "align-end",
       imgurl: sausages,
       box: [
-        { top: "-20px", right: "-20px" },
-        { left: "-20px", bot: "-10px" },
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
       ],
     },
   },
@@ -97,11 +97,7 @@ export const breakfast = [
     vector: { deg: "195deg", bot: "42%", left: "45%" },
     leftPlacement: {
       classTitle: "col-end-start",
-      note: [
-        "English Breakfast",
-        "Angielskie śniadanie",
-        "Английский Завтрак",
-      ],
+      note: ["English Breakfast", "Angielskie śniadanie", "Английский Завтрак"],
       ingredients: [
         `Satisfy your hunger with our mouth-watering and hearty Breakfast. Enjoy life crumble by crumble, not bite by bite.`,
         `Zaspokój swój głód naszym przepysznym i pożywnym śniadaniem. Ciesz się życiem kruszonka po kruszonce, a nie gryzienie po kęsie`,

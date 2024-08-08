@@ -57,8 +57,12 @@ export const MapImg = styled.img`
   height: 500px;
   cursor: pointer;
 
+  @media only screen and (max-width: 1200px) {
+    width: 800px;
+  }
+
   @media only screen and (max-width: 900px) {
-    width: 730px;
+    width: 700px;
   }
   @media only screen and (max-width: 600px) {
     width: 500px;
@@ -101,15 +105,16 @@ export const Title = styled.h1`
 
   @media only screen and (max-width: 900px) {
     font-size: 50px;
-    line-height: 60px;
+    line-height: 50px;
+    width: 90%;
   }
   @media only screen and (max-width: 600px) {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 40px;
   }
   @media only screen and (max-width: 400px) {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
   }
   @media only screen and (max-width: 350px) {
     font-size: 40px;

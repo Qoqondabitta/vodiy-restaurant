@@ -45,10 +45,12 @@ export const ImageWrapper = styled.div`
   @media only screen and (max-width: 900px) {
     width: 2285px;
     height: 526px;
+    /* left: 10px; */
   }
   @media only screen and (max-width: 600px) {
     width: 1650px;
     height: 400px;
+    /* left: 0; */
   }
   @media only screen and (max-width: 400px) {
     width: 1500px;

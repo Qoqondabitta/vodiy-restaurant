@@ -22,7 +22,7 @@ const Delivery = () => {
     <Main id="delivery" className="center">
       <Container className="center">
         <Left className="col-align-start">
-          <Title style={{ color: "white", width: "fit-content" }} large="true">
+          <Title style={{ width: "fit-content" }} large="true">
             {l == "eng" ? e[0] : l == "pol" ? e[1] : e[2]}
             <Links href="https://food.bolt.eu/pl-PL/landing">
               {l == "eng" ? f[0] : l == "pol" ? f[1] : f[2]}

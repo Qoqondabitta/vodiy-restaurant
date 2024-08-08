@@ -35,6 +35,7 @@ export const NavTab = styled.a`
   font-weight: bold;
   cursor: pointer;
   color: #dcca87;
+  z-index: 15;
 
   @media only screen and (max-width: 350px) {
     font-size: 14px;

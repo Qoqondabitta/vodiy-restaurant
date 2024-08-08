@@ -23,6 +23,9 @@ import { changeTitle, title } from "../../../redux/title";
 import "./menuBar.css";
 import { btn } from "../../../constants/componentconstants/reservation";
 import { navbarItems } from "../../../constants/componentconstants/navbar";
+import Logo from "../../mini/logo/Logo";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { GiHotMeal } from "react-icons/gi";
 
 const MenuNavbar = () => {
   const dispatch = useDispatch();
@@ -35,7 +38,7 @@ const MenuNavbar = () => {
   return (
     <Main id="main" className="center">
       <Container className="just-evenly">
-        <Vodiy src={vodiy} />
+        <Logo />
         <List className="center">
           <NavLink style={{ textDecoration: "none" }} to="/">
             <Item sizefont="true">
@@ -71,6 +74,33 @@ const MenuNavbar = () => {
             </Button>
           </Links>
         </List>
+        <NavLink
+          id="hotmeal"
+          className="hotmeal"
+          style={{ textDecoration: "none" }}
+          to="/menu"
+        >
+          <GiHotMeal size="3.5rem" color="#dcca87" />
+        </NavLink>
+        <Button id="roundbtn" top="85%" left="83%" round="true">
+          <Links className="hotmeal" href="tel:+48502400608">
+            <FaPhone id="roundbtn" color="black" />
+          </Links>
+        </Button>
+        <Button
+          id="roundbtn"
+          className="center"
+          top="85%"
+          left="7%"
+          round="true"
+        >
+          <Links
+            className="hotmeal"
+            href="https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa"
+          >
+            <FaMapMarkerAlt id="roundbtn" color="black" size="1.2rem" />
+          </Links>
+        </Button>
       </Container>
     </Main>
   );

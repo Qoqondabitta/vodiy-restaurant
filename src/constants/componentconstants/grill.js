@@ -15,7 +15,7 @@ export const grill = [
     sign: { top: "15%", left: "24%" },
     vector: { deg: "15deg", bot: "35%", left: "40%" },
     leftPlacement: {
-      classTitle: "col-start-end",
+      classTitle: "col-start",
       note: [
         "Beef Shashlik (160gr)",
         "Szaszłyk Wołowy (160gr)",
@@ -31,11 +31,11 @@ export const grill = [
     },
     rightPlacement: {
       dir: { dir: "top" },
-      classTitle: "align-start",
+      classTitle: "align-end",
       imgurl: beefgrillkebab,
       box: [
-        { top: "-20px", right: "-20px" },
-        { left: "-20px", bot: "-10px" },
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
       ],
     },
   },

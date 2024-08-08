@@ -17,7 +17,7 @@ const Vegan = () => {
             <Note>{l == "eng" ? y[0] : l == "pol" ? y[1] : y[2]}</Note>
             <Spoon src={spoon} />
           </SpoonWrapper>
-          <Title style={{ color: "white", width: "fit-content" }} large="true">
+          <Title style={{ width: "fit-content" }} large="true">
             {l == "eng" ? d[0] : l == "pol" ? d[1] : d[2]}
           </Title>
           <Title minis="true">

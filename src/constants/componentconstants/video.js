@@ -30,4 +30,4 @@ export const videoconstants = [
 ];
 
 export const w = ["What We Have", "Co mamy", "Что мы имеем"];
-export const o = ["To Offer You", "Oferować Ci", "Чтобы предложить вам"];
+export const o = ["To Offer You", "Oferować Ci", "Чтобы предложить"];

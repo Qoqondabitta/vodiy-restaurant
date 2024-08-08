@@ -13,7 +13,7 @@
 @media only screen and (max-width: 600px) {
   #halal {
     bottom: 90%;
-    transform: scale(0.6);
+    /* transform: scale(0.7); */
     left: 70%;
   };
 }

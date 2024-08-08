@@ -14,7 +14,7 @@ export const soups = [
     sign: { top: "15%", left: "24%" },
     vector: { deg: "15deg", bot: "30%", left: "35%" },
     leftPlacement: {
-      classTitle: "col-start-end",
+      classTitle: "col-start",
       note: ["Soup (450gr)", "Zupa (450gr)", "Суп (450 гр"],
       ingredients: [
         `Ingridients: Beef Meat, Boiled Potato, Lamb Tail Fat, Red Carrot, Onion, Bell Pepper, Peas.`,
@@ -26,11 +26,11 @@ export const soups = [
     },
     rightPlacement: {
       dir: { dir: "top" },
-      classTitle: "align-start",
+      classTitle: "align-end",
       imgurl: soup,
       box: [
-        { top: "-20px", right: "-20px" },
-        { left: "-20px", bot: "-10px" },
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
       ],
     },
   },

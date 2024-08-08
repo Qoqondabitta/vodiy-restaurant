@@ -27,8 +27,11 @@ export const Main = styled.div`
   @media only screen and (max-width: 1200px) {
     height: 500px;
   }
+  @media only screen and (max-width: 900px) {
+    height: 850px;
+  }
   @media only screen and (max-width: 600px) {
-    height: 900px;
+    height: 830px;
   }
 `;
 
@@ -41,13 +44,15 @@ export const Container = styled.div`
     gap: 30px;
   }
   @media only screen and (max-width: 900px) {
-    gap: 10px;
+    gap: 70px;
+    flex-direction: column;
+    justify-content: space-between;
   }
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     padding-bottom: 50px;
-    height: 100%;
     justify-content: space-between;
+    height: 100%;
   }
 `;
 
@@ -55,10 +60,10 @@ export const Left = styled.div`
   gap: 20px;
   width: 50%;
 
-  /* @media only screen and (max-width: 1200px) {
-    width: 60%;
+  @media only screen and (max-width: 900px) {
+    width: 70%;
     padding: 0px 20px;
-  } */
+  }
   @media only screen and (max-width: 600px) {
     width: 100%;
     padding: 0px 20px;
@@ -81,7 +86,7 @@ export const Deliver = styled.img`
   height: 500px;
   object-fit: cover;
   cursor: pointer;
-  z-index: 2;
+  z-index: 0;
   object-position: center;
 
   @media only screen and (max-width: 1200px) {
@@ -124,12 +129,12 @@ export const Links = styled.a`
     line-height: 70px;
   }
   @media only screen and (max-width: 900px) {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 50px;
     padding-bottom: 0px;
   }
-  @media only screen and (max-width: 900px) {
-    font-size: 60px;
+  @media only screen and (max-width: 600px) {
+    font-size: 50px;
     line-height: 50px;
     margin-bottom: 5px;
   }
@@ -163,22 +168,22 @@ export const Title = styled.h1`
   }
   @media only screen and (max-width: 900px) {
     font-size: ${({ large, minis }) =>
-      large ? "80px" : minis ? "16px" : "20px"};
+      large ? "50px" : minis ? "16px" : "20px"};
     line-height: ${({ large, minis }) =>
-      large ? "90px" : minis ? "175%" : null};
+      large ? "50px" : minis ? "175%" : null};
   }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 600px) {
     font-size: ${({ large, minis }) =>
-      large ? "60px" : minis ? "16px" : "20px"};
+      large ? "50px" : minis ? "16px" : "20px"};
     width: 90%;
     line-height: ${({ large, minis }) =>
-      large ? "60px" : minis ? "18px" : "18px"};
+      large ? "50px" : minis ? "18px" : "18px"};
   }
   @media only screen and (max-width: 350px) {
     font-size: ${({ large, minis }) =>
-      large ? "50px" : minis ? "16px" : "20px"};
+      large ? "40px" : minis ? "16px" : "20px"};
     /* width: 300px; */
     line-height: ${({ large, minis }) =>
-      large ? "50px" : minis ? "18px" : "18px"};
+      large ? "40px" : minis ? "18px" : "18px"};
   }
 `;

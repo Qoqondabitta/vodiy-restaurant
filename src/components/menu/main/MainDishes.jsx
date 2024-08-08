@@ -21,18 +21,22 @@ import { useDispatch, useSelector } from "react-redux";
 import { store } from "../../../redux/store";
 import { minlist } from "../../../constants/componentconstants/menuNavbar";
 import { main } from "../../../constants/componentconstants/mainDishes";
+import goldenline from "../../../assets/images/objects/goldenLine.webp";
+import { GoldenLine } from "../menubar/style";
+import "./maindish.css";
 
 const MainDishes = () => {
-  const dispatch = useDispatch()
-  const language = useSelector(store => store.language.value)
-  const title = useSelector(store => store.title.value)
-  const res = minlist.filter(v=>v.tag==title)[0]?.data
+  const dispatch = useDispatch();
+  const language = useSelector((store) => store.language.value);
+  const title = useSelector((store) => store.title.value);
+  const res = minlist.filter((v) => v.tag == title)[0]?.data;
   return (
     <Main className="column-center">
-      {(res||main).map((v, i) => (
+      {(res || main).map((v, i) => (
         <Wrapper className="center" key={i}>
           <Container className={v.place}>
             <Scissors
+              id="halalround"
               src={Halal}
               top={v.certificate.top}
               left={v.certificate.left}
@@ -82,6 +86,7 @@ const MainDishes = () => {
               ></GoldBoxes>
             </Right>
           </Container>
+          <GoldenLine src={goldenline} />
         </Wrapper>
       ))}
     </Main>

@@ -27,6 +27,11 @@ export const Wrapper = styled.div`
       rgba(0, 0, 0, 0.45),
       rgba(124, 123, 123, 0)
     );
+
+    @media only screen and (max-width: 600px) {
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
   }
 `;
 
@@ -38,6 +43,27 @@ export const Container = styled.div`
   padding-bottom: 50px;
   padding-top: 50px;
   height: 610px;
+
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 1300px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 800px;
+    /* gap: 150px; */
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    height: 700px;
+  }
 `;
 
 export const Left = styled.div`
@@ -45,6 +71,20 @@ export const Left = styled.div`
   width: 50%;
   height: 100%;
   z-index: 10;
+
+  @media only screen and (max-width: 900px) {
+    width: 90%;
+    padding-left: 20px;
+    height: fit-content;
+    align-items: flex-start;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+    height: fit-content;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
 `;
 
 export const Right = styled.div`
@@ -52,6 +92,20 @@ export const Right = styled.div`
   height: 100%;
   z-index: 10;
   ${({ dir }) => dir}: -30px;
+
+  @media only screen and (max-width: 900px) {
+    top: 10px;
+    height: 50%;
+    justify-content: center;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    top: 10px;
+    height: 50%;
+    justify-content: center;
+    width: 100%;
+  }
 `;
 
 export const FoodIamge = styled.img`
@@ -61,6 +115,19 @@ export const FoodIamge = styled.img`
   z-index: 2;
   cursor: pointer;
   object-position: center;
+
+  @media only screen and (max-width: 600px) {
+    width: 300px;
+    height: 350px;
+  }
+  @media only screen and (max-width: 400px) {
+    width: 300px;
+    height: 350px;
+  }
+  @media only screen and (max-width: 350px) {
+    width: 250px;
+    height: 300px;
+  }
 `;
 
 export const GoldBoxes = styled.div`
@@ -74,6 +141,26 @@ export const GoldBoxes = styled.div`
   z-index: 1;
   color: transparent;
   background-color: #dcca87;
+
+  @media only screen and (max-width: 600px) {
+    width: 250px;
+    height: 250px;
+    left: ${({ left }) => left && "11%"};
+    right: ${({ right }) => right && "11%"};
+    top: ${({ top }) => top && "1%"};
+    bottom: ${({ bot }) => bot && "-4%"};
+  }
+  @media only screen and (max-width: 400px) {
+    width: 250px;
+    height: 250px;
+    left: ${({ left }) => left && "6%"};
+    right: ${({ right }) => right && "6%"};
+  }
+  @media only screen and (max-width: 350px) {
+    width: 200px;
+    height: 200px;
+    bottom: ${({ bot }) => bot && "-5%"};
+  }
 `;
 
 export const Note = styled.h1`
@@ -84,6 +171,15 @@ export const Note = styled.h1`
   font-weight: 600;
   color: rgb(162, 118, 62);
   font-family: "Cormorant Upright";
+  @media only screen and (max-width: 600px) {
+    font-size: 30px;
+    line-height: 25px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 26px;
+    line-height: 25px;
+    width: 120%;
+  }
 `;
 
 export const Ingridients = styled.p`
@@ -93,14 +189,31 @@ export const Ingridients = styled.p`
 
   text-align: ${({ side }) => side};
   width: 60%;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    text-align: left;
+  }
+  @media only screen and (max-width: 400px) {
+    font-size: 18px;
+    width: 120%;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 16px;
+    line-height: 18px;
+  }
 `;
 
 export const Price = styled.p`
   font-size: 40px;
   margin: 0;
   font-weight: 600;
-  /* color: #dcca87; */
   color: rgb(162, 118, 62);
+
+  @media only screen and (max-width: 350px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
 `;
 
 export const Vector = styled.img`
@@ -112,6 +225,15 @@ export const Vector = styled.img`
   bottom: ${({ bot }) => bot};
   left: ${({ left }) => left};
   transform: rotate(${({ deg }) => deg});
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+    top: 25%;
+    left: 65%;
+    transform: rotate(140deg);
+    width: 150px;
+    height: 150px;
+  }
 `;
 
 export const Signature = styled.h1`
@@ -124,4 +246,11 @@ export const Signature = styled.h1`
   line-height: 80px;
   top: ${({ top }) => top};
   left: ${({ left }) => left};
+
+  @media only screen and (max-width: 600px) {
+    top: 40%;
+    left: 5%;
+    font-size: 70px;
+    line-height: 70px;
+  }
 `;

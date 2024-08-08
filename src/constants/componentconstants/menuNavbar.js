@@ -15,9 +15,10 @@ export const menuNavbar = [
     title: ["Dishes", "Dania", "блюда"],
     tag: "main",
     data: main,
-    everyTag: "main soups additives bakery salad grill vegan"
+    everyTag: "main soups additives bakery salad grill vegan",
   },
   { title: ["Drinks", "Napoje", "Напитки"], tag: "drinks", data: drinks },
+  { title: ["Combo", "Zestav", "Комплект"], tag: "combo", data: drinks },
 ];
 
 export const dishbar = [
@@ -67,4 +68,9 @@ export const minlist = [
     data: additives,
   },
   { title: ["Salads", "Sałatki", "Салаты"], tag: "salad", data: salad },
+];
+
+
+export const secondlist = [
+  { title: ["Also", "Również", "Также"], tag: "drinks", data: drinks },
 ];

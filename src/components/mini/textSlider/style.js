@@ -12,11 +12,11 @@ export const Container = styled.div`
   }
   @media only screen and (max-width: 900px) {
     top: 17.5%;
-    left: 40%;
+    left: 42%;
   }
   @media only screen and (max-width: 600px) {
     top: 10.5%;
-    left: 28%;
+    left: 30%;
     width: 250px;
   }
   @media only screen and (max-width: 400px) {
@@ -25,8 +25,8 @@ export const Container = styled.div`
     width: 250px;
   }
   @media only screen and (max-width: 350px) {
-    top: 11%;
-    left: 30%;
+    top: 11.5%;
+    left: 40%;
     width: 200px;
   }
 `;
@@ -67,6 +67,6 @@ export const Meal = styled.p`
   }
   @media only screen and (max-width: 350px) {
     font-size: 40px;
-    line-height: 30px;
+    line-height: 40px;
   }
 `;

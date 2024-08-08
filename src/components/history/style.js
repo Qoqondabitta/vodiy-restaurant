@@ -66,10 +66,17 @@ export const Title = styled.h2`
     font-size: 50px;
     line-height: 50px;
   }
-
-  @media only screen and (max-width: 350px) {
+@media only screen and (max-width: 600px){
+  font-size: 40px;
+  line-height: 40px;
+}
+  @media only screen and (max-width: 400px) {
     font-size: 35px;
     line-height: 35px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 30px;
+    line-height: 30px;
   }
 `;
 
@@ -160,6 +167,8 @@ export const Scissors = styled.img`
   @media only screen and (max-width: 900px) {
     width: 80px;
     height: 80px;
+    right: 10%;
+    bottom: -15%;
   }
   @media only screen and (max-width: 600px) {
     bottom: -10%;

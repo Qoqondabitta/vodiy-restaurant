@@ -10,7 +10,7 @@ export const bakery = [
     sign: { top: "15%", left: "24%" },
     vector: { deg: "15deg", bot: "30%", left: "40%" },
     leftPlacement: {
-      classTitle: "col-start-end",
+      classTitle: "col-start",
       note: ["Bread (180gr)", "Chleb (180gr)", "Хлеб (180 гр)"],
       ingredients: [
         `Ingridients: Flour, yeast, milk, sugar, butter, salt, vegetable oil, egg.`,
@@ -22,11 +22,11 @@ export const bakery = [
     },
     rightPlacement: {
       dir: { dir: "top" },
-      classTitle: "align-start",
+      classTitle: "align-end",
       imgurl: bread,
       box: [
-        { top: "-20px", right: "-20px" },
-        { left: "-20px", bot: "-10px" },
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
       ],
     },
   },

@@ -44,6 +44,9 @@ export const Container = styled.div`
   @media only screen and (max-width: 1200px) {
     padding-bottom: 0px;
   }
+  @media only screen and (max-width: 900px){
+    flex-direction: column;
+  }
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     gap: 30px;
@@ -57,7 +60,9 @@ export const Left = styled.div`
   gap: 30px;
   width: 50%;
   padding-left: 20px;
-
+@media only screen and (max-width: 900px){
+  width: 70%;
+}
   @media only screen and (max-width: 600px) {
     width: 100%;
     padding: 0px 20px;
@@ -79,7 +84,7 @@ export const Title = styled.h1`
   font-size: ${({ large, minis }) =>
     large ? "70px" : minis ? "16px" : "30px"};
   color: ${({ large, minis }) =>
-    large ? "white" : minis ? "#AAAAAA" : "#dcca87"};
+    large ? "#dcca87" : minis ? "#AAAAAA" : "white"};
   font-weight: ${({ minis, large }) => (minis || large ? "400" : "600")};
   line-height: ${({ large, minis }) =>
     large ? "80px" : minis ? "175%" : null};
@@ -99,17 +104,17 @@ export const Title = styled.h1`
   }
   @media only screen and (max-width: 600px) {
     font-size: ${({ large, minis }) =>
-      large ? "60px" : minis ? "16px" : "20px"};
+      large ? "50px" : minis ? "16px" : "20px"};
     width: 100%;
     line-height: ${({ large, minis }) =>
       large ? "50px" : minis ? "18px" : "18px"};
   }
   @media only screen and (max-width: 350px) {
-    font-size: ${({ large, minis }) =>
-      large ? "50px" : minis ? "16px" : "20px"};
+    /* font-size: ${({ large, minis }) =>
+      large ? "30px" : minis ? "16px" : "20px"}; */
     width: 300px;
-    line-height: ${({ large, minis }) =>
-      large ? "50px" : minis ? "18px" : "18px"};
+    /* line-height: ${({ large, minis }) =>
+      large ? "30px" : minis ? "18px" : "18px"}; */
   }
 `;
 
@@ -205,10 +210,18 @@ export const Links = styled.a`
   }
   @media only screen and (max-width: 900px) {
     font-size: 60px;
-    line-height: 60px;
-  }
-  @media only screen and (max-width: 600px) {
-    font-size: 60px;
     line-height: 50px;
   }
+  @media only screen and (max-width: 600px) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  /* @media only screen and (max-width: 600px) {
+    font-size: 30px;
+    line-height: 30px;
+  } */
 `;

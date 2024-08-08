@@ -25,6 +25,9 @@ export const Main = styled.div`
       rgba(124, 123, 123, 0)
     );
   }
+  @media only screen and (max-width: 900px){
+    height: 900px;
+  }
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     align-items: center;
@@ -39,7 +42,12 @@ export const Container = styled.div`
   max-width: 1300px;
   width: 100%;
   z-index: 19;
-
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+  }
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     align-items: center;
@@ -57,6 +65,7 @@ export const Left = styled.div`
 
   @media only screen and (max-width: 900px) {
     padding-left: 20px;
+    width: 80%;
   }
   @media only screen and (max-width: 350px) {
     padding-left: 10px;
@@ -78,10 +87,6 @@ export const VeganFood = styled.img`
     width: 400px;
     height: 400px;
   }
-  @media only screen and (max-width: 900px) {
-    width: 350px;
-    height: 350px;
-  }
   @media only screen and (max-width: 600px) {
     width: 300px;
     height: 300px;
@@ -94,7 +99,7 @@ export const Note = styled.h1`
   letter-spacing: 0.04em;
   margin: 0;
   font-weight: 400;
-  color: #dcca87;
+  color: white;
   font-family: "Cormorant Upright";
 
   @media only screen and (max-width: 900px) {
@@ -140,13 +145,6 @@ export const Title = styled.h1`
       large ? "70px" : minis ? "16px" : "20px"};
     line-height: ${({ large, minis }) =>
       large ? "70px" : minis ? "18px" : null};
-  }
-  @media only screen and (max-width: 900px) {
-    font-size: ${({ large, minis }) =>
-      large ? "60px" : minis ? "14px" : "20px"};
-    line-height: ${({ large, minis }) =>
-      large ? "50px" : minis ? "16px" : null};
-    width: 350px;
   }
   @media only screen and (max-width: 600px) {
     font-size: ${({ large, minis }) =>
