@@ -31,6 +31,13 @@ export const Container = styled.div`
   width: 100%;
   height: 100%;
   z-index: 10;
+
+  @media only screen and (max-width: 900px) {
+    gap: 30px;
+  }
+  @media only screen and (max-width: 600px) {
+    gap: 20px;
+  }
 `;
 
 export const MapImg = styled.img`
@@ -39,6 +46,30 @@ export const MapImg = styled.img`
   width: 1000px;
   height: 500px;
   cursor: pointer;
+
+  @media only screen and (max-width: 900px) {
+    width: 730px;
+  }
+  @media only screen and (max-width: 600px) {
+    width: 500px;
+    height: 550px;
+  }
+  @media only screen and (max-width: 500px) {
+    width: 385px;
+    height: 435px;
+  }
+  @media only screen and (max-width: 420px) {
+    width: 370px;
+    height: 420px;
+  }
+  @media only screen and (max-width: 400px) {
+    width: 335px;
+    height: 385px;
+  }
+  @media only screen and (max-width: 350px) {
+    width: 280px;
+    height: 330px;
+  }
 `;
 
 export const Linker = styled.a`
@@ -56,4 +87,22 @@ export const Title = styled.h1`
   line-height: ${({ large, minis }) =>
     large ? "80px" : minis ? "175%" : null};
   margin: 0;
+  text-align: center;
+
+  @media only screen and (max-width: 900px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  @media only screen and (max-width: 400px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 40px;
+    line-height: 40px;
+  }
 `;
