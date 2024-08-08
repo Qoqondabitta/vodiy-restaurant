@@ -24,17 +24,53 @@
 .reservation-label {
   position: absolute;
   left: 9px;
-  top: 5px;
+  top: 10px;
   font-size: 18px;
   color: white;
-  background-color: black;
-  padding: 5px 7px;
+  /* background-color: black; */
   transition: all 0.25s;
 }
 
 .reservation-input:focus + .reservation-label, .reservation-input:not(:placeholder-shown) + .reservation-label{
     transform: translateY(-30px);
+padding: 5px 7px;
     font-size: 16px;
     background-color: #0c0c0c;
     z-index: 10;
+}
+
+#reservebtn{
+  width: 250px;
+}
+
+@media only screen and (max-width: 900px){
+  .reservation-input{
+    width: 200px;
+    height: 30px;
+  }
+#reservebtn{
+  width: 200px;
+}
+}
+
+
+@media only screen and (max-width: 600px){
+  .reservation-input{
+    width: 300px;
+    height: 40px;
+  }
+  #reservebtn{
+    width: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 350px){
+  .reservation-input{
+    width: 230px;
+    height: 35px;
+  }
+  #reservebtn{
+    width: 230px;
+  }
 }

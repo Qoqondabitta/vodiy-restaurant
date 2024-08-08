@@ -42,7 +42,7 @@ const Reservation = () => {
           ))}
         </InputWrappers>
         <Linker href="http://t.me/Restauracja_Vodiy">
-          <Button width="170px">
+          <Button id="reservebtn" width="170px">
             {l == "eng" ? btn[0] : l == "pol" ? btn[1] : btn[2]}
           </Button>
         </Linker>{" "}

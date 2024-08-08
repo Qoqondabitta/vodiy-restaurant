@@ -16,7 +16,7 @@ export const videoconstants = [
     phrase: [
       "Mouth-Watering Meals",
       "Obfite posiłki",
-      "Аппетитные и сытные блюда",
+      "Аппетитные&сытные блюда",
     ],
   },
   {
