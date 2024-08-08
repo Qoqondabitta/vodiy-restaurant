@@ -194,7 +194,7 @@ export const Text = styled.h1`
   font-weight: ${({ minis }) => (minis ? "600" : "400")};
   line-height: ${({ large, minis }) =>
     large ? "90px" : minis ? "175%" : null};
-  /* width: 450px; */
+  width: 450px;
   gap: 20px;
   margin: 0;
 

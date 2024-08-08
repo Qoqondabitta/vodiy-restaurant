@@ -24,6 +24,15 @@ export const Main = styled.div`
       rgba(124, 123, 123, 0)
     );
   }
+
+  @media only screen and (max-width: 1200px) {
+    height: 950px;
+    padding-block: 0px;
+  }
+  @media only screen and (max-width: 900px) {
+    height: 1200px;
+    padding-bottom: 50px;
+  }
 `;
 
 export const Container = styled.div`
@@ -31,6 +40,13 @@ export const Container = styled.div`
   height: 100%;
   gap: 30px;
   z-index: 10;
+
+  @media only screen and (max-width: 900px) {
+    gap: 20px;
+  }
+  @media only screen and (max-width: 350px) {
+    gap: 15px;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -40,6 +56,19 @@ export const Wrapper = styled.div`
   justify-content: center;
   gap: 20px;
   margin-top: 50px;
+
+  @media only screen and (max-width: 1200px) {
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 70px;
+  }
+  @media only screen and (max-width: 900px) {
+    gap: 70px;
+    margin-top: 80px;
+  }
+  @media only screen and (max-width: 350px){
+    gap: 60px
+  }
 `;
 
 export const VideoBox = styled.div`
@@ -47,22 +76,51 @@ export const VideoBox = styled.div`
   height: 200px;
   position: relative;
   margin-bottom: 20px;
+
+  @media only screen and (max-width: 600px) {
+    width: 190px;
+  }
+  @media only screen and (max-width: 400px) {
+    width: 160px;
+  }
+  @media only screen and (max-width: 350px) {
+    width: 140px;
+    margin-bottom: 0px;
+  }
 `;
 
 export const VideoWrapper = styled.div`
-gap: 30px;
+  gap: 30px;
+  margin: 0 auto;
+
+  @media only screen and (ma-width: 900px){
+    margin-top: 70px;
+  }
+  @media only screen and (max-width: 350px){
+    gap: 0px;
+  }
 `;
 
 export const Videos = styled.video`
   position: absolute;
   top: -20px;
-  /* left: ${({ left }) => left}; */
   left: -22px;
   width: 200%;
-  /* z-index: ${({ z }) => z}; */
   height: 100%;
   transform: scaleY(1.3);
-  /* transform: scale(1.05); */
+
+  @media only screen and (max-width: 450px) {
+    left: -10px;
+    top: -10px;
+  }
+  @media only screen and (max-width: 400px) {
+    left: 7px;
+    top: -10px;
+  }
+  @media only screen and (max-width: 350px) {
+    left: 0px;
+    top: -10px;
+  }
 `;
 
 export const Blur = styled.div`
@@ -76,7 +134,6 @@ export const Blur = styled.div`
   /* background-color: rgba(159, 156, 156, 0.268); */
 `;
 
-
 export const ZesTitle = styled.h1`
   font-family: "Cormorant Upright";
   font-size: ${({ large, minis }) =>
@@ -89,4 +146,11 @@ export const ZesTitle = styled.h1`
   /* width: 400px; */
   margin: 0;
   width: 356px;
+
+  @media only screen and (max-width: 400px) {
+    width: 335px;
+  }
+  @media only screen and (max-width: 350px) {
+    width: 280px;
+  }
 `;

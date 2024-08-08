@@ -7,15 +7,15 @@ export const videoconstants = [
     vidurl: video,
     phrase: [
       "Iconic&Elite Atmosphere",
-      "Kultowa i elitarna atmosfera",
-      "Культовая и элитная атмосфера",
+      "Kultowa&elitarna atmosfera",
+      "Культовая&элитная атмосфера",
     ],
   },
   {
     vidurl: uzbekmeal,
     phrase: [
-      "Mouth-Watering and Hearty Meals",
-      "Rozpływające się w ustach i obfite posiłki",
+      "Mouth-Watering Meals",
+      "Obfite posiłki",
       "Аппетитные и сытные блюда",
     ],
   },
@@ -23,8 +23,8 @@ export const videoconstants = [
     vidurl: service,
     phrase: [
       "Fast and Premium Service",
-      "Szybka i najwyższej jakości usługa",
-      "Быстрое и премиальное обслуживание",
+      "Najwyższej jakości usługa",
+      "Быстрое обслуживание",
     ],
   },
 ];
