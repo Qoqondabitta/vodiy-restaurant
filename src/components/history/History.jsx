@@ -2,15 +2,15 @@ import React from "react";
 import {
   BgV,
   Container,
-  Knife,
   Main,
   Parts,
   Scissors,
   SpoonWrapper,
   Title,
   Spoon,
+  Text
 } from "./style";
-import { Button, Title as Text } from "../about/style";
+import { Button } from "../about/style";
 import scissors from "../../assets/images/objects/scissors.png";
 import spoon from "../../assets/images/objects/spoon.png";
 import "./history.css";

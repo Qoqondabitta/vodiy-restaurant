@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import About from "../components/about/About";
-// import History from "../components/history/History";
+import History from "../components/history/History";
 // import Video from "../components/video/Video";
 // import Reservation from "../components/reservation/Reservation";
 // import Footer from "../components/footer/Footer";
@@ -21,7 +21,7 @@ const Home = () => {
       <Zestav />
       <Delivery />
       <Address />
-      {/* <History /> */}
+      <History />
       {/* <Video /> */}
       {/* <Reservation /> */}
       {/* <Footer /> */}

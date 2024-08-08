@@ -25,21 +25,29 @@ export const Main = styled.div`
       rgba(124, 123, 123, 0)
     );
   }
+  @media only screen and (max-width: 350px){
+  padding-block: 30px;
+}
 `;
 
 export const Container = styled.div`
   gap: 70px;
-  height: 100%;
+  /* height: 100%; */
   position: relative;
   padding-block: 50px;
-`;
 
-export const Knife = styled.img`
-  object-fit: cover;
-  object-position: center;
-  height: 553px;
-  width: 64px;
-  z-index: 2;
+  @media only screen and (max-width: 900px) {
+    padding-block: 30px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-block: 0px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -53,6 +61,16 @@ export const Title = styled.h2`
   font-feature-settings: "tnum" on, "lnum" on;
   color: #dcca87;
   margin: 0;
+
+  @media only screen and (max-width: 900px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    font-size: 35px;
+    line-height: 35px;
+  }
 `;
 
 export const Parts = styled.div`
@@ -62,16 +80,13 @@ export const Parts = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: ${({ left }) => (left ? "flex-end" : "flex-start")};
-`;
 
-export const V = styled.img`
-  object-fit: cover;
-  object-position: center;
-  height: 100%;
-  width: 500px;
-  position: absolute;
-  z-index: 0;
-  left: 31%;
+  @media only screen and (max-width: 900px) {
+    width: 40%;
+  }
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+  }
 `;
 
 export const BgV = styled.h1`
@@ -80,13 +95,43 @@ export const BgV = styled.h1`
   font-weight: 400;
   color: rgba(159, 156, 156, 0.268);
   z-index: 1;
-  height: 600px;
+  /* height: 600px; */
   position: absolute;
   top: -5%;
   left: 35%;
   margin: 0;
   padding: 0;
   font-style: normal;
+
+  @media only screen and (max-width: 1200px) {
+    /* left: 30%; */
+    top: 15%;
+    font-size: 450px;
+    line-height: 200px;
+    /* height: 200px; */
+  }
+  @media only screen and (max-width: 900px) {
+    left: 30%;
+    top: 10%;
+    font-size: 450px;
+    line-height: 200px;
+    /* height: 200px; */
+  }
+  @media only screen and (max-width: 600px) {
+    /* width: 300px; */
+    /* height: 350px; */
+    font-size: 300px;
+    line-height: 200px;
+    left: 30%;
+    top: 40%;
+  }
+  @media only screen and (max-width: 400px) {
+    left: 20%;
+  }
+  @media only screen and (max-width: 350px) {
+    left: 20%;
+    line-height: 100px;
+  }
 `;
 
 export const Blur = styled.div`
@@ -111,6 +156,18 @@ export const Scissors = styled.img`
   width: 120px;
   height: 120px;
   z-index: 2;
+
+  @media only screen and (max-width: 900px) {
+    width: 80px;
+    height: 80px;
+  }
+  @media only screen and (max-width: 600px) {
+    bottom: -10%;
+    right: 10%;
+  }
+  @media only screen and (max-width: 350px){
+    display: none;
+  } 
 `;
 
 export const SpoonWrapper = styled.div`
@@ -125,5 +182,42 @@ export const SpoonWrapper = styled.div`
 export const Spoon = styled.img`
   width: 40px;
   height: 9px;
-  transform: rotateY(${({rot})=>rot&&"180deg"});
+  transform: rotateY(${({ rot }) => rot && "180deg"});
+`;
+
+export const Text = styled.h1`
+  font-family: "Cormorant Upright";
+  font-size: ${({ large, minis }) =>
+    large ? "80px" : minis ? "16px" : "20px"};
+  color: ${({ large, minis }) =>
+    large ? "#DCCA87" : minis ? "#AAAAAA" : "white"};
+  font-weight: ${({ minis }) => (minis ? "600" : "400")};
+  line-height: ${({ large, minis }) =>
+    large ? "90px" : minis ? "175%" : null};
+  /* width: 450px; */
+  gap: 20px;
+  margin: 0;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: ${({ large, minis }) =>
+      large ? "70px" : minis ? "16px" : "20px"};
+    line-height: ${({ large, minis }) =>
+      large ? "70px" : minis ? "18px" : null};
+    width: 90%;
+  }
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: ${({ large, minis }) =>
+      large ? "60px" : minis ? "16px" : "20px"};
+    width: 300px;
+    line-height: ${({ large, minis }) =>
+      large ? "50px" : minis ? "18px" : "18px"};
+  }
+  @media only screen and (max-width: 350px) {
+    width: 100%;
+    font-size: 14px;
+  }
 `;

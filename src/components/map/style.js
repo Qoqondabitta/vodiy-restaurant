@@ -9,19 +9,29 @@ export const Main = styled.div`
   background-image: url(${bg});
   background-size: cover;
   background-repeat: no-repeat;
-  
+
   &:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(
-          to top,
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to top,
       rgba(0, 0, 0, 0.45),
       rgba(124, 123, 123, 0)
     );
+  }
+
+  @media only screen and (max-width: 600px) {
+    height: 600px;
+  }
+  @media only screen and (max-width: 400px) {
+    height: 550px;
+  }
+  @media only screen and (max-width: 350px) {
+    height: 500px;
   }
 `;
 
