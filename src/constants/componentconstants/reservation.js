@@ -5,18 +5,17 @@ export const inputConstants = [
   {
     sort: "number",
     labelValue: ["Number Of Guests", "Liczba Gości", "Количество гостей"],
+    title: "number",
   },
   {
     sort: "text",
     labelValue: ["Date And Time", "Data I Godzina", "Дата и Bремя"],
+    title: "time",
   },
   {
     sort: "text",
-    labelValue: [
-      "Name of Reserver",
-      "Imię Rezerwisty",
-      "Ha Имя",
-    ],
+    labelValue: ["Name of Reserver", "Imię Rezerwisty", "Ha Имя"],
+    title: "from_name",
   },
 ];
 
