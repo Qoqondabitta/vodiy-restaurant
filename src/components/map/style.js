@@ -25,6 +25,7 @@ export const Main = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
+    padding-top: 30px;
     height: 600px;
   }
   @media only screen and (max-width: 400px) {

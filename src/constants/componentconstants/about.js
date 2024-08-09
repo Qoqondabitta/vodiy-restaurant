@@ -9,7 +9,7 @@ export const meal = [
   { m: ["Beef Plov", "Pilaaff", "Плов"] },
   { m: ["Shashlik!", "Szaslik", "Кебаб"] },
   { m: ["Beef Soup", "Zupy", " Cупу"] },
-  { m: ["Sea Foods", "Ryby", "Рыба"] },
+  { m: ["Sea Food", "Ryby", "Рыба"] },
   { m: ["Beef Plov", "Pilaaff", "Плов"] },
 ];
 

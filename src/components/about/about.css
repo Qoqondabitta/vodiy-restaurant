@@ -44,7 +44,27 @@
     left: 7.5%;
   }
 }
+@media only screen and (max-width: 415px){
+   #goldnbox1 {
+    top: -43px;
+    left: 37.5%;
+  }
+  #goldnbox2{
+    bottom: -43px;
+    left: 5%;
+  }
+}
 
+@media only screen and (max-width: 412px){
+   #goldnbox1 {
+    top: -43px;
+    left: 37%;
+  }
+  #goldnbox2{
+    bottom: -43px;
+    left: 4.5%;
+  }
+}
 @media only screen and (max-width: 400px){
     #goldnbox1 {
     top: -25px;

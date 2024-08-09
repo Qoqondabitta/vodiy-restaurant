@@ -75,7 +75,7 @@ const Navbar = () => {
           <GiHotMeal size="3.5rem" color="#dcca87" />
         </NavLink>
         <Button id="roundbtn" top="85%" left="83%" round="true">
-          <Links className="hotmeal" href="tel:+48502400608">
+          <Links className="hotmeal" href="tel:+48795-999-991">
             <FaPhone id="roundbtn" color="black" />
           </Links>
         </Button>

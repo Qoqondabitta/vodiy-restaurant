@@ -13,6 +13,7 @@
 @media only screen and (max-width: 600px) {
   .hotmeal {
     display: flex;
+    z-index: 100;
   }
 }
 #hotmeal {

@@ -65,6 +65,9 @@ export const Meal = styled.p`
     font-size: 50px;
     line-height: 40px;
   }
+  @media only screen and (max-width: 415px){
+    font-size: 45px;
+  }
   @media only screen and (max-width: 350px) {
     font-size: 40px;
     line-height: 40px;

@@ -84,8 +84,8 @@ export const Right = styled.div`
     justify-content: center;
   }
 
-  @media only screen and (max-width: 400px) {
-    padding-left: 40px;
+  @media only screen and (max-width: 415px) {
+    padding-left: 35px;
   }
 
   @media only screen and (max-width: 350px) {

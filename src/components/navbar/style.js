@@ -141,6 +141,7 @@ export const Button = styled.button`
   background-color: #dcca87;
   border: none;
   font-size: 14px;
+  z-index: 100;
   height: 30px;
   cursor: pointer;
   display: ${({ round }) => (round ? "none" : "flex")};

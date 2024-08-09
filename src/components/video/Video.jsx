@@ -30,7 +30,7 @@ const Video = () => {
           {videoconstants.map((v, i) => (
             <VideoWrapper key={i} className="col-center">
               <VideoBox className="center">
-                <Videos src={v.vidurl} loop muted autoPlay />
+                <Videos src={v.vidurl} loop muted controls />
               </VideoBox>
               <ZesTitle>
                 {l == "eng"

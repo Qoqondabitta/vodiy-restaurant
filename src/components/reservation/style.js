@@ -37,7 +37,9 @@ export const Container = styled.div`
     height: 500px;
     width: 90%;
   }
-
+  @media only screen and (max-width: 415px) {
+    height: 470px;
+  }
   @media only screen and (max-width: 350px) {
     gap: 10px;
     height: 420px;
