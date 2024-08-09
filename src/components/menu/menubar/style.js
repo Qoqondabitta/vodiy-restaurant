@@ -39,12 +39,17 @@ export const Container = styled.div`
     gap: 20px;
     padding: 0px 10px;
   }
-
+  @media only screen and (max-width: 900px) {
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 30px 0px 0px;
+  }
   @media only screen and (max-width: 600px) {
     width: 100%;
     justify-content: space-between;
+    gap: 0px;
     padding: 0px 20px;
-    height: 80px;
+    height: 90px;
   }
 
   @media only screen and (max-width: 450px) {
@@ -71,6 +76,10 @@ export const List = styled.div`
   gap: 20px;
   position: relative;
   left: 30px;
+
+  @media only screen and (max-width: 900px) {
+    gap: 10px;
+  }
 
   @media only screen and (max-width: 600px) {
     display: none;
@@ -240,7 +249,7 @@ export const GoldenLine = styled.img`
   z-index: 10;
   display: none;
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px) {
     display: flex;
   }
 `;
@@ -250,7 +259,8 @@ export const DishP = styled.p`
   font-weight: 600;
   font-size: 14px;
   color: #dcca87;
-  
+  z-index: 10;
+
   @media only screen and (max-width: 350px) {
     font-size: 12px;
   }

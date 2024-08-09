@@ -26,7 +26,7 @@ const Minilist = () => {
 
   return (
     <Container className="center">
-      <NavLink style={{ textDecoration: "none" }} to="/">
+      <NavLink style={{ textDecoration: "none", zIndex: "100" }} to="/home">
         <DishP>{l == "eng" ? m[0] : l == "pol" ? m[1] : m[2]}</DishP>
       </NavLink>
       {menuNavbar.map((v, i) => (

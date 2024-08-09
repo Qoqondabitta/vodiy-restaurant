@@ -21,7 +21,10 @@ export const Main = styled.div`
       rgba(124, 123, 123, 0)
     );
   }
-`;
+
+  @media only screen and (max-width: 600px){
+    display: none;
+  }`;
 
 export const Container = styled.div`
   max-width: 1300px;

@@ -8,6 +8,7 @@ const Root = () => {
     <div>
       <Routes>
         <Route path="/" exact element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/menu" exact element={<Menu />} />
       </Routes>
     </div>

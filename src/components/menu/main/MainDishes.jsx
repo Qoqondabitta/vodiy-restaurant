@@ -53,6 +53,7 @@ const MainDishes = () => {
               deg={v.vector.deg}
               bot={v.vector.bot}
               left={v.vector.left}
+              num={v.id}
             />
             <Left className={v.leftPlacement.classTitle}>
               <Note>

@@ -7,9 +7,9 @@ export const vegan = [
   {
     id: 1,
     place: "center",
-    certificate: { top: "10%", left: "4%" },
-    sign: { top: "15%", left: "24%" },
-    vector: { deg: "15deg", bot: "30%", left: "40%" },
+    certificate: { top: "70%", left: "6%" },
+    sign: { top: "75%", left: "26%" },
+    vector: { deg: "75deg", bot: "42%", left: "35%" },
     leftPlacement: {
       classTitle: "col-start",
       note: ["Achichuk (200gr)", "Achichuk (200gr)", "Ачичук (200 гр)"],

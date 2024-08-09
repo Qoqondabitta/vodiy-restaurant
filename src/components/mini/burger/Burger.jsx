@@ -12,7 +12,7 @@ const Burger = () => {
   const i = pageLinker[0].title;
   return (
     <Rows className="center">
-      <NavLink style={{ textDecoration: "none", color: "#dcca87", fontWeight: "bold" }} to="/menu">
+      <NavLink style={{ textDecoration: "none", color: "#dcca87", fontWeight: "bold", zIndex:"20" }} to="/menu">
         {l == "eng" ? i[0] : l == "pol" ? i[1] : i[2]}
       </NavLink>
       {burgerbar.map((v, i) => (

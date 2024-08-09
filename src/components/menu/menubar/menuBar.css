@@ -3,3 +3,21 @@
     /* transform: scale(1.2); */
     font-size: 22px;
 }
+
+@media only screen and (max-width: 900px){
+#Product{
+    color: gold;
+    font-size: 14px;
+}
+#faphone{
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+    #faphone{
+        display: flex;
+    }
+}
+

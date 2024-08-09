@@ -44,11 +44,15 @@ export const Container = styled.div`
   padding-top: 50px;
   height: 610px;
 
+  @media only screen and (max-width: 1200px){
+    height: 560px;
+  }
+
   @media only screen and (max-width: 900px) {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    height: 1300px;
+    height: 900px;
   }
 
   @media only screen and (max-width: 600px) {
@@ -74,7 +78,7 @@ export const Left = styled.div`
 
   @media only screen and (max-width: 900px) {
     width: 90%;
-    padding-left: 20px;
+    padding-left: 40px;
     height: fit-content;
     align-items: flex-start;
   }
@@ -115,7 +119,14 @@ export const FoodIamge = styled.img`
   z-index: 2;
   cursor: pointer;
   object-position: center;
-
+  @media only screen and (max-width: 1200px) {
+    width: 425px;
+    height: 475px;
+  }
+  @media only screen and (max-width: 1200px) {
+    width: 400px;
+    height: 450px;
+  }
   @media only screen and (max-width: 600px) {
     width: 300px;
     height: 350px;
@@ -141,6 +152,21 @@ export const GoldBoxes = styled.div`
   z-index: 1;
   color: transparent;
   background-color: #dcca87;
+
+  @media only screen and (max-width: 1200px){
+    width: 325px;
+    height: 325px;
+    bot: -100px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    width: 300px;
+    height: 300px;
+    left: ${({ left }) => left && "21.5%"};
+    right: ${({ right }) => right && "21.5%"};
+    top: ${({ top }) => top && "-17%"};
+    bottom: ${({ bot }) => bot && "-5%"};
+  }
 
   @media only screen and (max-width: 600px) {
     width: 250px;
@@ -190,6 +216,10 @@ export const Ingridients = styled.p`
   text-align: ${({ side }) => side};
   width: 60%;
 
+  @media only screen and (max-width: 900px) {
+    text-align: left;
+  }
+
   @media only screen and (max-width: 600px) {
     width: 100%;
     text-align: left;
@@ -226,6 +256,14 @@ export const Vector = styled.img`
   left: ${({ left }) => left};
   transform: rotate(${({ deg }) => deg});
 
+  @media only screen and (max-width: 900px) {
+    width: 175px;
+    height: 175px;
+    top: 24%;
+    left: 30%;
+    transform: rotate(85deg);
+  }
+
   @media only screen and (max-width: 600px) {
     display: none;
     top: 25%;
@@ -246,6 +284,11 @@ export const Signature = styled.h1`
   line-height: 80px;
   top: ${({ top }) => top};
   left: ${({ left }) => left};
+
+  @media only screen and (max-width: 900px) {
+    top: 30%;
+    left: 65%;
+  }
 
   @media only screen and (max-width: 600px) {
     top: 40%;

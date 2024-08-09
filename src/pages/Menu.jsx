@@ -19,7 +19,7 @@ const Menu = () => {
       {title !== "drinks" && <Dishbar />}
       {/* <GoldenLine src={goldenline} /> */}
       <MainDishes />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

@@ -10,9 +10,9 @@ export const drinks = [
   {
     id: 1,
     place: "center",
-    certificate: { top: "10%", left: "4%" },
-    sign: { top: "15%", left: "24%" },
-    vector: { deg: "15deg", bot: "30%", left: "40%" },
+    certificate: { top: "70%", left: "6%" },
+    sign: { top: "75%", left: "26%" },
+    vector: { deg: "75deg", bot: "42%", left: "35%" },
     leftPlacement: {
       classTitle: "col-start",
       note: [
@@ -23,7 +23,7 @@ export const drinks = [
       ingredients: [
         `Quench your thirst with our cooling and healthy tea, and enjoy your meal. Enjoy life sip by sip, not gulp by gulp.`,
         `Ugaś pragnienie naszą ukochaną i zdrową herbatą, ciesz się posiłkiem. Ciesz się życiem łyk za łykiem`,
-        `Утолите жажду нашим любимым и полезным чаем и наслаждайтесь. Наслаждайтесь жизнью глоток за глотком.`,
+        `Утолите жажду нашим любимым и полезным чаем. Наслаждайтесь жизнью глоток за глотком.`,
       ],
       size: "left",
       price: "5.99zl (Lemon Tea 14.99zl)",
@@ -50,7 +50,7 @@ export const drinks = [
       ingredients: [
         `Quench your thirst with our cooling and relaxing compote, and enjoy your meal. Enjoy life sip by sip, not gulp by gulp.`,
         `Ugaś pragnienie naszym chłodzącym i relaksującym kompotem i ciesz się posiłkiem. Ciesz się życiem łyk po łyku.`,
-        `Утолите жажду нашим охлаждающим и расслабляющим компотом и наслаждайтесь трапезой. Наслаждайся жизнью глоток за глотком.`,
+        `Утолите жажду нашим охлаждающим и расслабляющим компотом. Наслаждайся жизнью глоток за глотком.`,
       ],
       size: "right",
       price: "4.99zl(300ml) / 14.99zl(1L) ",
@@ -81,7 +81,7 @@ export const drinks = [
       ingredients: [
         `Quench your thirst with our cooling and sour ayran, and enjoy your meal. Enjoy life sip by sip, not gulp by gulp.`,
         `Ugaś pragnienie naszym chłodzącym i kwaśnym ayranem i ciesz się posiłkiem. Ciesz się życiem łyk po łyku.`,
-        `Утолите жажду нашим охлаждающим и кисловатым айраном и наслаждайтесь трапезой. Наслаждайся жизнью глоток за глотком.`,
+        `Утолите жажду нашим охлаждающим и кисловатым айраном. Наслаждайся жизнью глоток за глотком.`,
       ],
       size: "left",
       price: "4.99zl",
@@ -112,7 +112,7 @@ export const drinks = [
       ingredients: [
         `Quench your thirst with our cooling still or sparling water, and enjoy your meal. Enjoy life sip by sip, not gulp by gulp.`,
         `Ugaś pragnienie naszą chłodzącą wodą niegazowaną lub gazowaną i ciesz się posiłkiem. Ciesz się życiem łyk po łyku.`,
-        `Утолите жажду нашей прохладной негазированной или газированной водой и наслаждайтесь едой. Наслаждайся жизнью глоток за глотком.`,
+        `Утолите жажду нашей прохладной негазированной или газированной водой. Наслаждайся жизнью глоток за глотком.`,
       ],
       size: "right",
       price: "5.99zl",
@@ -139,7 +139,7 @@ export const drinks = [
       ingredients: [
         `Quench your thirst with our cooling and relaxing Lemonade, and enjoy your meal. Enjoy life sip by sip, not gulp by gulp.`,
         `Ugaś pragnienie naszą chłodzącą i relaksującą lemoniadą i ciesz się posiłkiem. Ciesz się życiem łyk po łyku.`,
-        `Утолите жажду нашим охлаждающим и расслабляющим лимонадом и наслаждайтесь едой. Наслаждайся жизнью глоток за глотком.`,
+        `Утолите жажду нашим охлаждающим и расслабляющим лимонадом. Наслаждайся жизнью глоток за глотком.`,
       ],
       size: "left",
       price: "11.99zl",

@@ -64,8 +64,8 @@ const MenuNavbar = () => {
         </List>
         <List className="center">
           <Box className="center">
-            <FaPhone />
-            <Links href="tel:+48502400608">+48 502-400-608</Links>
+            <FaPhone id="faphone" />
+            <Links href="tel:+48502400608">+48 795-999-991</Links>
           </Box>
           <Stick></Stick>
           <Links href="http://t.me/Restauracja_Vodiy">

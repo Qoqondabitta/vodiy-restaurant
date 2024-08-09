@@ -25,7 +25,7 @@ export const Main = styled.div`
 export const Container = styled.div`
   max-width: 1300px;
   width: 100%;
-  gap: 150px;
+  gap:50px;
   z-index: 10;
 
   @media only screen and (max-width: 1200px) {
