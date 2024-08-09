@@ -76,7 +76,7 @@ ciasto francuskie, pieprz czarny, sos pomidorowy.`,
 `,
       ],
       size: "left",
-      price: "9.99zl",
+      price: "11.99zl",
     },
     rightPlacement: {
       dir: { dir: "bottom" },

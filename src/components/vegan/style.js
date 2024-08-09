@@ -10,7 +10,6 @@ export const Main = styled.div`
   padding-block: 50px;
   padding-bottom: 50px;
   position: relative;
-  background-color: red;
 
   &:before {
     content: "";
@@ -67,6 +66,10 @@ export const Left = styled.div`
     padding-left: 20px;
     width: 80%;
   }
+  @media only screen and (max-width: 600px){
+    width: 100%;
+    /* padding-left: 10px; */
+  }
   @media only screen and (max-width: 350px) {
     padding-left: 10px;
   }
@@ -119,6 +122,7 @@ export const Button = styled.button`
   background-color: #dcca87;
   border: none;
   font-size: 14px;
+  color: black;
   height: 35px;
   cursor: pointer;
   transition: all 0.7s;

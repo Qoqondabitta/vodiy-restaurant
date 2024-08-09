@@ -14,7 +14,7 @@ export const pageLinker = [{ title: ["Menu", "Menu", "Меню"], path: "/menu" 
 
 export const burgerbar = [
   { title: ["Vegan", "Vegan", "Веган"], path: "#vegan" },
-  { title: ["Combo Meals", "Zestav", "Скидки"], path: "#discount" },
+  { title: ["Combo", "Zestav", "Скидки"], path: "#discount" },
   { title: ["Bolt", "Bolt", "Доставка"], path: "#delivery" },
   { title: ["Language", "Język", "Язык"], path: "#footer" },
 ];

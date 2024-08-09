@@ -126,6 +126,7 @@ export const Button = styled.button`
   border: none;
   font-size: 14px;
   height: 35px;
+  color: black;
   cursor: pointer;
   margin-top: 20px;
   transition: all 0.7s;

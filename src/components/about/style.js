@@ -64,8 +64,10 @@ export const Left = styled.div`
     height: 400px;
     justify-content: flex-start;
   }
+  @media only screen and (max-width: 415px){
+    padding-left: 10px;
+  }
   @media only screen and (max-width: 350px) {
-    padding-left: 20px;
     height: 400px;
     justify-content: flex-start;
   }
@@ -175,6 +177,7 @@ export const Button = styled.button`
   font-family: "Cormorant Upright";
   font-weight: 600;
   background-color: #dcca87;
+  color: black;
   border: none;
   font-size: 14px;
   height: 35px;
