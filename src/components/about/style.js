@@ -43,8 +43,8 @@ export const Container = styled.div`
 
   @media only screen and (max-width: 600px) {
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
     gap: 0px;
     height: 850px;
   }
@@ -60,7 +60,7 @@ export const Left = styled.div`
     padding-left: 15px;
   } */
   @media only screen and (max-width: 600px) {
-    padding-left: 30px;
+    /* padding-left: 30px; */
     height: 400px;
     justify-content: flex-start;
   }
@@ -79,17 +79,17 @@ export const Right = styled.div`
 
   @media only screen and (max-width: 600px) {
     height: 350px;
-    padding-left: 45px;
+    /* padding-left: 45px; */
     align-items: center;
     justify-content: center;
   }
 
   @media only screen and (max-width: 415px) {
-    padding-left: 35px;
+    /* padding-left: 35px; */
   }
 
   @media only screen and (max-width: 350px) {
-    padding-left: 30px;
+    /* padding-left: 30px; */
   }
 `;
 
@@ -147,8 +147,8 @@ export const Title = styled.h1`
     font-size: ${({ large, minis }) =>
       large ? "70px" : minis ? "16px" : "20px"};
     line-height: ${({ large, minis }) =>
-  large ? "70px" : minis ? "18px" : null};
-      width: 410px;
+      large ? "70px" : minis ? "18px" : null};
+    width: 410px;
   }
   @media only screen and (max-width: 900px) {
     font-size: ${({ large, minis }) =>
@@ -158,17 +158,27 @@ export const Title = styled.h1`
   }
   @media only screen and (max-width: 600px) {
     font-size: ${({ large, minis }) =>
-      large ? "60px" : minis ? "16px" : "20px"};
-    width: 300px;
+      large ? "55px" : minis ? "16px" : "18px"};
+    width: ${({ large }) => (large ? "390px" : null)};
+    height: ${({ large }) => large && "120px"};
+    line-height: ${({ large, minis }) =>
+      large ? "55px" : minis ? "18px" : "18px"};
+  }
+  @media only screen and (max-width: 400px) {
+    font-size: ${({ large, minis }) =>
+      large ? "50px" : minis ? "16px" : "18px"};
+    height: ${({ large }) => large && "110px"};
+    width: 350px;
     line-height: ${({ large, minis }) =>
       large ? "50px" : minis ? "18px" : "18px"};
   }
   @media only screen and (max-width: 350px) {
     font-size: ${({ large, minis }) =>
-      large ? "60px" : minis ? "16px" : "20px"};
+      large ? "45px" : minis ? "16px" : "18px"};
+    height: ${({ large }) => large && "100px"};
     width: 300px;
     line-height: ${({ large, minis }) =>
-      large ? "50px" : minis ? "18px" : "18px"};
+      large ? "45px" : minis ? "18px" : "18px"};
   }
 `;
 

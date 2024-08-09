@@ -38,7 +38,7 @@ export const Main = styled.div`
 export const Container = styled.div`
   max-width: 1300px;
   width: 100%;
-  z-index: 10;
+  z-index: 0;
 
   @media only screen and (max-width: 1200px) {
     gap: 30px;
@@ -86,7 +86,7 @@ export const Deliver = styled.img`
   height: 500px;
   object-fit: cover;
   cursor: pointer;
-  z-index: 0;
+  /* z-index: 0; */
   object-position: center;
 
   @media only screen and (max-width: 1200px) {
@@ -123,6 +123,7 @@ export const Links = styled.a`
   border-bottom: 3px solid gold;
   margin: 0;
   padding-bottom: 5px;
+  z-index: 10;
 
   @media only screen and (max-width: 1200px) {
     font-size: 70px;
@@ -158,6 +159,7 @@ export const Title = styled.h1`
   line-height: ${({ large, minis }) =>
     large ? "90px" : minis ? "175%" : null};
   width: 500px;
+  z-index: 10;
   margin: 0;
   @media only screen and (max-width: 1200px) {
     width: 90%;

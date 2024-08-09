@@ -13,14 +13,7 @@
 }
 @media only screen and (max-width: 600px) {
   #halal {
-    bottom: 90%;
-    /* transform: scale(0.7); */
-    left: 70%;
-  };
-}
-@media only screen and (max-width: 415px) {
-  #halal {
-    bottom: 95%;
+    top: -3%;
     /* transform: scale(0.7); */
     left: 70%;
   };
@@ -37,14 +30,14 @@
 @media only screen and (max-width: 600px){
     #goldnbox1 {
     top: -43px;
-    left: 38.5%;
+    left: 30%;
   }
   #goldnbox2{
     bottom: -43px;
-    left: 7.5%;
+    left: -5%;
   }
 }
-@media only screen and (max-width: 415px){
+/* @media only screen and (max-width: 415px){
    #goldnbox1 {
     top: -43px;
     left: 37.5%;
@@ -64,25 +57,25 @@
     bottom: -43px;
     left: 4.5%;
   }
-}
+} */
 @media only screen and (max-width: 400px){
     #goldnbox1 {
     top: -25px;
-    left: 31%;
+    left: 22%;
   }
   #goldnbox2{
     bottom: -25px;
-    left: 7%;
+    left: -5%;
   }
 }
 
 @media only screen and (max-width: 350px){
     #goldnbox1 {
     top: -10px;
-    left: 27%;
+    left: 19.5%;
   }
   #goldnbox2{
     bottom: -10px;
-    left: 5%;
+    left: -5.5%;
   }
 }

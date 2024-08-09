@@ -15,18 +15,13 @@ export const Container = styled.div`
     left: 42%;
   }
   @media only screen and (max-width: 600px) {
-    top: 10.5%;
-    left: 30%;
-    width: 250px;
-  }
-  @media only screen and (max-width: 400px) {
-    top: 10.5%;
-    left: 32%;
+    top: 12%;
+    left: 0%;
     width: 250px;
   }
   @media only screen and (max-width: 350px) {
-    top: 11.5%;
-    left: 40%;
+    top: 12%;
+    left: 1%;
     width: 200px;
   }
 `;
@@ -62,14 +57,15 @@ export const Meal = styled.p`
     line-height: 70px;
   }
   @media only screen and (max-width: 600px) {
-    font-size: 50px;
-    line-height: 40px;
+    font-size: 55px;
+    line-height: 55px;
   }
-  @media only screen and (max-width: 415px){
-    font-size: 45px;
+  @media only screen and (max-width: 400px) {
+    font-size: 50px;
+    line-height: 50px;
   }
   @media only screen and (max-width: 350px) {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 45px;
+    line-height: 45px;
   }
 `;

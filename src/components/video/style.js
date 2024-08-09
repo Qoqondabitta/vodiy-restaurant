@@ -33,6 +33,9 @@ export const Main = styled.div`
     height: 1200px;
     padding-bottom: 50px;
   }
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const Container = styled.div`
@@ -66,8 +69,11 @@ export const Wrapper = styled.div`
     gap: 70px;
     margin-top: 80px;
   }
-  @media only screen and (max-width: 350px){
-    gap: 60px
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+  @media only screen and (max-width: 350px) {
+    gap: 60px;
   }
 `;
 
@@ -93,10 +99,10 @@ export const VideoWrapper = styled.div`
   gap: 30px;
   margin: 0 auto;
 
-  @media only screen and (ma-width: 900px){
+  @media only screen and (ma-width: 900px) {
     margin-top: 70px;
   }
-  @media only screen and (max-width: 350px){
+  @media only screen and (max-width: 350px) {
     gap: 0px;
   }
 `;

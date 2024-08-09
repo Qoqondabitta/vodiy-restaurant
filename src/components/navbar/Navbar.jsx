@@ -8,6 +8,7 @@ import {
   Main,
   Stick,
   Button,
+  DataUrl,
 } from "./style";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -74,25 +75,22 @@ const Navbar = () => {
         >
           <GiHotMeal size="3.5rem" color="#dcca87" />
         </NavLink>
-        <Button id="roundbtn" top="85%" left="83%" round="true">
-          <Links className="hotmeal" href="tel:+48795-999-991">
-            <FaPhone id="roundbtn" color="black" />
-          </Links>
-        </Button>
-        <Button
-          id="roundbtn"
-          className="center"
+        <DataUrl
           top="85%"
-          left="7%"
-          round="true"
+          left="83%"
+          className="hotmeal center"
+          href="tel:+48795-999-991"
         >
-          <Links
-            className="hotmeal"
-            href="https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa"
-          >
-            <FaMapMarkerAlt id="roundbtn" color="black" size="1.2rem" />
-          </Links>
-        </Button>
+          <FaPhone id="roundbtn" color="black" />
+        </DataUrl>
+        <DataUrl
+          top="86%"
+          left="6%"
+          className="hotmeal center"
+          href="https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa"
+        >
+          <FaMapMarkerAlt id="roundbtn" color="black" size="1.2rem" />
+        </DataUrl>
       </Container>
       <Burger />
     </Main>

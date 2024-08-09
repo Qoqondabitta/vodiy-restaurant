@@ -6,7 +6,7 @@ export const Main = styled.div`
   position: relative;
 
   @media only screen and (max-width: 600px) {
-    height: 540px;
+    height: 500px;
   }
   @media only screen and (max-width: 350px) {
     height: 460px;
@@ -22,7 +22,7 @@ export const Container = styled.div`
   background: #0c0c0c;
   position: absolute;
   top: 200px;
-  z-index: 10;
+  z-index: 0;
 
   @media only screen and (max-width: 1200px) {
     top: 70px;
@@ -34,7 +34,7 @@ export const Container = styled.div`
   }
   @media only screen and (max-width: 600px) {
     top: 20px;
-    height: 500px;
+    height: 450px;
     width: 90%;
   }
   @media only screen and (max-width: 415px) {

@@ -167,9 +167,7 @@ export const Button = styled.button`
     position: fixed;
     z-index: 200;
     top: ${({ top }) => top};
-    /* top: 85%; */
     left: ${({ left }) => left};
-    /* left: 85%; */
   }
 `;
 
@@ -177,6 +175,28 @@ export const IconBurger = styled.div`
   display: none;
 
   @media only screen and (max-width: 600px) {
+    display: flex;
+  }
+`;
+
+
+export const DataUrl = styled.a`
+  font-family: "Cormorant Upright";
+  font-weight: 600;
+  background-color: #dcca87;
+  border: 1px solid black;
+  font-size: 14px;
+  z-index: 100;
+  height: 40px;
+  cursor: pointer;
+  width: 40px;
+  border-radius: 50%;
+  position: fixed;
+  top: ${({ top }) => top};
+  left: ${({ left }) => left};
+  display: none;
+
+  @media only screen and (max-width: 600px){
     display: flex;
   }
 `;

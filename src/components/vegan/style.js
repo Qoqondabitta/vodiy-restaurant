@@ -40,7 +40,7 @@ export const Main = styled.div`
 export const Container = styled.div`
   max-width: 1300px;
   width: 100%;
-  z-index: 19;
+  z-index: 0;
   @media only screen and (max-width: 900px) {
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@ export const Right = styled.div`
 export const VeganFood = styled.img`
   width: 500px;
   height: 500px;
-  z-index: 0;
+  /* z-index: 0; */
   object-fit: cover;
   object-position: center;
 
@@ -104,6 +104,7 @@ export const Note = styled.h1`
   font-weight: 400;
   color: white;
   font-family: "Cormorant Upright";
+  z-index: 19;
 
   @media only screen and (max-width: 900px) {
     font-size: 20px;
@@ -112,6 +113,7 @@ export const Note = styled.h1`
 `;
 
 export const Linker = styled.a`
+  z-index: 19;
   text-decoration: none;
 `;
 
@@ -122,6 +124,7 @@ export const Button = styled.button`
   background-color: #dcca87;
   border: none;
   font-size: 14px;
+  z-index: 19;
   color: black;
   height: 35px;
   cursor: pointer;

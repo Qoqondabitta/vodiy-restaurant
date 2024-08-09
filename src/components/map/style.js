@@ -26,7 +26,7 @@ export const Main = styled.div`
 
   @media only screen and (max-width: 600px) {
     padding-top: 30px;
-    height: 600px;
+    height: 630px;
   }
   @media only screen and (max-width: 400px) {
     height: 550px;
@@ -41,7 +41,7 @@ export const Container = styled.div`
   gap: 50px;
   width: 100%;
   height: 100%;
-  z-index: 10;
+  z-index: 0;
 
   @media only screen and (max-width: 900px) {
     gap: 30px;
@@ -57,6 +57,7 @@ export const MapImg = styled.img`
   width: 1000px;
   height: 500px;
   cursor: pointer;
+  /* z-index: -1; */
 
   @media only screen and (max-width: 1200px) {
     width: 800px;
@@ -102,6 +103,7 @@ export const Title = styled.h1`
   line-height: ${({ large, minis }) =>
     large ? "80px" : minis ? "175%" : null};
   margin: 0;
+  z-index: 10;
   text-align: center;
 
   @media only screen and (max-width: 900px) {
