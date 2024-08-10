@@ -64,7 +64,7 @@ export const Left = styled.div`
     height: 400px;
     justify-content: flex-start;
   }
-  @media only screen and (max-width: 415px){
+  @media only screen and (max-width: 415px) {
     padding-left: 10px;
   }
   @media only screen and (max-width: 350px) {
@@ -166,11 +166,13 @@ export const Title = styled.h1`
   }
   @media only screen and (max-width: 400px) {
     font-size: ${({ large, minis }) =>
-      large ? "50px" : minis ? "16px" : "18px"};
+      large ? "45px" : minis ? "16px" : "18px"};
+      /* background-color: ${({ large }) => large && "red"}; */
     height: ${({ large }) => large && "110px"};
     width: 350px;
+    /* width: 370px; */
     line-height: ${({ large, minis }) =>
-      large ? "50px" : minis ? "18px" : "18px"};
+      large ? "45px" : minis ? "18px" : "18px"};
   }
   @media only screen and (max-width: 350px) {
     font-size: ${({ large, minis }) =>

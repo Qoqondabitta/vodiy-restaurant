@@ -74,7 +74,7 @@ export const Left = styled.div`
   gap: 20px;
   width: 50%;
   height: 100%;
-  z-index: 10;
+  /* z-index: 10; */
 
   @media only screen and (max-width: 900px) {
     width: 90%;
@@ -94,7 +94,7 @@ export const Left = styled.div`
 export const Right = styled.div`
   position: relative;
   height: 100%;
-  z-index: 10;
+  /* z-index: 10; */
   ${({ dir }) => dir}: -30px;
 
   @media only screen and (max-width: 900px) {
@@ -116,7 +116,7 @@ export const FoodIamge = styled.img`
   width: 450px;
   height: 500px;
   object-fit: cover;
-  z-index: 2;
+  z-index: 1;
   cursor: pointer;
   object-position: center;
   @media only screen and (max-width: 1200px) {
@@ -149,11 +149,11 @@ export const GoldBoxes = styled.div`
   right: ${({ right }) => right};
   bottom: ${({ bot }) => bot};
   left: ${({ left }) => left};
-  z-index: 1;
+  z-index: 0;
   color: transparent;
   background-color: #dcca87;
 
-  @media only screen and (max-width: 1200px){
+  @media only screen and (max-width: 1200px) {
     width: 325px;
     height: 325px;
     bot: -100px;
@@ -176,11 +176,21 @@ export const GoldBoxes = styled.div`
     top: ${({ top }) => top && "1%"};
     bottom: ${({ bot }) => bot && "-4%"};
   }
+  @media only screen and (max-width: 415px) {
+    left: ${({ left }) => left && "9%"};
+    right: ${({ right }) => right && "9%"};
+  }
   @media only screen and (max-width: 400px) {
     width: 250px;
     height: 250px;
     left: ${({ left }) => left && "6%"};
     right: ${({ right }) => right && "6%"};
+  }
+  @media only screen and (max-width: 370px) {
+    width: 250px;
+    height: 250px;
+    left: ${({ left }) => left && "4%"};
+    right: ${({ right }) => right && "4%"};
   }
   @media only screen and (max-width: 350px) {
     width: 200px;

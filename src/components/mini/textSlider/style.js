@@ -19,10 +19,10 @@ export const Container = styled.div`
     left: 0%;
     width: 250px;
   }
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 400px) {
     top: 12%;
     left: 1%;
-    width: 200px;
+    width: 220px;
   }
 `;
 
@@ -35,8 +35,8 @@ export const TextWrapper = styled.div`
   @media only screen and (max-width: 600px) {
     width: 1250px;
   }
-  @media only screen and (max-width: 350px) {
-    width: 1000px;
+  @media only screen and (max-width: 400px) {
+    width: 1100px;
   }
 `;
 
@@ -61,10 +61,6 @@ export const Meal = styled.p`
     line-height: 55px;
   }
   @media only screen and (max-width: 400px) {
-    font-size: 50px;
-    line-height: 50px;
-  }
-  @media only screen and (max-width: 350px) {
     font-size: 45px;
     line-height: 45px;
   }

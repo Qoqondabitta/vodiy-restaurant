@@ -26,14 +26,21 @@ import { navbarItems } from "../../../constants/componentconstants/navbar";
 import Logo from "../../mini/logo/Logo";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GiHotMeal } from "react-icons/gi";
+import { DataUrl } from "../../navbar/style";
 
 const MenuNavbar = () => {
   const dispatch = useDispatch();
+  const [copiedText, setCopiedText] = useState("");
   const language = useSelector((store) => store.language.value);
   const text = useSelector((store) => store.title.value);
   const changeTag = (tag) => {
     dispatch(changeTitle(tag));
   };
+  const handleCopy = (text) => {
+    navigator.clipboard.writeText(text);
+    setCopiedText(text);
+  };
+
   const l = navbarItems[4].title;
   return (
     <Main id="main" className="center">
@@ -82,25 +89,26 @@ const MenuNavbar = () => {
         >
           <GiHotMeal size="3.5rem" color="#dcca87" />
         </NavLink>
-        <Button id="roundbtn" top="85%" left="83%" round="true">
-          <Links className="hotmeal" href="tel:+48502400608">
-            <FaPhone id="roundbtn" color="black" />
-          </Links>
-        </Button>
-        <Button
-          id="roundbtn"
-          className="center"
+        <DataUrl
           top="85%"
-          left="7%"
-          round="true"
+          left="83%"
+          className="hotmeal center"
+          href="tel:+48795999991"
+          onClick={() => {
+            handleCopy("+48 795-999-991");
+            alert("Phone Number Copied: +48 795-999-991");
+          }}
         >
-          <Links
-            className="hotmeal"
-            href="https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa"
-          >
-            <FaMapMarkerAlt id="roundbtn" color="black" size="1.2rem" />
-          </Links>
-        </Button>
+          <FaPhone id="roundbtn" color="black" />
+        </DataUrl>
+        <DataUrl
+          top="85%"
+          left="6%"
+          className="hotmeal center"
+          href="https://www.google.com/maps/dir/?api=1&destination=Aleja+Krakowska+139%2C+02-180+Warsaw%2C+Poland"
+        >
+          <FaMapMarkerAlt id="roundbtn" color="black" size="1.2rem" />
+        </DataUrl>
       </Container>
     </Main>
   );

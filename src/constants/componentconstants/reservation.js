@@ -1,5 +1,5 @@
 export const r = ["Reservations", "Rezerwacje", "Бронирование"];
-export const b = ["Book A table", "Zarezerwować Stolik", "Бронировать Cтол"];
+export const b = ["Book A table", "Zarezerwować Stol", "Бронировать Cтол"];
 
 export const inputConstants = [
   {

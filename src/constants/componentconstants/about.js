@@ -6,11 +6,11 @@ import dorado from "../../assets/images/foods/dorado.avif"
 export const e = ["Explore Menu", "Przeglądaj Menu", "Исследуйте Mеню"];
 
 export const meal = [
-  { m: ["Beef Plov", "Pilaaff 🥘", "Пловв 🥘"] },
-  { m: ["Shashliks", "Szaslik 🍖", "Кебаб 🍖"] },
+  { m: ["Beef Plov", "Pilaaff 🥘", "Пловy 🥘"] },
+  { m: ["Shashliks", "Szaszlykii", "Кебаб 🍖"] },
   { m: ["Beef Soup", "Zupy! 🥘", " Cупуу 🥘"] },
-  { m: ["Sea Foods", "Ryby! 🐟", "Рыбаа 🐟"] },
-  { m: ["Beef Plov", "Pilaaff 🥘", "Пловв 🥘"] },
+  { m: ["Sea Foods", "Ryby! 🐟", "Рыбe 🐟"] },
+  { m: ["Beef Plov", "Pilaaff 🥘", "Пловy 🥘"] },
 ];
 
 export const chase = [

@@ -30,6 +30,12 @@ const Navbar = () => {
   const p = pageLinker[0].path;
   const t = pageLinker[0].title;
   const language = useSelector((store) => store.language.value);
+const [copiedText, setCopiedText] = useState('');
+  const handleCopy = (text) => {
+    navigator.clipboard.writeText(text);
+    setCopiedText(text);
+  };
+  
   return (
     <Main className="column-center">
       <Container className="just-around">
@@ -54,7 +60,15 @@ const Navbar = () => {
         </List>
         <List className="center" id="number">
           <Box className="center">
-            <Links href="tel:+48502400608">+48 795-999-991</Links>
+            <Links
+              href="tel:+48795999991"
+              onClick={() => {
+                handleCopy("+48 795-999-991");
+                alert("Phone Number Copied: +48 795-999-991");
+              }}
+            >
+              +48 795-999-991
+            </Links>
           </Box>
           <Stick></Stick>
           <Links href="http://t.me/Restauracja_Vodiy">
@@ -79,15 +93,19 @@ const Navbar = () => {
           top="85%"
           left="83%"
           className="hotmeal center"
-          href="tel:+48795-999-991"
+          href="tel:+48795999991"
+          onClick={() => {
+            handleCopy("+48 795-999-991");
+            alert("Phone Number Copied: +48 795-999-991");
+          }}
         >
           <FaPhone id="roundbtn" color="black" />
         </DataUrl>
         <DataUrl
-          top="86%"
+          top="85%"
           left="6%"
           className="hotmeal center"
-          href="https://maps.app.goo.gl/Aleja Krakowska 139, 02-180 Warszawa"
+          href="https://www.google.com/maps/dir/?api=1&destination=Aleja+Krakowska+139%2C+02-180+Warsaw%2C+Poland"
         >
           <FaMapMarkerAlt id="roundbtn" color="black" size="1.2rem" />
         </DataUrl>
