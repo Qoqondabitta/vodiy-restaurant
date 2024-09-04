@@ -36,13 +36,13 @@ const Footer = () => {
           </Texts>
           <Spoon src={spoon} />
           <Tel className="center">
-            <Links href="http://t.me/Restauracja_Vodiy">
+            <Links target="_blank" href="http://t.me/Restauracja_Vodiy">
               <FaTelegramPlane color="white" size="1.5rem" />
             </Links>
-            <Links href="https://x.com/VodiyRestaurant?t=QD02q5xD33z1HhCNn64KBw&s=09">
+            <Links target="_blank" href="https://x.com/VodiyRestaurant?t=QD02q5xD33z1HhCNn64KBw&s=09">
               <FaXTwitter color="white" size="1.5rem" />
             </Links>
-            <Links href="">
+            <Links target="_blank" href="https://www.instagram.com/Vodiy_restauracja/">
               <FaInstagram color="white" size="1.5rem" />
             </Links>
           </Tel>

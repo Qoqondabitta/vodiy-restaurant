@@ -177,8 +177,8 @@ export const GoldBoxes = styled.div`
     bottom: ${({ bot }) => bot && "-4%"};
   }
   @media only screen and (max-width: 415px) {
-    left: ${({ left }) => left && "9%"};
-    right: ${({ right }) => right && "9%"};
+    left: ${({ left }) => left && "9.5%"};
+    right: ${({ right }) => right && "9.5%"};
   }
   @media only screen and (max-width: 400px) {
     width: 250px;
@@ -209,11 +209,11 @@ export const Note = styled.h1`
   font-family: "Cormorant Upright";
   @media only screen and (max-width: 600px) {
     font-size: 30px;
-    line-height: 25px;
+    line-height: 30px;
   }
   @media only screen and (max-width: 350px) {
     font-size: 26px;
-    line-height: 25px;
+    line-height: 26px;
     width: 120%;
   }
 `;

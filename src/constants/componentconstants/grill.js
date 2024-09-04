@@ -6,6 +6,9 @@ import chicken from "../../assets/images/foods/koreykabaranina.jpeg";
 import lulaKebab from "../../assets/images/foods/lula.avif";
 import grilledvegetables from "../../assets/images/foods/grilledvegetables.avif";
 import mix from "../../assets/images/foods/mix.jpg";
+import baklajankebab from "../../assets/images/foods/baklajankebab.jpg";
+import mushrooms from "../../assets/images/foods/mushrooms.png";
+import potatocherry from "../../assets/images/foods/potatocherry.jpeg";
 
 export const grill = [
   {
@@ -249,7 +252,7 @@ export const grill = [
     },
   },
   {
-    id: 7,
+    id: 9,
     place: "center",
     certificate: { top: "70%", left: "6%" },
     sign: { top: "75%", left: "26%" },
@@ -257,22 +260,22 @@ export const grill = [
     leftPlacement: {
       classTitle: "col-start",
       note: [
-        "Grilled Vegetables (150gr)",
-        "Grilowane warzywa (150gr)",
-        "Овощи на гриле (150гр)",
+        "Baklajan Shashlik (150gr)",
+        "Bakłażan Kebab (150gr)",
+        "Баклажан Kебаб (150гр)",
       ],
       ingredients: [
-        `Ingridients: Black Eggplant, Zucchini, Greens, Bell Pepper (red, yellow, green), Red Onion, Tomato Sauce, Pepper.`,
-        `Składniki: Czarny bakłażan, cukinia, warzywa, papryka (czerwona, żółta, zielona), czerwona cebula, sos pomidorowy, papryka.`,
-        `Ингредиенты: Баклажаны чёрные, кабачки, зелень, болгарский (красный, жёлтый, зелёный), лук красный, соус томатный, перец.`,
+        `Savour from mouth-watering and delicious Grilled Eggplant & Beef Shashlik. Feels like Home, Tastes like Paradise, better with some tomato sauce and onion`,
+        `Delektuj się przepysznym Bakłażan Kebab. Czuje się jak w domu, smakuje jak raj, lepiej z sosem pomidorowym i cebulą.`,
+        `Насладитесь аппетитным и вкусным Баклажан Kебаб. Чувствуешь себя как дома, на вкус как рай, лучше с томатным соусом и луком.`,
       ],
       size: "left",
-      price: "31.99zl",
+      price: "21.99zl",
     },
     rightPlacement: {
       dir: { dir: "bottom" },
       classTitle: "align-end",
-      imgurl: grilledvegetables,
+      imgurl: baklajankebab,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },
@@ -280,26 +283,61 @@ export const grill = [
     },
   },
   {
-    id: 8,
+    id: 10,
     place: "row-reverse",
     certificate: { top: "70%", left: "86%" },
     sign: { top: "75%", left: "56%" },
     vector: { deg: "195deg", bot: "42%", left: "45%" },
     leftPlacement: {
       classTitle: "col-end-start",
-      note: ["Vodiy Mix (1200gr)", "Vodiy Mix (1200gr)", "Водий Микс (1200гр)"],
+      note: [
+        "Champignon Mushrooms (150gr)",
+        "Grilowane Pieczarki (150gr)",
+        "Грибы Шампиньоны (150гр)",
+      ],
       ingredients: [
         `Ingridients: Lamb, Beef, Chicken Wings, Chicken Fillet, Minced Meat, Loin, Tomato, Cucumber, Onion, Greens.`,
         `Składniki: Jagnięcina, wołowina, skrzydełka z kurczaka, filet z kurczaka, mięso mielone, schab, pomidor, ogórek, cebula, warzywa.`,
         `Ингредиенты: Баранина, Говядина, Куриный Крылышки, Куриный Филе, Фарш, Корейка, Помидор, Огурец, Лук, Зелень.`,
       ],
       size: "right",
-      price: "170.99zl",
+      price: "19.99zl",
     },
     rightPlacement: {
       classTitle: "align-end",
       dir: { dir: "bottom" },
-      imgurl: mix,
+      imgurl: mushrooms,
+      box: [
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
+      ],
+    },
+  },
+  {
+    id: 11,
+    place: "center",
+    certificate: { top: "70%", left: "6%" },
+    sign: { top: "75%", left: "26%" },
+    vector: { deg: "75deg", bot: "42%", left: "35%" },
+    leftPlacement: {
+      classTitle: "col-start",
+      note: [
+        "Potato Cherry (150gr)",
+        "Ziemniak Cherry (150gr)",
+        "Картофель Cherry (150гр)",
+      ],
+      ingredients: [
+        `Satisfy your hunger with our Additives, and enjoy your meal. Enjoy life crumble by crumble, not bite by bite.`,
+        `Zaspokój swój głód naszymi dodatkami i ciesz się posiłkiem. Ciesz się życiem kruszonka po kruszonce, a nie gryzienie po kęsie`,
+        `Утолите голод с помощью наших добавок и наслаждайтесь едой. Наслаждайтесь жизнью постепенно, а не постепенно.`,
+      ],
+      size: "left",
+      price: "14.99zl",
+    },
+    rightPlacement: {
+      dir: { dir: "bottom" },
+      classTitle: "align-end",
+      imgurl: potatocherry,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },
