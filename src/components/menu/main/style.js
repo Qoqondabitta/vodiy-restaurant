@@ -85,7 +85,6 @@ export const Left = styled.div`
 
   @media only screen and (max-width: 600px) {
     width: 90%;
-    background-color: red;
     height: fit-content;
     align-items: flex-start;
     gap: 15px;
@@ -213,7 +212,6 @@ export const Note = styled.h1`
     font-size: 30px;
     line-height: 30px;
     width: 100%;
-    background-color: red;
   }
   @media only screen and (max-width: 350px) {
     font-size: 26px;
@@ -237,7 +235,6 @@ export const Ingridients = styled.p`
   @media only screen and (max-width: 600px) {
     width: 100%;
     text-align: left;
-    background-color: blue;
   }
   @media only screen and (max-width: 400px) {
     font-size: 18px;
