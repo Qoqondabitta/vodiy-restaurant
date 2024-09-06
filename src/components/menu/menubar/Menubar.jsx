@@ -47,11 +47,11 @@ const MenuNavbar = () => {
       <Container className="just-evenly">
         <Logo />
         <List className="center">
-          <NavLink style={{ textDecoration: "none" }} to="/">
+          {/* <NavLink style={{ textDecoration: "none" }} to="/">
             <Item sizefont="true">
               {language == "eng" ? m[0] : language == "pol" ? m[1] : m[2]}
             </Item>
-          </NavLink>
+          </NavLink> */}
           {menuNavbar.map((v, i) => (
             <Links key={i} onClick={() => changeTag(v?.tag)}>
               <Item sizefont="true" id={`${text == v?.tag && "Product"}`}>
