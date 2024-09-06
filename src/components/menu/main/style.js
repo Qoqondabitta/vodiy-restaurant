@@ -84,9 +84,11 @@ export const Left = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    width: 80%;
+    width: 90%;
+    background-color: red;
     height: fit-content;
     align-items: flex-start;
+    gap: 15px;
     padding-left: 20px;
   }
 `;
@@ -210,11 +212,13 @@ export const Note = styled.h1`
   @media only screen and (max-width: 600px) {
     font-size: 30px;
     line-height: 30px;
+    width: 100%;
+    background-color: red;
   }
   @media only screen and (max-width: 350px) {
     font-size: 26px;
     line-height: 26px;
-    width: 120%;
+    width: 100%;
   }
 `;
 
@@ -233,10 +237,11 @@ export const Ingridients = styled.p`
   @media only screen and (max-width: 600px) {
     width: 100%;
     text-align: left;
+    background-color: blue;
   }
   @media only screen and (max-width: 400px) {
     font-size: 18px;
-    width: 120%;
+    width: 100%;
   }
   @media only screen and (max-width: 350px) {
     font-size: 16px;

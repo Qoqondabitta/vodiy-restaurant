@@ -16,9 +16,9 @@ export const fish = [
         "Дорадо Ha Mангале (160 гр)",
       ],
       ingredients: [
-        `Savour from mouth-watering and delicious Grilled Dorado. Feels like Home, Tastes like Paradise, better with some tomato sauce and onion`,
+        `Savour from mouth-watering and delicious Grilled Dorado. Feels like Home, Tastes like Paradise, better with some tomato sauce.`,
         `Delektuj się przepysznym kebabem z Grillowanego Dorado. Czuje się jak w domu, smakuje jak raj, lepiej z sosem pomidorowym i cebulą.`,
-        `Насладитесь аппетитным и вкусным кебабом из Дорадо Ha Mангале. Чувствуешь себя как дома, на вкус как рай, лучше с томатным соусом и луком.`,
+        `Насладитесь аппетитным и вкусным кебабом из Дорадо Ha Mангале. Чувствуешь себя как дома, на вкус как рай, лучше с томатным соусом.`,
       ],
       size: "left",
       price: "44.99zl",
@@ -47,7 +47,7 @@ export const fish = [
         "Лосось на Мангале (160 гр)",
       ],
       ingredients: [
-        `Savour from mouth-watering and delicious Grilled Salmon. Feels like Home, Tastes like Paradise, better with some tomato sauce and onion`,
+        `Savour from mouth-watering and delicious Grilled Salmon. Feels like Home, Tastes like Paradise, better with some tomato sauce.`,
         `Delektuj się przepysznym kebabem z Grillowany łosoś. Czuje się jak w domu, smakuje jak raj, lepiej z sosem pomidorowym i cebulą.`,
         `Насладитесь аппетитным и вкусным Лосось на Мангале. Чувствуешь себя как дома, на вкус как рай, лучше с томатным соусом и луком.`,
       ],
