@@ -1,6 +1,6 @@
 import lagmanFried from "../../assets/images/foods/lagmanFriedMenu.avif";
-import achichuk from "../../assets/images/foods/achichuk.jpg";
-import narezkas from "../../assets/images/foods/narezka.avif";
+import achichuk from "../../assets/images/foods/achichuk2.jpg";
+import narezkas from "../../assets/images/foods/narezka.jpg";
 import cabbage from "../../assets/images/foods/karam.jpg";
 
 export const vegan = [

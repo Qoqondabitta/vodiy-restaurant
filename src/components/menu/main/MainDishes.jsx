@@ -76,7 +76,11 @@ const MainDishes = () => {
               dir={v.rightPlacement?.dir?.dir}
               className={v.rightPlacement.classTitle}
             >
-              <FoodIamge src={v.rightPlacement.imgurl} />
+              <FoodIamge
+                onLoad={(e) => (e.currentTarget.style.filter = "none")}
+                loading="lazy"
+                src={v.rightPlacement.imgurl}
+              />
               <GoldBoxes
                 top={v.rightPlacement.box[0]?.top}
                 right={v.rightPlacement.box[0]?.right}

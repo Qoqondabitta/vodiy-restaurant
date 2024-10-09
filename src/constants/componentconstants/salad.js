@@ -1,7 +1,7 @@
-import achichuk from "../../assets/images/foods/achichuk.jpg";
-import narezkas from "../../assets/images/foods/narezka.avif";
+import achichuk from "../../assets/images/foods/achichuk2.jpg";
+import narezkas from "../../assets/images/foods/narezka.jpg";
 import cabbage from "../../assets/images/foods/karam.jpg";
-import saladvodiy from "../../assets/images/foods/saladvodiy.jpg";
+// import saladvodiy from "../../assets/images/foods/saladvodiy.jpg";
 
 export const salad = [
   {
@@ -31,41 +31,41 @@ export const salad = [
       ],
     },
   },
-  {
-    id: 2,
-    place: "row-reverse",
-    certificate: { top: "70%", left: "86%" },
-    sign: { top: "75%", left: "56%" },
-    vector: { deg: "195deg", bot: "42%", left: "45%" },
-    leftPlacement: {
-      classTitle: "col-end-start",
-      note: [
-        "Salad Vodiy (220gr)",
-        "Sałatka Vodiy (220gr)",
-        "Салат Водий (220 гр)",
-      ],
-      ingredients: [
-        `Ingridients: Bell pepper, beef, tomatoes, cucumbers, garlic, cilantro, sesame, soy
-sauce, oil, vegetable, apple cider vinegar, sweet and sour sauce.`,
-        `Składniki: Papryka, wołowina, pomidory, ogórki, czosnek, kolendra, sezam, soja
-sos, olej, warzywa, ocet jabłkowy, sos słodko-kwaśny.`,
-        `Ингредиенты: Болгарский перец, говядина, помидоры, огурцы, чеснок, кинза, кунжут, соевый 
-соус, масло, растительное, яблочное уксус, кисло-сладкий соус 
-`,
-      ],
-      size: "right",
-      price: "24.99zl",
-    },
-    rightPlacement: {
-      classTitle: "align-end",
-      dir: { dir: "bottom" },
-      imgurl: saladvodiy,
-      box: [
-        { top: "-10px", right: "-20px" },
-        { left: "-20px", bot: "-20px" },
-      ],
-    },
-  },
+//   {
+//     id: 2,
+//     place: "row-reverse",
+//     certificate: { top: "70%", left: "86%" },
+//     sign: { top: "75%", left: "56%" },
+//     vector: { deg: "195deg", bot: "42%", left: "45%" },
+//     leftPlacement: {
+//       classTitle: "col-end-start",
+//       note: [
+//         "Salad Vodiy (220gr)",
+//         "Sałatka Vodiy (220gr)",
+//         "Салат Водий (220 гр)",
+//       ],
+//       ingredients: [
+//         `Ingridients: Bell pepper, beef, tomatoes, cucumbers, garlic, cilantro, sesame, soy
+// sauce, oil, vegetable, apple cider vinegar, sweet and sour sauce.`,
+//         `Składniki: Papryka, wołowina, pomidory, ogórki, czosnek, kolendra, sezam, soja
+// sos, olej, warzywa, ocet jabłkowy, sos słodko-kwaśny.`,
+//         `Ингредиенты: Болгарский перец, говядина, помидоры, огурцы, чеснок, кинза, кунжут, соевый 
+// соус, масло, растительное, яблочное уксус, кисло-сладкий соус 
+// `,
+//       ],
+//       size: "right",
+//       price: "24.99zl",
+//     },
+//     rightPlacement: {
+//       classTitle: "align-end",
+//       dir: { dir: "bottom" },
+//       imgurl: saladvodiy,
+//       box: [
+//         { top: "-10px", right: "-20px" },
+//         { left: "-20px", bot: "-20px" },
+//       ],
+//     },
+//   },
   {
     id: 3,
     place: "center",

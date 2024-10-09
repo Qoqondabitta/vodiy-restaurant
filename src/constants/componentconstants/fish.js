@@ -1,5 +1,5 @@
 import salmon from "../../assets/images/foods/salmon.jpg"
-import dorado from "../../assets/images/foods/dorado.avif"
+import dorado from "../../assets/images/foods/dorado.jpg"
 
 export const fish = [
   {

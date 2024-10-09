@@ -4,7 +4,8 @@ import Chuchvara from "../../assets/images/foods/chuchvara.jpg";
 import uygur from "../../assets/images/foods/uygur.jpg";
 import mashkhurda from "../../assets/images/foods/mashkhurda.jpg";
 import chickensoup from "../../assets/images/foods/chickensoup.jpg";
-import meatballsoup from "../../assets/images/foods/meatballsoup.jpg";
+import meatballsoup from "../../assets/images/foods/meatballsoup2.jpg";
+import meatballsoup2 from "../../assets/images/foods/meatballsoup3.jpg";
 
 export const soups = [
   {
@@ -226,6 +227,40 @@ export const soups = [
       dir: { dir: "bottom" },
       classTitle: "align-end",
       imgurl: meatballsoup,
+      box: [
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
+      ],
+    },
+  },
+  {
+    id: 8,
+    place: "row-reverse",
+    certificate: { top: "70%", left: "86%" },
+    sign: { top: "75%", left: "56%" },
+    vector: { deg: "195deg", bot: "42%", left: "45%" },
+    leftPlacement: {
+      classTitle: "col-end-start",
+      note: [
+        "Grape Leef Soup (450gr)",
+        "Zupa Z Roladki Winogron (450gr)",
+        "Суп С Рулетики из виноградных листьев",
+      ],
+      ingredients: [
+        `Ingridients: Chicken Meat, Paste, Tomato Sauce,
+         Chopped Potato, Sour Cream, Black/Green/Bell Pepper, Dill, Greenery.`,
+        `Składniki: Mięso Z Kurczaka, Pasta, Sos Pomidorowy,
+         Siekane ziemniaki, kwaśna śmietana, czarna/zielona papryka, koper, zieleń.`,
+        `Ингредиенты: Куриное мясо, паста, томатный соус,
+         Нарезанный картофель, сметана, черный/зеленый перец, болгарский, укроп, зелень.`,
+      ],
+      size: "right",
+      price: "32.99zl",
+    },
+    rightPlacement: {
+      classTitle: "align-end",
+      dir: { dir: "bottom" },
+      imgurl: meatballsoup2,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },

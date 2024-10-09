@@ -1,13 +1,13 @@
 import plov from "../../assets/images/foods/plov.jpg";
-import kazankebab from "../../assets/images/foods/kazan-kebab.jpg";
-import manti from "../../assets/images/foods/manti.jpg";
+import kazankebab from "../../assets/images/foods/kazan-kebab2.jpg";
+import manti from "../../assets/images/foods/manti2.jpg";
 import lagmanFried from "../../assets/images/foods/lagmanFriedMenu.avif";
-import chicken from "../../assets/images/foods/chicken.webp";
-import beefstroganoff from "../../assets/images/foods/beefstroganof.avif";
+import chicken from "../../assets/images/foods/chicken.jpg";
+import beefstroganoff from "../../assets/images/foods/beefstroganof2.jpg";
 import beefsteak from "../../assets/images/foods/beefsteak.jpg";
 import gulash from "../../assets/images/foods/gulash.jpg";
-import meatballs from "../../assets/images/foods/meatballs.webp";
-import grapeleefrolls from "../../assets/images/foods/grapeleefrolls.jpg";
+import meatballs from "../../assets/images/foods/meatballs2.jpg";
+import grapeleefrolls from "../../assets/images/foods/grapeleefrolls2.jpg";
 
 export const main = [
   {

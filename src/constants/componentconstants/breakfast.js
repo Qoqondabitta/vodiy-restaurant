@@ -1,7 +1,7 @@
 import sausages from "../../assets/images/foods/sausages.avif";
 import omlet from "../../assets/images/foods/omlet.jpg";
 import friedeggs from "../../assets/images/foods/fried eggs.jpg";
-import englishbreakfast from "../../assets/images/foods/englishbreakfast.jpg";
+import englishbreakfast from "../../assets/images/foods/englishbreakfast2.jpg";
 
 export const breakfast = [
   {

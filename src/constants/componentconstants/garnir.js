@@ -149,35 +149,35 @@ export const additives = [
       ],
     },
   },
-  {
-    id: 6,
-    place: "row-reverse",
-    certificate: { top: "70%", left: "86%" },
-    sign: { top: "75%", left: "56%" },
-    vector: { deg: "195deg", bot: "42%", left: "45%" },
-    leftPlacement: {
-      classTitle: "col-end-start",
-      note: [
-        "Potato Cherry (150gr)",
-        "Ziemniak Cherry (150gr)",
-        "Картофель Cherry (150гр)",
-      ],
-      ingredients: [
-        `Satisfy your hunger with our Additives, and enjoy your meal. Enjoy life crumble by crumble, not bite by bite.`,
-        `Zaspokój swój głód naszymi dodatkami i ciesz się posiłkiem. Ciesz się życiem kruszonka po kruszonce, a nie gryzienie po kęsie`,
-        `Утолите голод с помощью наших добавок и наслаждайтесь едой. Наслаждайтесь жизнью постепенно, а не постепенно.`,
-      ],
-      size: "left",
-      price: "14.99zl",
-    },
-    rightPlacement: {
-      dir: { dir: "bottom" },
-      classTitle: "align-end",
-      imgurl: potatocherry,
-      box: [
-        { top: "-10px", right: "-20px" },
-        { left: "-20px", bot: "-20px" },
-      ],
-    },
-  },
+  // {
+  //   id: 6,
+  //   place: "row-reverse",
+  //   certificate: { top: "70%", left: "86%" },
+  //   sign: { top: "75%", left: "56%" },
+  //   vector: { deg: "195deg", bot: "42%", left: "45%" },
+  //   leftPlacement: {
+  //     classTitle: "col-end-start",
+  //     note: [
+  //       "Potato Cherry (150gr)",
+  //       "Ziemniak Cherry (150gr)",
+  //       "Картофель Cherry (150гр)",
+  //     ],
+  //     ingredients: [
+  //       `Satisfy your hunger with our Additives, and enjoy your meal. Enjoy life crumble by crumble, not bite by bite.`,
+  //       `Zaspokój swój głód naszymi dodatkami i ciesz się posiłkiem. Ciesz się życiem kruszonka po kruszonce, a nie gryzienie po kęsie`,
+  //       `Утолите голод с помощью наших добавок и наслаждайтесь едой. Наслаждайтесь жизнью постепенно, а не постепенно.`,
+  //     ],
+  //     size: "left",
+  //     price: "14.99zl",
+  //   },
+  //   rightPlacement: {
+  //     dir: { dir: "bottom" },
+  //     classTitle: "align-end",
+  //     imgurl: potatocherry,
+  //     box: [
+  //       { top: "-10px", right: "-20px" },
+  //       { left: "-20px", bot: "-20px" },
+  //     ],
+  //   },
+  // },
 ];
