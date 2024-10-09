@@ -31,49 +31,14 @@ export const salad = [
       ],
     },
   },
-//   {
-//     id: 2,
-//     place: "row-reverse",
-//     certificate: { top: "70%", left: "86%" },
-//     sign: { top: "75%", left: "56%" },
-//     vector: { deg: "195deg", bot: "42%", left: "45%" },
-//     leftPlacement: {
-//       classTitle: "col-end-start",
-//       note: [
-//         "Salad Vodiy (220gr)",
-//         "Sałatka Vodiy (220gr)",
-//         "Салат Водий (220 гр)",
-//       ],
-//       ingredients: [
-//         `Ingridients: Bell pepper, beef, tomatoes, cucumbers, garlic, cilantro, sesame, soy
-// sauce, oil, vegetable, apple cider vinegar, sweet and sour sauce.`,
-//         `Składniki: Papryka, wołowina, pomidory, ogórki, czosnek, kolendra, sezam, soja
-// sos, olej, warzywa, ocet jabłkowy, sos słodko-kwaśny.`,
-//         `Ингредиенты: Болгарский перец, говядина, помидоры, огурцы, чеснок, кинза, кунжут, соевый 
-// соус, масло, растительное, яблочное уксус, кисло-сладкий соус 
-// `,
-//       ],
-//       size: "right",
-//       price: "24.99zl",
-//     },
-//     rightPlacement: {
-//       classTitle: "align-end",
-//       dir: { dir: "bottom" },
-//       imgurl: saladvodiy,
-//       box: [
-//         { top: "-10px", right: "-20px" },
-//         { left: "-20px", bot: "-20px" },
-//       ],
-//     },
-//   },
   {
-    id: 3,
-    place: "center",
-    certificate: { top: "70%", left: "6%" },
-    sign: { top: "75%", left: "26%" },
-    vector: { deg: "75deg", bot: "42%", left: "35%" },
+    id: 2,
+    place: "row-reverse",
+    certificate: { top: "70%", left: "86%" },
+    sign: { top: "75%", left: "56%" },
+    vector: { deg: "195deg", bot: "42%", left: "45%" },
     leftPlacement: {
-      classTitle: "col-start",
+      classTitle: "col-end-start",
       note: [
         "Chopped Vegetables (300gr)",
         "Krojenie Warzyw (300gr)",
@@ -84,12 +49,12 @@ export const salad = [
         `Składniki: Pomidor, ogórki, cebula, sól, pieprz, kolendra, bazylia, zieleń, bulgarski pieperz.`,
         `Ингредиенты: Помидоры, огурцы, лук, соль, перец, кинза, базилик, зелень, болгарский перец.`,
       ],
-      size: "left",
+      size: "right",
       price: "14.99zl",
     },
     rightPlacement: {
-      dir: { dir: "bottom" },
       classTitle: "align-end",
+      dir: { dir: "bottom" },
       imgurl: narezkas,
       box: [
         { top: "-10px", right: "-20px" },
@@ -98,29 +63,29 @@ export const salad = [
     },
   },
   {
-    id: 4,
-    place: "row-reverse",
-    certificate: { top: "70%", left: "86%" },
-    sign: { top: "75%", left: "56%" },
-    vector: { deg: "195deg", bot: "42%", left: "45%" },
+    id: 3,
+    place: "center",
+    certificate: { top: "70%", left: "6%" },
+    sign: { top: "75%", left: "26%" },
+    vector: { deg: "75deg", bot: "42%", left: "35%" },
     leftPlacement: {
-      classTitle: "col-end-start",
+      classTitle: "col-start",
       note: [
-        "Cabbage Salad (200gr)",
-        "Sałatka z kapusty (200gr)",
-        "Cалат Капустa (200 гр)",
+  "Cabbage Salad (200gr)",
+  "Sałatka z kapusty (200gr)",
+  "Cалат Капустa (200 гр)",
       ],
       ingredients: [
-        `Ingridients: Cabbage, cucumbers, onions, salt, pepper, cilantro, lemon, herbs, garlic, tomatoes, bell pepper, sunflower oil.`,
-        `Składniki: Kapusta, ogórki, cebula, sól, pieprz, kolendra, cytryna, zioła, czosnek, pomidory, olej słonecznikowy.`,
-        `Ингредиенты: Капуста, огурцы, лук, соль, перец, кинза, лимон, зелень, чеснок, помидоры, болгарский, подсолнечное масло.`,
-      ],
-      size: "right",
+    `Ingridients: Cabbage, cucumbers, onions, salt, pepper, cilantro, lemon, herbs, garlic, tomatoes, bell pepper, sunflower oil.`,
+  `Składniki: Kapusta, ogórki, cebula, sól, pieprz, kolendra, cytryna, zioła, czosnek, pomidory, olej słonecznikowy.`,
+  `Ингредиенты: Капуста, огурцы, лук, соль, перец, кинза, лимон, зелень, чеснок, помидоры, болгарский, подсолнечное масло.`,
+  ],
+      size: "left",
       price: "7.99zl",
     },
     rightPlacement: {
-      classTitle: "align-end",
       dir: { dir: "bottom" },
+      classTitle: "align-end",
       imgurl: cabbage,
       box: [
         { top: "-10px", right: "-20px" },
