@@ -7,7 +7,7 @@ import {
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 
-const Burger = () => {
+const Burger = React.memo(() => {
   const l = useSelector((store) => store.language.value);
   const i = pageLinker[0].title;
   return (
@@ -22,6 +22,6 @@ const Burger = () => {
       ))}
     </Rows>
   );
-};
+});
 
 export default Burger;

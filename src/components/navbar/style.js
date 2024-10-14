@@ -192,7 +192,7 @@ export const DataUrl = styled.a`
   width: 40px;
   border-radius: 50%;
   position: fixed;
-  top: ${({ top }) => top};
+  top: 93%;
   left: ${({ left }) => left};
   display: none;
 

@@ -90,7 +90,7 @@ const [copiedText, setCopiedText] = useState('');
           <GiHotMeal size="3.5rem" color="#dcca87" />
         </NavLink>
         <DataUrl
-          top="85%"
+          tops="95%"
           left="83%"
           className="hotmeal center"
           href="tel:+48795999991"
@@ -102,7 +102,7 @@ const [copiedText, setCopiedText] = useState('');
           <FaPhone id="roundbtn" color="black" />
         </DataUrl>
         <DataUrl
-          top="85%"
+          tops="95%"
           left="6%"
           className="hotmeal center"
           href="https://www.google.com/maps/dir/?api=1&destination=Aleja+Krakowska+139%2C+02-180+Warsaw%2C+Poland"

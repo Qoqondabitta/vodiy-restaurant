@@ -239,7 +239,7 @@ export const grill = [
         `Ингредиенты: Баранина, Говядина, Куриный Крылышки, Куриный Филе, Фарш, Корейка, Помидор, Огурец, Лук, Зелень.`,
       ],
       size: "right",
-      price: "170.99zl",
+      price: "199.99zl",
     },
     rightPlacement: {
       classTitle: "align-end",

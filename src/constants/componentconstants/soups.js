@@ -213,7 +213,7 @@ export const soups = [
       note: [
         "Meatball Soup (450gr)",
         "Stek Zupa z klopsikami (450gr)",
-        "Бифштекс (450гр)",
+        "Суп с фрикадельками (450гр)",
       ],
       ingredients: [
         `Ingridients: Minced beef, potatoes, carrots, chopped onions, greens, bell pepper, cumin, tomato, tomato sauce.`,
