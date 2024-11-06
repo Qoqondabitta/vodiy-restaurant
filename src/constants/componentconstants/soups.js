@@ -1,11 +1,11 @@
-import soup from "../../assets/images/foods/soup.avif";
+import soup from "../../assets/images/foods/soup.jpg";
 import mastava from "../../assets/images/foods/mastava.jpg";
 import Chuchvara from "../../assets/images/foods/chuchvara.jpg";
 import uygur from "../../assets/images/foods/uygur.jpg";
 import mashkhurda from "../../assets/images/foods/mashkhurda.jpg";
-import chickensoup from "../../assets/images/foods/chickensoup.jpg";
 import meatballsoup from "../../assets/images/foods/meatballsoup2.jpg";
 import meatballsoup2 from "../../assets/images/foods/meatballsoup3.jpg";
+import mantisoup from "../../assets/images/foods/mantisoup.jpg"
 
 export const soups = [
   {
@@ -177,25 +177,25 @@ export const soups = [
     leftPlacement: {
       classTitle: "col-end-start",
       note: [
-        "Chicken Soup with Pasta (450gr)",
-        "Zupa Z Kurczaka Z Makaronem (450gr)",
-        "Суп Куриный С Лапшой (450гр)",
+        "Grape Leef Soup (450gr)",
+        "Zupa Z Roladki Winogron (450gr)",
+        "Суп С Рулетики из виноградных листьев",
       ],
       ingredients: [
-        `Ingridients: Chicken Meat, Paste, Tomato Sauce,
+        `Ingridients: Beef, Grape Leefs, Tomato Sauce,
          Chopped Potato, Sour Cream, Black/Green/Bell Pepper, Dill, Greenery.`,
-        `Składniki: Mięso Z Kurczaka, Pasta, Sos Pomidorowy,
+        `Składniki: Wolowina, Roladki Winogron, Sos Pomidorowy,
          Siekane ziemniaki, kwaśna śmietana, czarna/zielona papryka, koper, zieleń.`,
-        `Ингредиенты: Куриное мясо, паста, томатный соус,
-         Нарезанный картофель, сметана, черный/зеленый перец, болгарский, укроп, зелень.`,
+        `Ингредиенты: Говядина, Рулетики из виноградных листьев, томатный соус,
+         Нарезанный картофель, черный/зеленый перец, болгарский, укроп, зелень.`,
       ],
       size: "right",
-      price: "23.99zl",
+      price: "32.99zl",
     },
     rightPlacement: {
       classTitle: "align-end",
       dir: { dir: "bottom" },
-      imgurl: chickensoup,
+      imgurl: meatballsoup2,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },
@@ -242,25 +242,25 @@ export const soups = [
     leftPlacement: {
       classTitle: "col-end-start",
       note: [
-        "Grape Leef Soup (450gr)",
-        "Zupa Z Roladki Winogron (450gr)",
-        "Суп С Рулетики из виноградных листьев",
+        "Soup with Manti(3pieces)",
+        "Zupa Z Manti(3sztuk)",
+        "Суп С Манты (3 штук)",
       ],
       ingredients: [
-        `Ingridients: Beef, Grape Leefs, Tomato Sauce,
-         Chopped Potato, Sour Cream, Black/Green/Bell Pepper, Dill, Greenery.`,
-        `Składniki: Wolowina, Roladki Winogron, Sos Pomidorowy,
+        `Ingridients: Chopped Beef, Manti 3 pieces, Sour Cream,
+         Chopped Potato, Black/Green/Bell Pepper, Dill, Greenery.`,
+        `Składniki: Wolowina, Manti 3 sztuk,
          Siekane ziemniaki, kwaśna śmietana, czarna/zielona papryka, koper, zieleń.`,
-        `Ингредиенты: Говядина, Рулетики из виноградных листьев, томатный соус,
+        `Ингредиенты: Говядина, Манты (3 штук), томатный соус,
          Нарезанный картофель, черный/зеленый перец, болгарский, укроп, зелень.`,
       ],
       size: "right",
-      price: "32.99zl",
+      price: "29.99zl",
     },
     rightPlacement: {
       classTitle: "align-end",
       dir: { dir: "bottom" },
-      imgurl: meatballsoup2,
+      imgurl: mantisoup,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },

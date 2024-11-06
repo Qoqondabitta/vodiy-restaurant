@@ -8,6 +8,7 @@ import beefsteak from "../../assets/images/foods/beefsteak.jpg";
 import gulash from "../../assets/images/foods/gulash.jpg";
 import meatballs from "../../assets/images/foods/meatballs2.jpg";
 import grapeleefrolls from "../../assets/images/foods/grapeleefrolls2.jpg";
+import norin from "../../assets/images/foods/norin.jpg";
 
 export const main = [
   {
@@ -235,20 +236,20 @@ export const main = [
     vector: { deg: "195deg", bot: "42%", left: "45%" },
     leftPlacement: {
       classTitle: "col-end-start",
-      note: ["Gulash (500gr)", "Gulasz (500gr)", "Гуляш (500гр)"],
+      note: ["Norin (500gr)", "Norin (500gr)", "Гуляш (500гр)"],
       ingredients: [
-        `Ingridients: Beef, rice, buckwheat, mashed potatoes, tomato sauce, greens, pepper, black, bay leaf.`,
-        `Składniki: Wołowina, ryż, kasza gryczana, puree ziemniaczane, sos pomidorowy, warzywa, czarny pieprz, liść laurowy.`,
-        `Ингредиенты: Говядина, рис, гречка, пюре, подлива томатная, зелень, перец, чёрный, лавровый лист.
+        `Ingridients: Chopped Dough, chopped beef meat, chopped onion, norin soup, greens`,
+        `Składniki: Ciasto siekane, siekane mięso wołowe, siekana cebula, zupa norin.`,
+        `Ингредиенты: Рубленое тесто, рубленая говядина, рубленый лук, суп норин, зелень.
 `,
       ],
       size: "right",
-      price: "32.99zl",
+      price: "44.99zl",
     },
     rightPlacement: {
       classTitle: "align-end",
       dir: { dir: "bottom" },
-      imgurl: gulash,
+      imgurl: norin,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },
@@ -296,7 +297,7 @@ export const main = [
       classTitle: "col-end-start",
       note: [
         "Grape Leaf Rolls (500gr)",
-        "Roladki z liści winogron (12 sztuk)",
+        "Roladki z liści winogron (500gr)",
         "Рулетики из виноградных листьев (500гр)",
       ],
       ingredients: [
@@ -311,6 +312,34 @@ export const main = [
       classTitle: "align-end",
       dir: { dir: "bottom" },
       imgurl: grapeleefrolls,
+      box: [
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
+      ],
+    },
+  },
+  {
+    id: 11,
+    place: "center",
+    certificate: { top: "70%", left: "6%" },
+    sign: { top: "75%", left: "26%" },
+    vector: { deg: "75deg", bot: "42%", left: "35%" },
+    leftPlacement: {
+      classTitle: "col-start",
+      note: ["Gulash (500gr)", "Gulasz (500gr)", "Гуляш (500гр)"],
+      ingredients: [
+        `Ingridients: Beef, rice, buckwheat, mashed potatoes, tomato sauce, greens, pepper, black, bay leaf.`,
+        `Składniki: Wołowina, ryż, kasza gryczana, puree ziemniaczane, sos pomidorowy, czarny pieprz, liść laurowy.`,
+        `Ингредиенты: Говядина, рис, гречка, пюре, подлива томатная, зелень, перец, чёрный, лавровый лист.
+`,
+      ],
+      size: "left",
+      price: "26.99zl",
+    },
+    rightPlacement: {
+      dir: { dir: "bottom" },
+      classTitle: "align-end",
+      imgurl: gulash,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },

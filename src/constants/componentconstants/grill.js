@@ -1,14 +1,13 @@
-import beefgrillkebab from "../../assets/images/foods/beefgrill.webp";
+import beefgrillkebab from "../../assets/images/foods/beef.jpg";
 import lambgrillkebab from "../../assets/images/foods/lamb.jpg";
 import chickenwings from "../../assets/images/foods/chickenwings.avif";
 import chickenfillet from "../../assets/images/foods/chickenfillet.jpg";
 import chicken from "../../assets/images/foods/koreykabaranina.jpeg";
-import lulaKebab from "../../assets/images/foods/lula.avif";
+import lulaKebab from "../../assets/images/foods/lulakebab.jpg";
 import grilledvegetables from "../../assets/images/foods/grilledvegetables.avif";
 import mix from "../../assets/images/foods/mix.jpg";
 import baklajankebab from "../../assets/images/foods/baklajankebab.jpg";
 import mushrooms from "../../assets/images/foods/mushrooms.png";
-import potatocherry from "../../assets/images/foods/potatocherry.jpeg";
 
 export const grill = [
   {
