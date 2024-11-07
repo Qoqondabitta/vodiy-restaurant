@@ -1,11 +1,11 @@
 import soup from "../../assets/images/foods/soup.jpg";
-import mastava from "../../assets/images/foods/mastava.jpg";
+import mastava from "../../assets/images/foods/mastava2.jpg";
 import Chuchvara from "../../assets/images/foods/chuchvara.jpg";
-import uygur from "../../assets/images/foods/uygur.jpg";
-import mashkhurda from "../../assets/images/foods/mashkhurda.jpg";
-import meatballsoup from "../../assets/images/foods/meatballsoup2.jpg";
+import uygur from "../../assets/images/foods/lagmansoup.jpg";
+import mashkhurda from "../../assets/images/foods/moshxorda.jpg";
+import meatballsoup from "../../assets/images/foods/meatballsoup4.jpg";
 import meatballsoup2 from "../../assets/images/foods/meatballsoup3.jpg";
-import mantisoup from "../../assets/images/foods/mantisoup.jpg"
+import mantisoup from "../../assets/images/foods/mantisoup.jpg";
 
 export const soups = [
   {

@@ -53,9 +53,9 @@ export const main = [
     leftPlacement: {
       classTitle: "col-end-start",
       note: [
-        "Kazan Kebab (450gr)",
-        "Kazan Kebab (450gr)",
-        "Казан Кебаб (450 гр)",
+        "Beef Kazan Kebab (450gr)",
+        "Kazan Kebab Wolowy(450gr)",
+        "Казан Кебаб говядина 450гр",
       ],
       ingredients: [
         `Ingridients: Beef/Lamb, Potato, Coriander, Egg, Onion, Black Pepper, Cumin, Cucumber, Tomato, Dill, Cilantro.`,
@@ -340,6 +340,37 @@ export const main = [
       dir: { dir: "bottom" },
       classTitle: "align-end",
       imgurl: gulash,
+      box: [
+        { top: "-10px", right: "-20px" },
+        { left: "-20px", bot: "-20px" },
+      ],
+    },
+  },
+  {
+    id: 12,
+    place: "row-reverse",
+    certificate: { top: "70%", left: "86%" },
+    sign: { top: "75%", left: "56%" },
+    vector: { deg: "195deg", bot: "42%", left: "45%" },
+    leftPlacement: {
+      classTitle: "col-end-start",
+      note: [
+        "Lamb Kazan Kebab (450gr)",
+        "Kazan Kebab Baranina(450gr)",
+        "Казан Кебаб баранина 450гр",
+      ],
+      ingredients: [
+        `Ingridients: Beef/Lamb, Potato, Coriander, Egg, Onion, Black Pepper, Cumin, Cucumber, Tomato, Dill, Cilantro.`,
+        `Składniki: Wołowina/Jagnięcina, Ziemniak, Kolendra, Kminek, jajko, cebula, czarny pieprz, pomidor, ogurek, Koperek, Sułtanki.`,
+        `Ингредиенты: говядина/баранина, картофель, кориандр, яйцо, лук, черный перец, соль, тмин, огурец, помидор, укроп, кинза.`,
+      ],
+      size: "right",
+      price: "49.99zl",
+    },
+    rightPlacement: {
+      classTitle: "align-end",
+      dir: { dir: "bottom" },
+      imgurl: kazankebab,
       box: [
         { top: "-10px", right: "-20px" },
         { left: "-20px", bot: "-20px" },
