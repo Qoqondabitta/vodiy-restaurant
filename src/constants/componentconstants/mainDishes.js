@@ -5,7 +5,7 @@ import lagmanFried from "../../assets/images/foods/lagmanFriedMenu.avif";
 import chicken from "../../assets/images/foods/chicken.jpg";
 import beefstroganoff from "../../assets/images/foods/beefstroganof2.jpg";
 import beefsteak from "../../assets/images/foods/beefsteak.jpg";
-import gulash from "../../assets/images/foods/gulash.jpg";
+import gulash from "../../assets/images/foods/gulyash.jpg";
 import meatballs from "../../assets/images/foods/meatballs2.jpg";
 import grapeleefrolls from "../../assets/images/foods/grapeleefrolls2.jpg";
 import norin from "../../assets/images/foods/norin.jpg";

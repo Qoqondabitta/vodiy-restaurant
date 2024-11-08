@@ -1,6 +1,6 @@
 import beefgrillkebab from "../../assets/images/foods/beef.jpg";
 import lambgrillkebab from "../../assets/images/foods/lamb.jpg";
-import chickenwings from "../../assets/images/foods/chickenwings.avif";
+import chickenwings from "../../assets/images/foods/chickenwingsshashlik.jpg";
 import chickenfillet from "../../assets/images/foods/chickenfillet.jpg";
 import chicken from "../../assets/images/foods/koreykabaranina.jpeg";
 import lulaKebab from "../../assets/images/foods/lulakebab.jpg";
