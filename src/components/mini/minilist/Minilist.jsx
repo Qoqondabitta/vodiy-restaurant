@@ -13,6 +13,7 @@ import { NavLink } from "react-router-dom";
 import { navbarItems } from "../../../constants/componentconstants/navbar";
 import { changeTitle } from "../../../redux/title";
 import "./minilist.css";
+import MiniLanguage from "../language/MiniLanguage";
 
 const Minilist = () => {
   const dispatch = useDispatch();
@@ -20,8 +21,8 @@ const Minilist = () => {
   const l = useSelector((store) => store.language.value);
   const lang = navbarItems[4].title;
   const changeTag = (tag) => {
-      dispatch(changeTitle(tag));
-      console.log(tag);
+    dispatch(changeTitle(tag));
+    console.log(tag);
   };
 
   return (
@@ -39,9 +40,9 @@ const Minilist = () => {
           {l == "eng" ? v.title[0] : l == "pol" ? v.title[1] : v.title[2]}
         </MiniItem>
       ))}
-      <MiniItem href="#footer">
+      {/* <MiniItem href="#footer">
         {l == "eng" ? lang[0] : l == "pol" ? lang[1] : lang[2]}
-      </MiniItem>
+      </MiniItem> */}
     </Container>
   );
 };

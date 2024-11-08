@@ -30,22 +30,26 @@ const Navbar = () => {
   const p = pageLinker[0].path;
   const t = pageLinker[0].title;
   const language = useSelector((store) => store.language.value);
-const [copiedText, setCopiedText] = useState('');
+  const [copiedText, setCopiedText] = useState("");
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text);
     setCopiedText(text);
   };
-  
+
   return (
     <Main className="column-center">
       <Container className="just-around">
         <Logo className="logoSize" />
         <List className="center">
+          {/* !navlink for menu! */}
           <NavLink style={{ textDecoration: "none" }} to={p}>
             <Item onClick={() => dispatch(changeTitle("main"))}>
               {language === "eng" ? t[0] : language === "pol" ? t[1] : t[2]}
             </Item>
           </NavLink>
+          {/* !navlink for menu! */}
+
+          {/* {!meal links!} */}
           {navbarItems.map((v, i) => (
             <Links key={i} href={v.path}>
               <Item>
@@ -57,7 +61,10 @@ const [copiedText, setCopiedText] = useState('');
               </Item>
             </Links>
           ))}
+          {/* {!meal links!} */}
         </List>
+
+        {/* ! phone number! */}
         <List className="center" id="number">
           <Box className="center">
             <Links
@@ -81,6 +88,8 @@ const [copiedText, setCopiedText] = useState('');
             </Button>
           </Links>
         </List>
+        {/* ! phone number! */}
+
         <NavLink
           id="hotmeal"
           className="hotmeal"

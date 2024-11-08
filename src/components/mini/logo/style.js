@@ -10,10 +10,10 @@ export const Wrapper = styled.div`
 
   @media only screen and (max-width: 600px) {
     flex-direction: row;
-    width: 61%;
+    width: 68%;
     top: 0px;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
   }
 `;
 
@@ -64,10 +64,13 @@ export const Bottom = styled.div`
 `;
 
 export const LogoTitle = styled.p`
-  color: #dcca87;
   color: white;
   font-size: 22px;
   font-weight: 400;
+
+  @media only screen and (max-width: 600px){
+    display: none;
+  }
 `;
 
 export const Letters = styled.p`

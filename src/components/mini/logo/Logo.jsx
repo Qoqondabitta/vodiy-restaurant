@@ -7,6 +7,7 @@ import {
   Wrapper,
 } from "./style";
 import "./logo.css";
+import MiniLanguage from "../language/MiniLanguage";
 
 const Logo = () => {
   return (
@@ -22,6 +23,7 @@ const Logo = () => {
             </Transparent>
           </Box>
         </Container>
+        <MiniLanguage />
         <LogoTitle className="logoVodiy">VODIY</LogoTitle>
       </Wrapper>
     </>

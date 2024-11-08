@@ -1,0 +1,66 @@
+.container {
+  max-width: 120px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  /* z-index: 400000000000000; */
+}
+
+.mini-language-tabs {
+  max-width: 100px;
+  width: 100%;
+  text-decoration: none;
+  height: 20px;
+  color: white;
+  padding: 0px 5px;
+  font-size: 12px;
+  font-weight: 500;
+  border-bottom: 1px solid white;
+  text-align: left;
+  cursor: pointer;
+  gap: 5px;
+}
+
+#active-language-tab {
+  color: black;
+  background-color: #dcca87;
+}
+
+.styled-tab {
+  gap: 5px;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  height: 25px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0px 5px;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Oleo Script", system-ui;
+  margin-top: 20px;
+}
+
+.flag-wrap {
+  height: 25px;
+  gap: 5px;
+}
+
+.flag {
+  width: 25px;
+  height: 15px;
+  object-fit: cover;
+  object-position: center;
+  z-index: 10000;
+}
+
+.show {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .show {
+    display: flex;
+  }
+}
