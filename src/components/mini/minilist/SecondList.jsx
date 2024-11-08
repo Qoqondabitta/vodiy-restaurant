@@ -14,7 +14,7 @@ const SecondList = () => {
     dispatch(changeTitle(tag));
   };
   return (
-    <Container width="80px" className="center">
+    <Container id="sticky-list" width="80px" className="center">
       {dishbar.map((v, i) => (
         <MiniItem
           id={text == v.tag && "miniitemactive"}
@@ -25,7 +25,7 @@ const SecondList = () => {
           {l == "eng" ? v.title[0] : l == "pol" ? v.title[1] : v.title[2]}
         </MiniItem>
       ))}
-          <GoldenLine src={goldenline} />
+      <GoldenLine src={goldenline} />
     </Container>
   );
 };
