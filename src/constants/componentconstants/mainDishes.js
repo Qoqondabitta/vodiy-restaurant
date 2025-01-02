@@ -236,7 +236,7 @@ export const main = [
     vector: { deg: "195deg", bot: "42%", left: "45%" },
     leftPlacement: {
       classTitle: "col-end-start",
-      note: ["Norin (500gr)", "Norin (500gr)", "Гуляш (500гр)"],
+      note: ["Norin (500gr)", "Norin (500gr)", "Hopин (500гр)"],
       ingredients: [
         `Ingridients: Chopped Dough, chopped beef meat, chopped onion, norin soup, greens`,
         `Składniki: Ciasto siekane, siekane mięso wołowe, siekana cebula, zupa norin.`,
@@ -334,7 +334,7 @@ export const main = [
 `,
       ],
       size: "left",
-      price: "26.99zl",
+      price: "32.99zl",
     },
     rightPlacement: {
       dir: { dir: "bottom" },
