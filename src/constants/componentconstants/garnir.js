@@ -3,7 +3,6 @@ import buckwheat from "../../assets/images/foods/buckwheat.jpg";
 import frenchfries from "../../assets/images/foods/frenchfries.jpg";
 import grilledpotato from "../../assets/images/foods/grilledpotato.webp";
 import mashedpotato from "../../assets/images/foods/mashedpotato.jpg";
-import potatocherry from "../../assets/images/foods/potatocherry.jpeg";
 
 export const additives = [
   {

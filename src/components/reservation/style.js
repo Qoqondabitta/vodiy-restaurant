@@ -22,7 +22,7 @@ export const Container = styled.div`
   background: #0c0c0c;
   position: absolute;
   top: 200px;
-  z-index: 0;
+  z-index: 100;
 
   @media only screen and (max-width: 1200px) {
     top: 70px;

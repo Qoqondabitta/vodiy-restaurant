@@ -45,7 +45,9 @@ const MenuNavbar = () => {
   return (
     <Main id="main" className="center">
       <Container className="just-evenly">
-        <Logo />
+        <NavLink style={{ textDecoration: "none" }} to="/home">
+          <Logo />
+        </NavLink>
         <List className="center">
           {/* <NavLink style={{ textDecoration: "none" }} to="/">
             <Item sizefont="true">
