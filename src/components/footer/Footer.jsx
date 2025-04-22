@@ -22,7 +22,7 @@ const Footer = () => {
           </Tel>
           <Tel className="column-center">
             <Texts>
-              <Links href="tel:+48 502-400-608">+48 502-400-608</Links>
+              <Links href="tel:+48 502-400-608">+48 721-100-707</Links>
             </Texts>
             <Texts>
               <Links href="tel:+48 567-412-327">+48 567-412-327</Links>
